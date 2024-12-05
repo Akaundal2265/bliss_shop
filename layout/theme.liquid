@@ -308,7 +308,7 @@
 
   </head>
 
-  <body class="{% if product.handle contains 'bliss-wasstrips' %} hanlde--blissproduct {% endif %} {% if page.handle %} page-design {% endif %} {% if template == 'product' %} temp--default {% else %}temp--{{ template.suffix }} {% endif %} gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}">
+  <body class="bdy_tg {% if product.handle contains 'bliss-wasstrips' %} hanlde--blissproduct {% endif %} {% if page.handle %} page-design {% endif %} {% if template == 'product' %} temp--default {% else %}temp--{{ template.suffix }} {% endif %} gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}">
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
       {{ 'accessibility.skip_to_text' | t }}
     </a>
