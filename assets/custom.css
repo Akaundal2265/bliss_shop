@@ -56,9 +56,9 @@ img {
   border-style: none;
   vertical-align: top;
 }
-span.dflt {
+/* span.dflt {
     opacity: 0.5;
-}
+} */
 .w3_user img.remoimg {
     display: none;
 }
