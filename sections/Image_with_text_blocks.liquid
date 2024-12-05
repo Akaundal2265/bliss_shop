@@ -1,0 +1,128 @@
+<div class="Image_with_text_blocks_wrp {{ section.settings.show_on }} mob-{{ section.settings.mobile_view }}">
+  <div class="Container Container--narrow custom_container">
+    {% if section.settings.title != blank or section.settings.description != blank %}
+    <div class="section-header">
+      <h2>{{ section.settings.title }}</h2>
+      {{ section.settings.description }}
+    </div>
+      {% endif %}
+    <div class="Image_with_text_inner">
+      {% for block in section.blocks %}
+        {% case block.type %}
+          {% when 'img_text' %}
+          <div class="img_text_wrp">
+            <div class="img_text_img_wrp">
+          {% if block.settings.img_icon != blank %}<img src="{{ block.settings.img_icon | img_url:'master' }}" height="100" width="100">{% else %}
+              {{ block.settings.Html }}{% endif %}
+            </div>
+            {% if block.settings.title != blank %}<h4>{{ block.settings.title }}</h4>{% endif %}
+            <div class="img_text_cont_wrp">
+              {{ block.settings.cont }}
+            </div>
+          </div>
+          {% endcase %}
+      {% endfor %}
+    </div>
+  </div>
+</div>
+{% schema %}
+{
+  "name": "Image with text block",
+  "settings": [
+         {
+          "type": "select",
+          "id": "show_on",
+          "label": "Show on",
+          "options": [
+            {
+              "value": "medium-hide  large-up-hide",
+              "label": "Mobile"
+            },
+            {
+              "value": "small-hide",
+              "label": "Desktop"
+            },
+            {
+              "value": "both",
+              "label": "Both"
+            }
+          ],
+          "default": "both"
+        },
+       { 
+          "type": "text",
+          "id": "title",
+          "label": "Title"
+        },
+        {
+          "type": "richtext",
+          "id": "description",
+          "label": "Description"
+        },
+        {
+          "type": "select",
+          "id": "mobile_view",
+          "label": "Mobile view",
+          "options": [
+            {
+              "value": "single-column",
+              "label": "Single column"
+            },
+            {
+              "value": "double-column",
+              "label": "Double column"
+            }
+          ],
+          "default": "double-column"
+        }
+  ],
+  "blocks": [
+    {
+      "type": "img_text",
+      "name":"Image Block",
+      "limit": 5,
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "img_icon",
+          "label": "Image",
+          "info":"If Image is empty then below code will work"
+        },{
+          "type": "html",
+          "id": "Html",
+          "label": "Custom Html"
+        },
+         {
+          "type": "text",
+          "id": "title",
+          "label": "Title"
+        },
+        {
+          "type": "richtext",
+          "id": "cont",
+          "label": "Text"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Image with text block",
+      "blocks": [
+        {
+          "type": "img_text"
+        },
+        {
+          "type": "img_text"
+        },
+        {
+          "type": "img_text"
+        },
+        {
+          "type": "img_text"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,34 @@
+<div class="feature_image_wrp">
+  <div class="Container Container--narrow">
+  <div class="feature_image_inner">
+    <div class="feature_image_desktop only_desktop">
+     {% if section.settings.desk_img != blank %} <img src="{{ section.settings.desk_img | img_url:'master' }}" height="" width="">{% endif %}
+    </div>
+    <div class="feature_image_mobile only_mobile">
+      {% if section.settings.mob_img != blank %} <img src="{{ section.settings.mob_img | img_url:'master' }}" height="" width="">{% endif %}
+    </div>
+  </div>
+  </div>
+</div>
+{% schema %}
+  {
+    "name": "Feature Image",
+    "settings": [
+       {
+          "type": "image_picker",
+          "id": "desk_img",
+          "label": "Desktop Image"
+        },
+       {
+          "type": "image_picker",
+          "id": "mob_img",
+          "label": "Mobile Image"
+        }
+    ],
+    "presets": [
+        {
+          "name": "Feature Image"
+        }
+    ]
+  }
+{% endschema %}

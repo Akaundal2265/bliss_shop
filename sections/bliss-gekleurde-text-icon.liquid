@@ -1,0 +1,83 @@
+<div class="bliss-icon-text">
+  <div class="bliss-icon-wrapper">
+     {% for block in section.blocks %}
+    <div class="bliss-box">
+          <img src="{{ block.settings.image | img_url : 'master'}}">
+       {%- if block.settings.title != blank -%}
+        <h2 class="bliss_icontxt"> {{ block.settings.title }} </h2>
+         {%- endif -%}
+    </div>
+    {% endfor %}
+  </div>
+</div>
+
+
+<style>
+  .bliss-icon-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bliss-icon-text {
+    width: 50%;
+   
+}
+
+
+
+.bliss-box {
+    width: 50%;
+    display: flex;
+    gap: 14px;
+    align-items: center;
+    padding: 15px;
+}
+
+
+.bliss-box h2 {
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+     margin: 0px;
+    
+}
+</style>
+
+
+{% schema %}
+{
+  "name": "bliss-text-icon",
+  "settings": [
+
+
+    
+  ],
+  "max_blocks": 5,
+"blocks": [
+{
+"type": "Image-box",
+"name": "Image-box",
+"settings": [
+  {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    },
+      {
+      "type": "inline_richtext",
+        "id": "title",
+      "label": "Text"
+    },
+
+]
+}
+],
+  "presets": [
+    {
+      "name": "bliss-text-icon",
+    }
+  ]
+}
+{% endschema %}

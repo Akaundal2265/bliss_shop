@@ -1,0 +1,112 @@
+<div class="recommended-img-text">
+  <div class="recommended-img-wrapper">
+     {% for block in section.blocks %}
+       <h2></h2>
+    <div class="recommended-bliss-box">
+          <img class="recomm-img" src="{{ block.settings.image | img_url : 'master'}}">
+       {%- if block.settings.title != blank -%}
+        <h2 class="recommend-bliss_icontxt"> {{ block.settings.title }} </h2>
+         <div class="price__container">
+            <span class="price-item price-item--regular"> {{ block.settings.price }} </span>
+         </div>
+         <a href="{{ cart-link }}" <img src="{{ block.settings.image1 | img_url : 'master'}}"></a>
+         {%- endif -%}
+    </div>
+    {% endfor %}
+  </div>
+</div>
+
+
+<style>
+  .recommended-img-text {
+    width: 50%;
+}
+.recomm-img {
+    width: 100%;
+}
+
+.recommended-img-wrapper {
+    display: flex;
+    gap: 20px;
+    text-align: center;
+}
+  .recommend-bliss_icontxt {
+    font-family: Mada, sans-serif !important;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 28px;
+    text-transform: uppercase;
+    color:#90d5e4;
+}
+ .recommended-img-wrapper  span.price-item.price-item--regular {
+    border-radius: 5000px;
+    background: var(--orange-10, rgba(241, 127, 65, 0.1));
+    color: var(--Orange, #f17f41);
+    font-family: Mada;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 22px;
+    text-transform: uppercase;
+    padding: 8px 16px;
+    margin: 8px 0 22px;
+    margin-bottom: 31px;
+}
+
+.recommended-img-wrapper .price__container {
+    margin-bottom: 25px;
+}
+</style>
+
+
+{% schema %}
+{
+  "name": "recommended-product-bliss",
+  "settings": [
+
+
+    
+  ],
+  "max_blocks": 5,
+"blocks": [
+{
+"type": "Image-box",
+"name": "Image-box",
+"settings": [
+  {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    },
+      {
+      "type": "inline_richtext",
+        "id": "title",
+      "label": "Text"
+    },
+   {
+      "type": "inline_richtext",
+        "id": "price",
+      "label": "Price"
+    },
+    {
+      "type": "image_picker",
+      "id": "image1",
+      "label": "Cart Image"
+    },
+  {
+      "type": "url",
+      "id": "cart-link",
+      "label": "Cart Link"
+    },
+]
+}
+],
+  "presets": [
+    {
+      "name": "recommended-product-bliss",
+    }
+  ]
+}
+{% endschema %}

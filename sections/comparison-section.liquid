@@ -1,0 +1,438 @@
+<div class="feature_image_wrp">
+  <div class="Container Container--narrow">
+<div class="table-content">
+     <div class="tabledata">
+           <div class="firstcolumn">
+             {% for block in section.blocks %}
+               {% if block.type == "col-1" %}
+               <div class="columns col1titles"><h2 class="headinone">{{ block.settings.hdingfirst }}</h2></div>
+                <div class="columns col1two"><h2 class="headintwo">{{ block.settings.hdingsecond }}</h2></div>
+                 <div class="columns col1three"><h2 class="headinthr">{{ block.settings.hdingthirr }}</h2></div>
+                 <div class="columns col1four"><h2 class="headinfrr">{{ block.settings.hdingfrrr }}</h2></div>
+                 <div class="columns col1five"><h2 class="headinfvv">{{ block.settings.hdingfvv }}</h2></div>
+                 <div class="columns col1six"><h2 class="headinsxx">{{ block.settings.hdingsxx }}</h2></div>
+                 <div class="columns col1seven"><h2 class="headinsvn">{{ block.settings.hdingsvnn }}</h2></div>
+                 <div class="columns col1ett"><h2 class="headineth">{{ block.settings.hdinettt }}</h2></div>
+                 <div class="columns col1nnn"><h2 class="headinnnn">{{ block.settings.hdinnnnt }}</h2></div>
+                 {% endif %}
+             {% endfor %}
+      </div>
+             <div class="table-descriptions">
+                   {% for block in section.blocks %}
+                      {% if block.type == "col-2" %}
+                        <div class="colsecdata">
+                        <div class="upperdata">
+                            <div class="col2topicon"><img src="{{ block.settings.imgcol | img_url:''}}"></div>
+                            <div class="col2toptext">{{ block.settings.imghding }}</div>
+                        </div>
+                        <div class="col2lwrdata">
+                          <div class="coll2 pricecol2">{{ block.settings.heading }}</div>
+                          <div class="coll2 col2icontwo">{{ block.settings.htmlone }}</div>
+                          <div class="coll2 col2iconthree">{{ block.settings.htmltwo }}</div>
+                          <div class="coll2 col2iconfour">{{ block.settings.htmlthre }}</div>
+                          <div class="coll2 col2iconfive">{{ block.settings.htmlfour }}</div>
+                          <div class="coll2 col2iconsix">{{ block.settings.htmlfive }}</div>
+                          <div class="coll2 col2iconseven">{{ block.settings.htmlsix }}</div>
+                          <div class="coll2 col2iconeight">{{ block.settings.htmlseven }}</div>
+                          <div class="coll2 col2iconnine">{{ block.settings.htmleight }}</div>
+                        </div>
+                        </div>
+                      {% endif %}
+
+                     
+               {% if block.type == "col-3" %}
+                <div class="coll colthreedata">
+                   <div class="upperdata cstthree">
+                            <div class="col2topicon robinone"><img src="{{ block.settings.colimg2 | img_url:''}}"></div>
+                            <div class="col2toptext robintwo robin">{{ block.settings.col2imghding }}</div>
+                        </div>
+                        <div class="col2lwrdata robinthree">
+                          <div class="col2 pricecol2 robinfour fourrobin">{{ block.settings.col2heading }}</div>
+                          <div class="col2 col2icontwo robinfive">{{ block.settings.col3htmlone }}</div>
+                          <div class="col2 col2iconthree robinsix">{{ block.settings.col3htmltwo }}</div>
+                          <div class="col2 col2iconfour robinseven">{{ block.settings.col3htmlthre }}</div>
+                          <div class="col2 col2iconfive robineight">{{ block.settings.col3htmlhh }}</div>
+                          <div class="col2 col2iconsix robinnine">{{ block.settings.col3htmlfive }}</div>
+                          <div class="col2 col2iconseven robinten">{{ block.settings.col3htmlsix }}</div>
+                          <div class="col2 col2iconeight robinelvn">{{ block.settings.htmlggcol3 }}</div>
+                          <div class="col2 col2iconnine robintwlv">{{ block.settings.htmldfcol3 }}</div>
+                        </div>
+                </div>
+                  {% endif %}
+
+                     
+                {% if block.type == "col-4" %}
+               <div class="coll colforthdata">
+                   <div class="upperdata cstmfour">
+                            <div class="col2topicon arielone"><img src="{{ block.settings.thirdimg2 | img_url:''}}"></div>
+                            <div class="col2toptext arieltwo robin">{{ block.settings.thirdimghding }}</div>
+                   </div>
+                    <div class="col2lwrdata robinthree">
+                          <div class="col2 pricecol2 arielfour fourrobin">{{ block.settings.thirdheading }}</div>
+                          <div class="col2 col2icontwo arielfive">{{ block.settings.thirdhtmlone }}</div>
+                          <div class="col2 col2iconthree arielsix">{{ block.settings.thirdhtmltwo }}</div>
+                          <div class="col2 col2iconfour arielseven">{{ block.settings.thirdhtmlthre }}</div>
+                          <div class="col2 col2iconfive arieleight">{{ block.settings.thirdhtmlhh }}</div>
+                          <div class="col2 col2iconsix arielnine">{{ block.settings.thirdhtmlfive }}</div>
+                          <div class="col2 col2iconseven arielten">{{ block.settings.thirdhtmlsix }}</div>
+                          <div class="col2 col2iconeight arielelvn">{{ block.settings.thirdgg }}</div>
+                          <div class="col2 col2iconnine arieltwlv">{{ block.settings.thirddfcol3 }}</div>
+                    </div>
+               </div>
+                {% endif %}
+
+                     
+                {% if block.type == "col-5" %}
+                <div class="coll colfifthdata">
+                    <div class="upperdata cstmfour">
+                            <div class="col2topicon colorreusone"><img src="{{ block.settings.fourimg2 | img_url:''}}"></div>
+                            <div class="col2toptext colorreusonetwo robin">{{ block.settings.fourhding }}</div>
+                   </div>
+                    <div class="col2lwrdata robinthree">
+                          <div class="col2 pricecol2 colorreusonefour fourrobin">{{ block.settings.fourheading }}</div>
+                          <div class="col2 col2icontwo colorreusonefive">{{ block.settings.fourhtmlone }}</div>
+                          <div class="col2 col2iconthree colorreusonesix">{{ block.settings.fourhtmltwo }}</div>
+                          <div class="col2 col2iconfour colorreusoneseven">{{ block.settings.fourhtmlthre }}</div>
+                          <div class="col2 col2iconfive colorreusoneeight">{{ block.settings.fourhtmlhh }}</div>
+                          <div class="col2 col2iconsix colorreusonenine">{{ block.settings.fourhtml }}</div>
+                          <div class="col2 col2iconseven colorreusoneten">{{ block.settings.fourhtmlcol }}</div>
+                          <div class="col2 col2iconeight colorreusoneelvn">{{ block.settings.fourdgg }}</div>
+                          <div class="col2 col2iconnine colorreusonetwlv">{{ block.settings.fourdfcol3 }}</div>
+                    </div>
+                </div>
+                {% endif %}
+                {% endfor %}
+             </div>
+    </div>
+</div>
+    <div class="lower_paragraph">{{ section.settings.main_paragraph }}</div>
+</div>
+</div>
+
+
+
+{% schema %}
+  {
+    "name": "table section",
+    "class": "tablesection",
+    "settings": [
+      {
+        "type": "richtext",
+        "id": "main_paragraph",
+        "label": "Main Paragraph",
+      }   
+    ],
+     "blocks": [
+       {
+         "type": "col-1",
+         "name":"col-1",
+         "settings": [
+           {
+             "type": "text",
+             "id": "hdingfirst",
+             "label": "Text1"
+           },
+           {
+             "type": "text",
+             "id": "hdingsecond",
+             "label": "Text2"
+           },
+           {
+             "type": "text",
+             "id": "hdingthirr",
+             "label": "Text3"
+           },
+           {
+             "type": "text",
+             "id": "hdingfrrr",
+             "label": "Text4"
+           },
+           {
+             "type": "text",
+             "id": "hdingfvv",
+             "label": "Text5"
+           },
+           {
+             "type": "text",
+             "id": "hdingsxx",
+             "label": "Text6"
+           },
+           {
+             "type": "text",
+             "id": "hdingsvnn",
+             "label": "Text7"
+           },
+           {
+             "type": "text",
+             "id": "hdinettt",
+             "label": "Text8"
+           },
+           {
+             "type": "text",
+             "id": "hdinnnnt",
+             "label": "Text9"
+           }
+         ]
+       },
+       {
+         "type": "col-2",
+         "name": "col-2",
+         "limit": 1,
+         "settings": [
+             {
+  "type": "color",
+  "id": "backgroundColor",
+  "default": "#0588a4",
+  "label": "Background Color"
+},
+            {
+             "type": "image_picker",
+             "id": "imgcol",
+             "label": "Icon"
+           },
+            {
+             "type": "text",
+             "id": "imghding",
+             "label": "Heading"
+           },
+           {
+             "type": "text",
+             "id": "heading",
+             "label": "Main Tr name"
+           },
+           {
+             "type": "html",
+             "id": "htmlone",
+             "label": "Icon1",
+           },
+          {
+             "type": "html",
+             "id": "htmltwo",
+             "label": "Icon2",
+           },
+           {
+             "type": "html",
+             "id": "htmlthre",
+             "label": "Icon3",
+           },
+           {
+             "type": "html",
+             "id": "htmlfour",
+             "label": "Icon4",
+           },
+           {
+             "type": "html",
+             "id": "htmlfive",
+             "label": "Icon5",
+           },
+           {
+             "type": "html",
+             "id": "htmlsix",
+             "label": "Icon6",
+           },
+           {
+             "type": "html",
+             "id": "htmlseven",
+             "label": "Icon7",
+           },
+           {
+             "type": "html",
+             "id": "htmleight",
+             "label": "Icon8",
+           }
+         ]
+       },
+        {
+         "type": "col-3",
+         "name": "col-3",
+         "limit": 1,
+         "settings": [
+            {
+             "type": "image_picker",
+             "id": "colimg2",
+             "label": "Icon"
+           },
+            {
+             "type": "text",
+             "id": "col2imghding",
+             "label": "Heading"
+           },
+           {
+             "type": "text",
+             "id": "col2heading",
+             "label": "Main Tr name"
+           },
+           {
+             "type": "html",
+             "id": "col3htmlone",
+             "label": "Icon1",
+           },
+          {
+             "type": "html",
+             "id": "col3htmltwo",
+             "label": "Icon2",
+           },
+           {
+             "type": "html",
+             "id": "col3htmlthre",
+             "label": "Icon3",
+           },
+           {
+             "type": "html",
+             "id": "col3htmlhh",
+             "label": "Icon4",
+           },
+           {
+             "type": "html",
+             "id": "col3htmlfive",
+             "label": "Icon5",
+           },
+           {
+             "type": "html",
+             "id": "col3htmlsix",
+             "label": "Icon6",
+           },
+           {
+             "type": "html",
+             "id": "htmlggcol3",
+             "label": "Icon7",
+           },
+           {
+             "type": "html",
+             "id": "htmldfcol3",
+             "label": "Icon8",
+           }
+         ]
+       },
+       {
+         "type": "col-4",
+         "name": "col-4",
+         "limit": 1,
+         "settings": [
+            {
+             "type": "image_picker",
+             "id": "thirdimg2",
+             "label": "Icon"
+           },
+            {
+             "type": "text",
+             "id": "thirdimghding",
+             "label": "Heading"
+           },
+           {
+             "type": "text",
+             "id": "thirdheading",
+             "label": "Main Tr name"
+           },
+           {
+             "type": "html",
+             "id": "thirdhtmlone",
+             "label": "Icon1",
+           },
+          {
+             "type": "html",
+             "id": "thirdhtmltwo",
+             "label": "Icon2",
+           },
+           {
+             "type": "html",
+             "id": "thirdhtmlthre",
+             "label": "Icon3",
+           },
+           {
+             "type": "html",
+             "id": "thirdhtmlhh",
+             "label": "Icon4",
+           },
+           {
+             "type": "html",
+             "id": "thirdhtmlfive",
+             "label": "Icon5",
+           },
+           {
+             "type": "html",
+             "id": "thirdhtmlsix",
+             "label": "Icon6",
+           },
+           {
+             "type": "html",
+             "id": "thirdgg",
+             "label": "Icon7",
+           },
+           {
+             "type": "html",
+             "id": "thirddfcol3",
+             "label": "Icon8",
+           }
+         ]
+       },
+        {
+         "type": "col-5",
+         "name": "col-5",
+         "limit": 1,
+         "settings": [
+            {
+             "type": "image_picker",
+             "id": "fourimg2",
+             "label": "Icon"
+           },
+            {
+             "type": "text",
+             "id": "fourhding",
+             "label": "Heading"
+           },
+           {
+             "type": "text",
+             "id": "fourheading",
+             "label": "Main Tr name"
+           },
+           {
+             "type": "html",
+             "id": "fourhtmlone",
+             "label": "Icon1",
+           },
+          {
+             "type": "html",
+             "id": "fourhtmltwo",
+             "label": "Icon2",
+           },
+           {
+             "type": "html",
+             "id": "fourhtmlthre",
+             "label": "Icon3",
+           },
+           {
+             "type": "html",
+             "id": "fourhtmlhh",
+             "label": "Icon4",
+           },
+           {
+             "type": "html",
+             "id": "fourhtml",
+             "label": "Icon5",
+           },
+           {
+             "type": "html",
+             "id": "fourhtmlcol",
+             "label": "Icon6",
+           },
+           {
+             "type": "html",
+             "id": "fourdgg",
+             "label": "Icon7",
+           },
+           {
+             "type": "html",
+             "id": "fourdfcol3",
+             "label": "Icon8",
+           }
+         ]
+       }
+    ],
+    "presets": [
+      {
+        "name": "tablesec"
+      }
+    ]
+  }
+{% endschema %}

@@ -1,0 +1,476 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "rating_qX3hWH": {
+          "type": "rating",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "metaobject_icontext_RaTqXr": {
+          "type": "metaobject_icontext",
+          "settings": {
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": false
+          }
+        },
+        "description": {
+          "type": "description",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "share": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "custom_liquid_Jx648p": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": ""
+          }
+        },
+        "icon_with_text_xyJH7W": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "horizontal",
+            "icon_1": "none",
+            "image_1": "shopify:\/\/shop_images\/icons_2.png",
+            "heading_1": "<strong>Free Shipping from 20 euro<\/strong>",
+            "icon_2": "none",
+            "image_2": "shopify:\/\/shop_images\/icons_3.png",
+            "heading_2": "<strong>Ordered before 16:00 tomorrow delivered<\/strong>",
+            "icon_3": "none",
+            "image_3": "shopify:\/\/shop_images\/icons_4.png",
+            "heading_3": "<strong>30 Day free Trial<\/strong>"
+          }
+        },
+        "collapsible_tab_XmnDhx": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Details and Voordelen",
+            "icon": "gift",
+            "content": "",
+            "liquid_content": "{{ product.description }}",
+            "page": ""
+          }
+        },
+        "collapsible_tab_zpbBQN": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "30 Dagen Proef Wassen",
+            "icon": "gift",
+            "content": "<p>We zijn overtuigd dat je het wassen met Mother's Earth wasstrips geweldig gaat vinden, maar we begrijpen dat je het nu nog niet zeker weet.\u2028<\/p><p>\u2028Daarom bieden we een proefperiode aan van <strong>30 dagen<\/strong>. Als je om wat voor reden dan ook niet tevreden bent over je Mother's Earth wasstrips dan kan je het retour sturen voor een volledige terugbetaling.\u2028<\/p><p>Er zit dus <strong>0 risico<\/strong> in het uitproberen van Mother's Earth wasstrips. Je gaat deze nieuwe manier van wassen geweldig vinden<\/p>",
+            "liquid_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_tab_UBjpcW": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Verzend Information",
+            "icon": "gift",
+            "content": "",
+            "liquid_content": "",
+            "page": "verzending"
+          }
+        },
+        "collapsible_tab_wJbKmg": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Help mens and Dier in Nood",
+            "icon": "gift",
+            "content": "<p>Content goes here<\/p>",
+            "liquid_content": "",
+            "page": ""
+          }
+        },
+        "complementary_7PadRx": {
+          "type": "complementary",
+          "settings": {
+            "block_heading": "Vind de jouwe BLISS",
+            "make_collapsible_row": false,
+            "icon": "price_tag",
+            "product_list_limit": 2,
+            "products_per_page": 2,
+            "pagination_style": "counter",
+            "image_ratio": "square",
+            "enable_quick_add": true,
+            "quick_add_icon_only": true
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "rating_qX3hWH",
+        "price",
+        "metaobject_icontext_RaTqXr",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "description",
+        "share",
+        "custom_liquid_Jx648p",
+        "icon_with_text_xyJH7W",
+        "collapsible_tab_XmnDhx",
+        "collapsible_tab_zpbBQN",
+        "collapsible_tab_UBjpcW",
+        "collapsible_tab_wJbKmg",
+        "complementary_7PadRx"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "color_scheme": "scheme-1",
+        "media_size": "small",
+        "constrain_to_viewport": false,
+        "media_fit": "contain",
+        "gallery_layout": "thumbnail_slider",
+        "media_position": "left",
+        "image_zoom": "none",
+        "mobile_thumbnails": "hide",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
+    },
+    "image_with_text_blocks_RQQkzk": {
+      "type": "Image_with_text_blocks",
+      "blocks": {
+        "img_text_NcHKBg": {
+          "type": "img_text",
+          "settings": {
+            "Html": "<svg width=\"80\" height=\"80\" viewbox=\"0 0 80 80\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<rect width=\"80\" height=\"80\" rx=\"40\" fill=\"#90D5E4\" fill-opacity=\"0.1\"><\/rect>\n<rect x=\"0.666667\" y=\"0.666667\" width=\"78.6667\" height=\"78.6667\" rx=\"39.3333\" stroke=\"#90D5E4\" stroke-opacity=\"0.1\" stroke-width=\"1.33333\"><\/rect>\n<path d=\"M26.6667 32.2222V46.8889C26.6667 47.4272 26.9903 47.9127 27.4872 48.1197L40 53.3334M26.6667 32.2222L38.9743 27.094C39.6308 26.8205 40.3692 26.8205 41.0256 27.094L46.6667 29.4445M26.6667 32.2222L33.3333 35M40 37.7778V53.3334M40 37.7778L53.3333 32.2222M40 37.7778L33.3333 35M40 53.3334L52.5128 48.1197C53.0097 47.9127 53.3333 47.4272 53.3333 46.8889V32.2222M53.3333 32.2222L46.6667 29.4445M33.3333 35L46.6667 29.4445\" stroke=\"#90D5E4\" stroke-width=\"1.5\" stroke-linejoin=\"round\"><\/path>\n<\/svg>",
+            "title": "Extra Korting",
+            "cont": "<p>Krijg extra korting met BoldkingRepeat<\/p>"
+          }
+        },
+        "img_text_qrtWVr": {
+          "type": "img_text",
+          "settings": {
+            "Html": "<svg width=\"80\" height=\"80\" viewbox=\"0 0 80 80\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<rect width=\"80\" height=\"80\" rx=\"40\" fill=\"#90D5E4\" fill-opacity=\"0.1\"><\/rect>\n<rect x=\"0.666667\" y=\"0.666667\" width=\"78.6667\" height=\"78.6667\" rx=\"39.3333\" stroke=\"#90D5E4\" stroke-opacity=\"0.1\" stroke-width=\"1.33333\"><\/rect>\n<path d=\"M35.7568 32.6506C37.1122 31.8681 38.6576 31.4756 40.2221 31.5166C41.7867 31.5575 43.3094 32.0304 44.622 32.8828C45.9346 33.7352 46.9859 34.9339 47.6597 36.3466C48.3334 37.7592 48.6035 39.3306 48.4399 40.8871M35.3843 29.3921L34.3786 32.6816C34.2073 33.2419 34.5226 33.8349 35.0829 34.0062L38.3723 35.0119M44.2433 47.3494C42.8879 48.1319 41.3425 48.5244 39.7779 48.4834C38.2134 48.4424 36.6906 47.9696 35.3781 47.1172C34.0655 46.2648 33.0142 45.066 32.3404 43.6534C31.6666 42.2408 31.3966 40.6694 31.5602 39.1129M44.6158 50.6079L45.6215 47.3184C45.7928 46.7581 45.4774 46.1651 44.9172 45.9938L41.6277 44.9881\" stroke=\"#90D5E4\" stroke-width=\"1.5\" stroke-linecap=\"round\"><\/path>\n<\/svg>",
+            "title": "Pas makkelijk aan",
+            "cont": "<p>Stop, verander of slaeen maand over<\/p>"
+          }
+        },
+        "img_text_hXPFTD": {
+          "type": "img_text",
+          "settings": {
+            "Html": "<svg width=\"80\" height=\"80\" viewbox=\"0 0 80 80\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<rect width=\"80\" height=\"80\" rx=\"40\" fill=\"#90D5E4\" fill-opacity=\"0.1\"><\/rect>\n<rect x=\"0.666667\" y=\"0.666667\" width=\"78.6667\" height=\"78.6667\" rx=\"39.3333\" stroke=\"#90D5E4\" stroke-opacity=\"0.1\" stroke-width=\"1.33333\"><\/rect>\n<path d=\"M28.2868 49.6351L28.994 49.8849L28.994 49.8849L28.2868 49.6351ZM30.1243 51.4726L29.8744 50.7654H29.8744L30.1243 51.4726ZM33.1514 50.4029L33.4013 51.1101L33.1514 50.4029ZM34.1898 50.5021L34.5535 49.8462L34.1898 50.5021ZM29.3212 45.4795L28.6542 45.8224L29.3212 45.4795ZM29.4008 46.4826L28.6936 46.2327L29.4008 46.4826ZM28.75 40C28.75 33.7868 33.7868 28.75 40 28.75V27.25C32.9584 27.25 27.25 32.9584 27.25 40H28.75ZM29.9882 45.1365C29.197 43.5975 28.75 41.8521 28.75 40H27.25C27.25 42.0961 27.7564 44.0762 28.6542 45.8224L29.9882 45.1365ZM28.994 49.8849L30.1079 46.7325L28.6936 46.2327L27.5797 49.3852L28.994 49.8849ZM29.8744 50.7654C29.3275 50.9587 28.8007 50.4318 28.994 49.8849L27.5797 49.3852C26.9663 51.121 28.6384 52.7931 30.3742 52.1797L29.8744 50.7654ZM32.9015 49.6958L29.8744 50.7654L30.3742 52.1797L33.4013 51.1101L32.9015 49.6958ZM40 51.25C38.0226 51.25 36.1665 50.7405 34.5535 49.8462L33.8261 51.158C35.6561 52.1726 37.7617 52.75 40 52.75V51.25ZM51.25 40C51.25 46.2132 46.2132 51.25 40 51.25V52.75C47.0416 52.75 52.75 47.0416 52.75 40H51.25ZM40 28.75C46.2132 28.75 51.25 33.7868 51.25 40H52.75C52.75 32.9584 47.0416 27.25 40 27.25V28.75ZM33.4013 51.1101C33.5239 51.0667 33.6787 51.0763 33.8261 51.158L34.5535 49.8462C34.0649 49.5753 33.4646 49.4968 32.9015 49.6958L33.4013 51.1101ZM28.6542 45.8224C28.7282 45.9664 28.7353 46.1147 28.6936 46.2327L30.1079 46.7325C30.2992 46.1911 30.234 45.6145 29.9882 45.1365L28.6542 45.8224Z\" fill=\"#90D5E4\"><\/path>\n<circle cx=\"34.0605\" cy=\"40.0598\" r=\"1.5\" fill=\"#90D5E4\"><\/circle>\n<circle cx=\"40.0605\" cy=\"40.0598\" r=\"1.5\" fill=\"#90D5E4\"><\/circle>\n<circle cx=\"46.0605\" cy=\"40.0598\" r=\"1.5\" fill=\"#90D5E4\"><\/circle>\n<\/svg>",
+            "title": "Gratis Thuisbezorgd",
+            "cont": "<p>Je Bliss Repeat verzending is altijd gratis<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "img_text_NcHKBg",
+        "img_text_qrtWVr",
+        "img_text_hXPFTD"
+      ],
+      "settings": {
+        "show_on": "medium-hide  large-up-hide",
+        "title": "Bliss repeat",
+        "description": "<p>Onze service die periodiek Bliss producten bij jou thuis bezorgt. Jij kiest wanneer en hoe vaak.<\/p>",
+        "mobile_view": "single-column"
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "disabled": true,
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "scheme-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    },
+    "multicolumn_JQUycF": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_qKdMtJ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Photo_d86246d7-74fd-418e-9fce-4c5b66f35420.png",
+            "title": "<strong>30 Dagen Proef Wassen<\/strong>",
+            "text": "<p>Geliefd bij 35.000+ milieubewuste mensen in Nederland & België <\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_PRPDCL": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Photo_d86246d7-74fd-418e-9fce-4c5b66f35420.png",
+            "title": "<strong>30 Dagen Proef Wassen<\/strong>",
+            "text": "<p>Geliefd bij 35.000+ milieubewuste mensen in Nederland & België <\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_6CzCW7": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Photo_d86246d7-74fd-418e-9fce-4c5b66f35420.png",
+            "title": "<strong>30 Dagen Proef Wassen<\/strong>",
+            "text": "<p>Geliefd bij 35.000+ milieubewuste mensen in Nederland & België<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_qKdMtJ",
+        "column_PRPDCL",
+        "column_6CzCW7"
+      ],
+      "settings": {
+        "title": "30 Dagen Proef Wassen",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 80,
+        "padding_bottom": 88
+      }
+    },
+    "multirow_LAgwB7": {
+      "type": "multirow",
+      "blocks": {
+        "row_Gpp6Cb": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Photo_1_a916cb28-8af1-4f93-8602-4d690777d32a.png",
+            "caption": "",
+            "heading": "<strong>30 Dagen Proef Wassen<\/strong>",
+            "text": "<p>We zijn overtuigd dat je het wassen met Mother's Earth wasstrips geweldig gaat vinden, maar we begrijpen dat je het nu nog niet zeker weet. We zijn overtuigd dat je het wassen met Mother's Earth wasstrips geweldig gaat vinden, maar we begrijpen dat je het nu nog niet zeker weet.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_zimWVe": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Photo_1_a916cb28-8af1-4f93-8602-4d690777d32a.png",
+            "caption": "",
+            "heading": "<strong>30 Dagen Proef Wassen<\/strong>",
+            "text": "<p>We zijn overtuigd dat je het wassen met Mother's Earth wasstrips geweldig gaat vinden, maar we begrijpen dat je het nu nog niet zeker weet. We zijn overtuigd dat je het wassen met Mother's Earth wasstrips geweldig gaat vinden, maar we begrijpen dat je het nu nog niet zeker weet.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_Gpp6Cb",
+        "row_zimWVe"
+      ],
+      "settings": {
+        "show_on": "small-hide",
+        "image_height": "adapt",
+        "desktop_image_width": "small",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 80
+      }
+    },
+    "accordion_b7bP7j": {
+      "type": "accordion",
+      "blocks": {
+        "accordion_9gWcd6": {
+          "type": "accordion",
+          "settings": {
+            "accordion_title": "Zijn Bliss wasstrips even effectief als traditioneel wasmiddel?",
+            "accordion_content": "<p>Ja! Een van de voordelen van Bliss wasstrips is dat ze volledig oplossen in water en geen resten achterlaten op kleding.<br\/><br\/>Dit betekent dat je je geen zorgen meer hoeft te maken over wasmiddel ophopingen of restjes op je kleding of in je wasmachine.<br\/><br\/>Bovendien zijn ze ultra-geconcentreerd waardoor ze super effectief zijn in het verwijderen van moeilijke vlekken, dus je kunt erop vertrouwen dat je kleding er op zijn best uit blijft zien.<\/p>"
+          }
+        },
+        "accordion_xgPzCQ": {
+          "type": "accordion",
+          "settings": {
+            "accordion_title": "Wat zijn wasmiddelstrips?",
+            "accordion_content": "<p>Wasstrips zijn compacte, vooraf afgemeten blaadjes wasmiddel die oplossen in water om kleding te reinigen, en bieden gemak en draagbaarheid in vergelijking met traditionele vloeibare of poederwasmiddelen.<\/p>"
+          }
+        },
+        "accordion_PLMeHg": {
+          "type": "accordion",
+          "settings": {
+            "accordion_title": "Wat is de missie van Bliss",
+            "accordion_content": "<p>Samen fleuren wij de wereld op, één wasje per keer! Het is onze missie om de aarde een beetje frisser te<br\/>maken.Doe je mee?<\/p>"
+          }
+        },
+        "accordion_F9hw6x": {
+          "type": "accordion",
+          "settings": {
+            "accordion_title": "Hoe lang duurt de verzending",
+            "accordion_content": "<p>Op werkdagen voor 16:00 besteld, morgen in huis. <\/p>"
+          }
+        },
+        "accordion_Xb9Mqq": {
+          "type": "accordion",
+          "settings": {
+            "accordion_title": "Voor welke textielsoorten kan ik Bliss gebruiken?",
+            "accordion_content": "<p>Voor welke textiel soorten kan ik dit gebruiken<\/p><p>Onze wasstrips kan je gebruiken voor elke textiel alleen raden wij af het voor wol en zijde te gebruiken<\/p>"
+          }
+        },
+        "accordion_thdBmM": {
+          "type": "accordion",
+          "settings": {
+            "accordion_title": "Bevat jullie wasstrips wasverzachter?",
+            "accordion_content": "<p>Nee, onze wasstrips bevatten niet je \"reguliere\" wasverzachter<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "accordion_9gWcd6",
+        "accordion_xgPzCQ",
+        "accordion_PLMeHg",
+        "accordion_F9hw6x",
+        "accordion_Xb9Mqq",
+        "accordion_thdBmM"
+      ],
+      "settings": {
+        "show_on": "small-hide",
+        "heading": "Populaire vragen",
+        "sub_heading": ""
+      }
+    },
+    "custom_reviews_74wF9T": {
+      "type": "custom_reviews",
+      "blocks": {
+        "main_reviews_NXNmaD": {
+          "type": "main_reviews",
+          "settings": {
+            "reviewer_image": "shopify:\/\/shop_images\/Photo_3.png",
+            "reviewer_start": "five",
+            "reviewer_name": "Samant Kovingtons",
+            "reviewer_review": "<p>Mijn was is fris en mijn geweten ook, dankzij deze milieuvriendelijke wasstrips. Geen gedoe meer met plastic flessen.<\/p>"
+          }
+        },
+        "main_reviews_yXEHe6": {
+          "type": "main_reviews",
+          "settings": {
+            "reviewer_image": "shopify:\/\/shop_images\/Photo_4.png",
+            "reviewer_start": "five",
+            "reviewer_name": "John Wilson",
+            "reviewer_review": "<p>Liefde voor deze plasticvrije wasstrips! Ze maken mijn wasdag eenvoudig!<\/p>"
+          }
+        },
+        "main_reviews_yEhaEi": {
+          "type": "main_reviews",
+          "settings": {
+            "reviewer_image": "shopify:\/\/shop_images\/Photo_5.png",
+            "reviewer_start": "five",
+            "reviewer_name": "Arlene McCoy",
+            "reviewer_review": "<p>Deze ecologisch afbreekbare wasstrips zijn super handig en maken mijn wasgoed brandschoon. Pluspunt: ik verminder mijn plastic afval!<\/p>"
+          }
+        },
+        "main_reviews_BbLk7g": {
+          "type": "main_reviews",
+          "settings": {
+            "reviewer_image": "shopify:\/\/shop_images\/Photo_6.png",
+            "reviewer_start": "five",
+            "reviewer_name": "Courtney Henry",
+            "reviewer_review": "<p>SIk ben dol op deze wasstrips zonder plastic! Ze vereenvoudigen mijn wasroutine echt!<\/p>"
+          }
+        },
+        "main_reviews_g8mAbg": {
+          "type": "main_reviews",
+          "settings": {
+            "reviewer_image": "shopify:\/\/shop_images\/Photo_4.png",
+            "reviewer_start": "five",
+            "reviewer_name": "John Wilson",
+            "reviewer_review": "<p>Liefde voor deze plasticvrije wasstrips! Ze maken mijn wasdag eenvoudig!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "main_reviews_NXNmaD",
+        "main_reviews_yXEHe6",
+        "main_reviews_yEhaEi",
+        "main_reviews_BbLk7g",
+        "main_reviews_g8mAbg"
+      ],
+      "custom_css": [
+        ".custom_reviews_wrp {padding-top: 40px; padding-bottom: 80px;}",
+        "@media (max-width: 749px) {.custom_reviews_wrp {padding-top: 20px; padding-bottom: 40px; }}"
+      ],
+      "settings": {
+        "heading": "Wat zeggen onze klanten"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_blocks_RQQkzk",
+    "related-products",
+    "multicolumn_JQUycF",
+    "multirow_LAgwB7",
+    "accordion_b7bP7j",
+    "custom_reviews_74wF9T"
+  ]
+}

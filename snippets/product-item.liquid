@@ -1,0 +1,117 @@
+<div class="ProductItem {% if use_horizontal %}ProductItem--horizontal{% endif %}">
+  <div class="ProductItem__Wrapper">
+
+    {%- comment -%}
+    Handling image sizing based on theme settings
+    {%- endcomment -%}
+
+    {%- if settings.product_image_size == 'natural' or use_horizontal -%}
+      {%- assign use_natural_size = true -%}
+    {%- else -%}
+      {%- assign use_natural_size = false -%}
+    {%- endif -%}
+
+    {%- if settings.product_show_secondary_image and product.media[1] != blank and use_horizontal != true -%}
+      {%- assign has_alternate_image = true -%}
+    {%- else -%}
+      {%- assign has_alternate_image = false -%}
+    {%- endif -%}
+
+    <a href="{{ product.url }}" class="ProductItem__ImageWrapper {% if has_alternate_image %}ProductItem__ImageWrapper--withAlternateImage{% endif %}">
+      {%- if use_horizontal -%}
+        {%- assign max_width = 125 -%}
+      {%- else -%}
+        {%- assign max_width = product.featured_media.preview_image.width -%}
+      {%- endif -%}
+
+      {%- assign media_aspect_ratio = product.featured_media.aspect_ratio | default: product.featured_media.preview_image.aspect_ratio -%}
+
+      <div class="AspectRatio" style="max-width: {{ max_width }}px; {% if use_natural_size %}padding-bottom: {{ 100.0 | divided_by: media_aspect_ratio }}%;{% endif %}">
+        
+        {%- comment -%}
+        Alternate image display (if available)
+        {%- endcomment -%}
+        {%- if has_alternate_image -%}
+          {%- assign alt_image_url = product.media[1] | img_url: '600x600' -%}
+          <img class="ProductItem__Image ProductItem__Image--alternate" src="{{ alt_image_url }}" alt="{{ product.media[1].alt | escape }}" data-media-id="{{ product.media[1].id }}">
+        {%- endif -%}
+
+        {%- comment -%}
+        Featured image display (Main Product Image)
+        {%- endcomment -%}
+        {%- assign main_image_url = product.featured_media | img_url: '600x600' -%}
+        <img class="ProductItem__Image" src="{{ main_image_url }}" alt="{{ product.featured_media.alt | escape }}" data-media-id="{{ product.featured_media.id }}">
+        
+        <noscript>
+          <img class="ProductItem__Image ProductItem__Image--alternate" src="{{ alt_image_url }}" alt="{{ product.media[1].alt | escape }}">
+          <img class="ProductItem__Image" src="{{ main_image_url }}" alt="{{ product.featured_media.alt | escape }}">
+        </noscript>
+
+      </div>
+    </a>
+
+    {%- if show_labels -%}
+      <div class="ProductItem__LabelList">
+        {%- for tag in product.tags -%}
+          {%- if tag contains '__label' -%}
+            <span class="ProductItem__Label Heading Text--subdued">{{ tag | split: '__label:' | last }}</span>
+            {%- break -%}
+          {%- endif -%}
+        {%- endfor -%}
+
+        {%- if product.available and product.compare_at_price > product.price -%}
+          <span class="ProductItem__Label ProductItem__Label--onSale Heading Text--subdued">{{ 'product.labels.on_sale' | t }}</span>
+        {%- elsif product.available == false -%}
+          <span class="ProductItem__Label ProductItem__Label--soldOut Heading Text--subdued">{{ 'product.labels.sold_out' | t }}</span>
+        {%- endif -%}
+      </div>
+    {%- endif -%}
+
+    {%- if show_product_info -%}
+      <div class="ProductItem__Info {% unless use_horizontal %}ProductItem__Info--{{ settings.product_info_alignment }}{% endunless %}">
+        {%- if show_vendor -%}
+          <p class="ProductItem__Vendor Heading">{{ product.vendor }}</p>
+        {%- endif -%}
+
+        <h2 class="ProductItem__Title Heading">
+          <a href="{{ product.url }}">{{ product.title }}</a>
+        </h2>
+
+        {%- if settings.show_product_rating -%}
+          <div class="ProductItem__Rating Heading Text--subdued u-h7">
+            {%- render 'product-rating', product: product -%}
+          </div>
+        {%- endif -%}
+
+        {%- if product.template_suffix != 'coming-soon' -%}
+          <div class="ProductItem__PriceList Heading">
+            {%- if product.compare_at_price > product.price -%}
+              <span class="ProductItem__Price Price Price--highlight Text--subdued">{{ product.price | money }}</span>
+              <span class="ProductItem__Price Price Price--compareAt Text--subdued">{{ product.compare_at_price | money }}</span>
+            {%- elsif product.price_varies -%}
+              <span class="ProductItem__Price Price Text--subdued">{{ 'From' }} {{ product.price_min | money }}</span>
+            {%- else -%}
+              <span class="ProductItem__Price Price Text--subdued">{{ product.price | money }}</span>
+            {%- endif -%}
+          </div>
+
+          {%- if product.selected_or_first_available_variant.unit_price_measurement -%}
+            <div class="ProductItem__UnitPriceMeasurement">
+              <div class="UnitPriceMeasurement Heading Text--subdued">
+                <span class="UnitPriceMeasurement__Price">{{ product.selected_or_first_available_variant.unit_price | money }}</span>
+                <span class="UnitPriceMeasurement__Separator">/ </span>
+                <span class="UnitPriceMeasurement__ReferenceValue">{{ product.selected_or_first_available_variant.unit_price_measurement.reference_value }}</span>
+                <span class="UnitPriceMeasurement__ReferenceUnit">{{ product.selected_or_first_available_variant.unit_price_measurement.reference_unit }}</span>
+              </div>
+            </div>
+          {%- endif -%}
+        {%- endif -%}
+      </div>
+    {%- endif -%}
+
+  </div>
+  
+  {%- if use_horizontal -%}
+    <a href="{{ product.url }}" class="ProductItem__ViewButton Button Button--secondary hidden-pocket">{{ 'collection.product.view_product' | t }}</a>
+  {%- endif -%}
+</div>

@@ -1,0 +1,63 @@
+<div class="custom_newsletter_wrp">
+  <div class="Container Container--narrow">
+    <div class="custom-news-wrapper">
+    <div class="feature_section_header">
+        {% if section.settings.heading != blank %}
+          <div class="sec_heading_wrp">
+            <h2 class="heading-medium">{{ section.settings.heading }}</h2>
+          </div>
+        {% endif %}
+        {% if section.settings.sub_heading != blank %}
+          <div class="sec_sub_heading_wrp">
+            <h2 class="sub_heading-medium">{{ section.settings.sub_heading }}</h2>
+          </div>
+        {% endif %}
+      </div>
+    <div class="custom_newsletter_inner">
+       {%- form 'customer', id: section.id , class: 'Newsletter Form' -%}
+          {%- if form.posted_successfully? -%}
+            <p class="Form__Alert Alert Alert--success">{{ 'newsletter.success' | t }}</p>
+          {%- else -%}
+            {%- if form.errors -%}
+              <p class="Form__Alert Alert Alert--error">{{ form.errors.messages['email'] }}</p>
+            {%- endif -%}
+
+            <div class="Newsletter__Inner">
+              <input type="hidden" name="contact[tags]" value="newsletter">
+              <input type="email" name="contact[email]" class="Form__Input" aria-label="{{ 'newsletter.label' | t }}" placeholder="{{ 'newsletter.label' | t }}" required>
+              <button type="submit" class="Form__Submit Button custom-button">{{ section.settings.button_label }}</button>
+            </div>
+          {%- endif -%}
+        {%- endform -%}
+    </div>
+      </div>
+  </div>
+</div>
+{% schema %}
+  {
+    "name": "Custom Newsletter",
+    "settings": [
+      {
+          "type": "text",
+          "id": "heading",
+          "label": "Heading"
+        },
+        {
+          "type": "text",
+          "id": "sub_heading",
+          "label": "Sub heading"
+        },
+        {
+          "type": "text",
+          "id": "button_label",
+          "label": "Button Label",
+          "default":"START NU"
+        }
+    ],
+    "presets": [
+      {
+        "name": "Custom Newsletter"
+      }
+    ]
+  }
+{% endschema %}

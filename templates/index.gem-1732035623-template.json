@@ -1,0 +1,438 @@
+{
+  "sections": {
+    "image_content_overlay_B3LeLH": {
+      "type": "image_content_overlay",
+      "blocks": {
+        "heading_3ttChC": {
+          "type": "heading",
+          "settings": {
+            "heading": "Samen wassen we naar een schonere wereld"
+          }
+        },
+        "description_znki7y": {
+          "type": "description",
+          "settings": {
+            "description": "<p>Bliss is de nieuwe generatie milieuvriendelijk wasmiddel rechtstreeks aan huis geleverd<\/p>"
+          }
+        },
+        "button_jV3htY": {
+          "type": "button",
+          "settings": {
+            "button_text": "bekijk hier",
+            "button_link": "shopify:\/\/products\/bliss-wasstrips"
+          }
+        }
+      },
+      "block_order": [
+        "heading_3ttChC",
+        "description_znki7y",
+        "button_jV3htY"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Photo.png",
+        "mobile_image": "shopify:\/\/shop_images\/Photo_2.png",
+        "content_position": "middleLeft"
+      }
+    },
+    "image_with_text_blocks_H7neXt": {
+      "type": "Image_with_text_blocks",
+      "blocks": {
+        "img_text_ahX7Dy": {
+          "type": "img_text",
+          "settings": {
+            "img_icon": "shopify:\/\/shop_images\/svgexport-16.svg",
+            "Html": "<svg width=\"158\" height=\"153\" viewbox=\"0 0 158 153\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<g clip-path=\"url(#clip0_2374_2702)\">\n<path d=\"M76.8759 18.2717C64.1341 18.2717 51.8008 22.4016 41.48 30.2415C28.9893 39.7266 20.9395 53.514 18.8183 69.0552C16.6935 84.5964 20.7483 100.033 30.2372 112.523C39.7261 125.014 53.5097 133.06 69.0509 135.185C84.5922 137.28 100.028 133.255 112.523 123.766C125.014 114.277 133.063 100.497 135.185 84.9525C137.309 69.4112 133.255 53.9787 123.766 41.4842C114.277 28.9898 100.493 20.9437 84.9519 18.8189C82.2499 18.4516 79.5517 18.2717 76.8759 18.2717ZM77.1345 139C74.3088 139 71.4606 138.809 68.6087 138.419C52.2056 136.174 37.6537 127.682 27.6364 114.498C17.6229 101.314 13.3394 85.0199 15.5804 68.613C17.8215 52.2061 26.3173 37.658 39.505 27.6369C52.6927 17.6234 68.9947 13.3362 85.3941 15.5885C101.797 17.8295 116.349 26.3253 126.366 39.5055C136.38 52.6933 140.663 68.9915 138.422 85.3984C136.178 101.802 127.682 116.353 114.498 126.367C103.604 134.642 90.5845 139 77.1345 139Z\" fill=\"#90D5E4\"><\/path>\n<path d=\"M85.0035 34.8434C83.3883 35.2257 82.4964 36.8784 82.0954 38.3624C81.5782 40.3861 81.7731 42.6421 82.8524 44.4522C83.3883 45.3366 84.2577 46.1649 85.3483 46.2061C86.3077 46.2398 87.1471 45.614 87.698 44.8794C88.6761 43.549 89.0546 41.8551 89.0134 40.2249C88.9497 38.6547 88.5037 37.032 87.4507 35.8328C86.8548 35.1432 85.9329 34.6523 85.0035 34.8434ZM85.2246 32.1714H85.6331C87.0422 32.2426 88.3726 32.9396 89.3207 33.974C90.7598 35.5217 91.4718 37.6279 91.6142 39.7078C91.7716 42.065 91.2395 44.5384 89.8116 46.4534C88.8448 47.7538 87.3532 48.7432 85.7043 48.8219C84.0778 48.9381 82.4964 48.1361 81.4321 46.9406C79.8843 45.2205 79.2135 42.8557 79.1985 40.5735C79.1835 38.2799 79.8318 35.904 81.3609 34.1501C82.324 33.0183 83.7293 32.2501 85.2246 32.1714Z\" fill=\"#90D5E4\"><\/path>\n<path d=\"M72.1013 37.6841C71.4454 37.9165 71.0482 38.5386 70.7709 39.1419C70.0551 40.7983 70.22 42.9232 71.4417 44.3023C72.0038 44.9582 73.0794 44.9544 73.6303 44.2911C75.0056 42.7209 75.0656 40.21 73.9338 38.4861C73.5553 37.8865 72.817 37.4143 72.1013 37.6841ZM71.5991 35.0945C72.8133 34.791 74.1437 35.1208 75.1068 35.9115C76.351 36.9196 77.0518 38.4748 77.2692 40.0413C77.524 41.8776 77.1942 43.8414 76.1299 45.3854C75.4329 46.4085 74.3498 47.2105 73.1094 47.3866C71.9963 47.5627 70.8383 47.2067 69.9689 46.5022C68.7134 45.4903 68.0089 43.9238 67.7953 42.3498C67.5554 40.5772 67.8552 38.696 68.8334 37.1782C69.4667 36.1888 70.4411 35.3793 71.5991 35.0945Z\" fill=\"#90D5E4\"><\/path>\n<path d=\"M61.6005 43.3093C60.2776 44.0701 60.1951 46.15 61.1845 47.218C61.5855 47.6902 62.3537 47.7277 62.7847 47.2742C63.6541 46.4086 63.7141 44.9245 63.0845 43.9089C62.7959 43.4142 62.1626 43.0357 61.6005 43.3093ZM61.2519 40.6748C62.5411 40.3749 63.924 40.8921 64.8009 41.8627C66.5398 43.744 66.5735 46.922 64.8946 48.8482C64.1188 49.7589 62.9196 50.336 61.7091 50.2161C60.4275 50.1187 59.2957 49.2755 58.6511 48.1887C57.3957 46.1312 57.7142 43.1856 59.5355 41.5629C60.0227 41.1282 60.6148 40.8134 61.2519 40.6748Z\" fill=\"#90D5E4\"><\/path>\n<path d=\"M53.5398 50.2874C52.3369 50.8045 52.112 52.446 52.558 53.544C52.7978 54.2636 53.6448 54.9494 54.3868 54.4659C55.3799 53.7689 55.5373 52.3073 55.0839 51.2542C54.8403 50.6621 54.2257 50.0775 53.5398 50.2874ZM53.0489 47.7053C54.3231 47.398 55.6985 47.8964 56.5829 48.8446C58.3742 50.7296 58.408 53.9712 56.6878 55.9125C55.8596 56.8681 54.5479 57.4303 53.2813 57.2129C51.8085 56.9843 50.6205 55.8151 50.0958 54.4547C49.2788 52.4197 49.7885 49.8339 51.5349 48.4398C51.9771 48.0875 52.4943 47.8327 53.0489 47.7053Z\" fill=\"#90D5E4\"><\/path>\n<path d=\"M74.4771 50.5683C76.3958 50.4447 78.3745 50.2161 80.2446 50.7932C82.7405 51.5277 84.8541 53.4315 85.8547 55.8337C86.7691 57.9773 86.7766 60.4807 85.8884 62.6356C84.1083 66.9977 82.317 71.3524 80.5444 75.7146C79.8436 77.4273 79.3302 79.2186 79.0379 81.0474C78.9854 81.6433 78.5844 82.2242 77.9698 82.3329C77.1866 82.5277 76.3433 81.8382 76.3958 81.0287C76.7294 78.3567 77.625 75.7933 78.6781 73.3237C80.297 69.3437 81.9497 65.3788 83.5462 61.3876C84.4719 59.0116 83.6699 56.1522 81.7286 54.5258C80.5631 53.5102 79.0004 53.0043 77.4639 53.053C73.9561 53.098 70.4259 53.5814 67.1206 54.7881C63.9126 55.9536 60.8958 57.9323 59.0145 60.833C57.0358 63.8198 56.4212 67.5037 56.5749 71.0339C56.7922 76.3667 58.5948 81.4484 60.3074 86.4477C61.8552 90.986 63.4742 95.6105 63.5641 100.46C63.5866 103.848 63.5566 107.236 63.5791 110.623C63.5941 113.127 64.7708 115.589 66.7008 117.182C68.7245 118.894 71.5614 119.584 74.1473 118.995C76.6244 118.467 78.8055 116.769 79.9635 114.525C80.8667 112.804 81.1552 110.777 80.7767 108.869C80.4357 107.172 80.001 105.493 79.6787 103.788C79.5213 102.81 80.7093 102.011 81.5637 102.502C82.3282 102.87 82.3207 103.818 82.5119 104.53C82.9391 106.726 83.7036 108.903 83.55 111.167C83.3888 114.326 81.8073 117.365 79.3414 119.336C77.5088 120.839 75.1853 121.679 72.8319 121.832H71.6102C69.7214 121.679 67.8476 121.128 66.2511 120.09C63.699 118.505 61.8252 115.862 61.2031 112.917C60.8321 111.305 60.9745 109.645 60.9445 108.008C60.9258 105.238 60.9895 102.469 60.9071 99.7029C60.5435 94.2352 58.3625 89.1385 56.6948 83.978C54.851 78.4841 53.3632 72.6566 54.1389 66.8216C54.6598 62.6693 56.6423 58.6594 59.869 55.9499C63.9164 52.4983 69.2679 51.0218 74.4771 50.5683Z\" fill=\"#90D5E4\"><\/path>\n<path d=\"M73.8775 85.7055C75.9574 85.2333 78.2546 85.6643 79.9635 86.9534C80.6756 87.5793 80.3833 88.8834 79.4689 89.142C78.6256 89.4568 77.9961 88.6436 77.2465 88.4412C75.0692 87.6018 72.4122 88.5724 71.2691 90.6036C70.0624 92.5823 70.5271 95.3668 72.311 96.8471C73.7613 98.1175 76.081 98.5147 77.745 97.4354C78.3146 97.0944 78.6444 96.3411 79.3714 96.2962C80.1397 96.1987 80.8742 96.8995 80.8105 97.6715C80.788 98.2562 80.3158 98.6759 79.9223 99.0506C78.5732 100.306 76.6544 100.838 74.8406 100.647C72.5546 100.452 70.4109 99.1331 69.178 97.2031C67.9788 95.3705 67.649 93.0095 68.2898 90.9184C69.0393 88.3438 71.2579 86.2789 73.8775 85.7055Z\" fill=\"#90D5E4\"><\/path>\n<path d=\"M88.2045 88.3029C87.5412 88.4865 86.9116 88.7901 86.3757 89.2211C84.5356 90.6189 83.936 93.3471 85.019 95.3858C86.0834 97.5707 88.8566 98.6949 91.1351 97.8218C93.571 97.016 95.0401 94.1491 94.2381 91.702C93.5523 89.1948 90.7079 87.5834 88.2045 88.3029ZM87.871 85.6871C89.9434 85.2449 92.2032 85.6946 93.9121 86.9613C95.6172 88.183 96.779 90.1355 97.0151 92.2191C97.2774 94.284 96.6328 96.4426 95.2799 98.0241C93.8821 99.7105 91.7272 100.73 89.5386 100.734C87.2376 100.779 84.9628 99.6843 83.5313 97.8855C81.9947 96.0042 81.4663 93.3621 82.1484 91.0349C82.8829 88.3778 85.1764 86.2455 87.871 85.6871Z\" fill=\"#90D5E4\"><\/path>\n<path d=\"M98.5889 96.6186C98.6226 94.9097 100.32 93.5231 101.995 93.703C103.738 93.8042 105.17 95.5693 104.851 97.2969C104.563 98.7697 103.506 99.894 102.692 101.101C103.434 101.127 104.371 100.891 104.9 101.565C105.571 102.296 105.05 103.615 104.068 103.694C102.734 103.743 101.396 103.754 100.062 103.694C99.1435 103.638 98.5064 102.495 99.0161 101.704C99.998 100.198 101.216 98.8447 102.104 97.2819C102.385 96.9372 102.258 96.3563 101.771 96.3188C101.044 96.2926 101.216 97.2969 100.658 97.5667C99.893 98.1739 98.6301 97.593 98.5889 96.6186Z\" fill=\"#90D5E4\"><\/path>\n<\/g>\n<g opacity=\"0.2\">\n<path d=\"M31.4268 140.326L36.7756 131.876\" stroke=\"#F17F41\" stroke-width=\"3.81117\" stroke-miterlimit=\"1.5\"><\/path>\n<path d=\"M38.3262 138.775L29.8769 133.427\" stroke=\"#F17F41\" stroke-width=\"3.81117\" stroke-miterlimit=\"1.5\"><\/path>\n<path d=\"M128.282 29.9133L132.456 20.8259\" stroke=\"#F17F41\" stroke-width=\"3.81117\" stroke-miterlimit=\"1.5\"><\/path>\n<path d=\"M134.913 27.4563L125.813 23.311\" stroke=\"#F17F41\" stroke-width=\"3.81117\" stroke-miterlimit=\"1.5\"><\/path>\n<path d=\"M105.282 62.9133L109.456 53.8259\" stroke=\"#F17F41\" stroke-width=\"3.81117\" stroke-miterlimit=\"1.5\"><\/path>\n<path d=\"M111.913 60.4563L102.813 56.311\" stroke=\"#F17F41\" stroke-width=\"3.81117\" stroke-miterlimit=\"1.5\"><\/path>\n<path d=\"M132.838 131.408L142.021 127.45\" stroke=\"#F17F41\" stroke-width=\"3.81117\" stroke-miterlimit=\"1.5\"><\/path>\n<path d=\"M139.408 134.021L135.422 124.85\" stroke=\"#F17F41\" stroke-width=\"3.81117\" stroke-miterlimit=\"1.5\"><\/path>\n<path d=\"M41.5029 86.4268L34.3566 79.4317\" stroke=\"#F17F41\" stroke-width=\"3.81117\" stroke-miterlimit=\"1.5\"><\/path>\n<path d=\"M41.4268 79.356L34.4539 86.5237\" stroke=\"#F17F41\" stroke-width=\"3.81117\" stroke-miterlimit=\"1.5\"><\/path>\n<path d=\"M8.46973 52.0332L12.4034 42.8394\" stroke=\"#F17F41\" stroke-width=\"3.81117\" stroke-miterlimit=\"1.5\"><\/path>\n<path d=\"M15.0332 49.4031L5.8394 45.4694\" stroke=\"#F17F41\" stroke-width=\"3.81117\" stroke-miterlimit=\"1.5\"><\/path>\n<path d=\"M111.999 99.396L121.597 102.201\" stroke=\"#90D5E4\" stroke-width=\"3.81117\" stroke-miterlimit=\"1.5\"><\/path>\n<path d=\"M115.396 105.597L118.201 95.999\" stroke=\"#90D5E4\" stroke-width=\"3.81117\" stroke-miterlimit=\"1.5\"><\/path>\n<path d=\"M32.834 7.91846L33.0002 17.9171\" stroke=\"#90D5E4\" stroke-width=\"3.81117\" stroke-miterlimit=\"1.5\"><\/path>\n<path d=\"M27.918 13.0007L37.9166 12.8345\" stroke=\"#90D5E4\" stroke-width=\"3.81117\" stroke-miterlimit=\"1.5\"><\/path>\n<path d=\"M6.32389 104.416C4.94472 104.742 4.09058 106.124 4.4161 107.503C4.74161 108.882 6.12354 109.736 7.50272 109.411C8.8819 109.085 9.7361 107.703 9.41059 106.324C9.08507 104.945 7.70307 104.091 6.32389 104.416Z\" stroke=\"#90D5E4\" stroke-width=\"3.81117\" stroke-miterlimit=\"1.5\"><\/path>\n<path d=\"M83.3239 145.416C81.9447 145.742 81.0906 147.124 81.4161 148.503C81.7416 149.882 83.1235 150.736 84.5027 150.411C85.8819 150.085 86.7361 148.703 86.4106 147.324C86.0851 145.945 84.7031 145.091 83.3239 145.416Z\" stroke=\"#90D5E4\" stroke-width=\"3.81117\" stroke-miterlimit=\"1.5\"><\/path>\n<path d=\"M152.324 59.4161C150.945 59.7417 150.091 61.1236 150.416 62.5028C150.742 63.882 152.124 64.7362 153.503 64.4107C154.882 64.0852 155.736 62.7032 155.411 61.324C155.085 59.9448 153.703 59.0906 152.324 59.4161Z\" stroke=\"#90D5E4\" stroke-width=\"3.81117\" stroke-miterlimit=\"1.5\"><\/path>\n<path d=\"M52 41C53.6552 41 55 39.6551 55 37.9999C55 36.3447 53.6552 35 52 35C50.3448 35 49 36.3447 49 37.9999C49 39.6551 50.3448 41 52 41Z\" stroke=\"#90D5E4\" stroke-width=\"3.81117\" stroke-miterlimit=\"1.5\"><\/path>\n<\/g>\n<defs>\n<clippath id=\"clip0_2374_2702\">\n<rect width=\"124\" height=\"124\" fill=\"white\" transform=\"translate(15 15)\"><\/rect>\n<\/clippath>\n<\/defs>\n<\/svg>",
+            "title": "",
+            "cont": "<p>Kleine ecologische voetafdruk<\/p>"
+          }
+        },
+        "img_text_MAn8iU": {
+          "type": "img_text",
+          "settings": {
+            "img_icon": "shopify:\/\/shop_images\/svgexport-17.svg",
+            "Html": "",
+            "title": "",
+            "cont": "<p>Bewezen formule<\/p>"
+          }
+        },
+        "img_text_V9rBeb": {
+          "type": "img_text",
+          "settings": {
+            "img_icon": "shopify:\/\/shop_images\/svgexport-18.svg",
+            "Html": "",
+            "title": "",
+            "cont": "<p>Vegan <\/p>"
+          }
+        },
+        "img_text_RLeHYW": {
+          "type": "img_text",
+          "settings": {
+            "img_icon": "shopify:\/\/shop_images\/svgexport-19.svg",
+            "Html": "<svg width=\"153\" height=\"158\" viewbox=\"0 0 153 158\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<g clip-path=\"url(#clip0_2374_2699)\">\n<path d=\"M75.9998 22.2665C43.6109 22.2665 17.2656 48.6119 17.2656 81.0008C17.2656 113.386 43.6109 139.735 75.9998 139.735C108.385 139.735 134.734 113.386 134.734 81.0008C134.734 48.6119 108.385 22.2665 75.9998 22.2665ZM75.9998 143.002C41.8132 143.002 13.999 115.187 13.999 81.0008C13.999 46.8142 41.8132 19 75.9998 19C110.186 19 138.001 46.8142 138.001 81.0008C138.001 115.187 110.186 143.002 75.9998 143.002Z\" fill=\"#90D5E4\"><\/path>\n<path d=\"M99.834 85.6987C98.5446 86.9844 97.2627 88.2738 95.9732 89.5558C95.8051 89.6828 95.8013 89.8959 95.7714 90.0865C95.4874 92.3103 94.5343 94.4444 93.0991 96.1673C91.1968 98.4659 88.4124 100.028 85.4523 100.409C85.2579 100.439 85.0412 100.45 84.9104 100.619C83.6284 101.904 82.3427 103.19 81.057 104.472C84.2825 107.697 87.5042 110.923 90.7296 114.141C92.0489 115.464 94.1793 115.868 95.8873 115.116C97.2328 114.552 98.268 113.33 98.6306 111.921C97.4495 111.67 96.3283 111.147 95.4014 110.37C95.0052 110.045 94.5455 109.667 94.5119 109.106C94.4147 108.344 95.1248 107.615 95.891 107.694C96.3358 107.697 96.6722 108.011 96.9824 108.295C97.8794 109.091 99.0978 109.503 100.297 109.447C102.002 109.383 103.616 108.307 104.341 106.763C105.126 105.171 104.902 103.138 103.773 101.762C103.5 101.422 103.123 101.116 103.063 100.656C102.947 100.036 103.358 99.3778 103.964 99.2059C104.431 99.0527 104.969 99.2059 105.298 99.5647C106.304 100.574 106.988 101.882 107.279 103.272C107.675 103.153 108.071 103.014 108.434 102.805C110.355 101.766 111.334 99.3106 110.628 97.2363C110.31 96.115 109.451 95.289 108.64 94.5004C105.702 91.5665 102.772 88.6289 99.834 85.6987ZM56.0011 67.6916C56.6664 68.3868 57.3914 69.0259 58.0156 69.7622C58.6659 70.5769 58.935 71.6272 58.9873 72.6512C59.0882 74.434 58.7818 76.2093 58.8677 77.9921C58.9201 79.588 59.2901 81.1801 60.0301 82.6004C61.1326 84.8167 63.0612 86.4313 64.7617 88.1729C65.9353 87.0031 67.1051 85.8221 68.2824 84.6522C68.5029 84.4205 68.8243 84.2187 68.8056 83.8524C69.1271 81.2623 70.3417 78.7994 72.1768 76.9456C74.0456 75.0395 76.5646 73.7725 79.2182 73.4473C79.3939 73.4324 79.577 73.3913 79.6891 73.2455C80.9673 71.9598 82.253 70.6816 83.535 69.3996C82.6193 68.484 81.7186 67.5533 80.7767 66.6676C79.1509 65.1539 77.129 64.0065 74.9164 63.6664C72.9318 63.3188 70.921 63.6103 68.9252 63.6514C67.6657 63.6701 66.324 63.5318 65.2737 62.7731C64.4627 62.1415 63.7974 61.3454 63.0537 60.6428C60.6991 62.9862 58.3482 65.3408 56.0011 67.6916ZM56.117 54.6404C54.0763 56.6773 52.0357 58.718 49.9987 60.7586C49.1989 61.536 49.1989 62.9451 49.9913 63.7224C51.034 64.7764 52.088 65.8192 53.1382 66.8694C56.1693 63.8383 59.2004 60.8072 62.2314 57.7761C61.185 56.7297 60.1385 55.6757 59.0845 54.6329C58.3034 53.8406 56.8944 53.8406 56.117 54.6404ZM57.1747 51.4299H57.9969C59.0882 51.557 60.1497 52.0092 60.9271 52.7941C62.2389 54.0873 63.5358 55.3954 64.8402 56.696C65.1467 56.9875 65.4046 57.38 65.3709 57.8247C65.3784 58.2097 65.128 58.5236 64.9112 58.8152C65.4643 59.3571 65.9951 59.914 66.5482 60.4484C67.1761 61.0576 68.1142 61.0502 68.929 61.0464C70.9734 60.9791 73.029 60.7362 75.0659 61.0539C77.2934 61.3604 79.4126 62.2947 81.2028 63.6402C82.3988 64.5073 83.4042 65.5949 84.4507 66.6302C85.8634 68.0392 87.2762 69.4594 88.6927 70.8685C88.9618 71.1376 89.2271 71.4665 89.2346 71.8664C89.3168 72.5952 88.6702 73.2903 87.9377 73.2642C87.4929 73.2829 87.1229 73.0026 86.8314 72.6998C86.3455 72.2102 85.8597 71.7243 85.3738 71.2385C83.9349 72.6737 82.5034 74.1163 81.0645 75.5478C80.7917 75.8393 80.3955 75.9589 80.0068 75.9813C78.4707 76.0934 76.972 76.6129 75.6751 77.4464C73.3242 78.9227 71.7022 81.5015 71.3808 84.2598C71.3284 84.7606 71.321 85.3324 70.9098 85.6987C69.4784 87.1414 68.0357 88.5728 66.6005 90.0155C70.8052 94.2201 75.0098 98.4285 79.2145 102.633C80.5263 101.325 81.8344 100.021 83.1388 98.7088C83.4901 98.3463 83.8713 97.9165 84.4208 97.9127C86.3231 97.7707 88.1844 97.0718 89.6794 95.8796C91.6976 94.3061 93.0132 91.8767 93.2374 89.3315C93.2599 88.9092 93.357 88.4644 93.6859 88.1692C95.1174 86.7265 96.56 85.2988 97.9915 83.8561C97.1879 83.0489 96.3844 82.2416 95.5733 81.4417C95.0763 81.0381 94.7959 80.313 95.1286 79.715C95.4911 78.9414 96.6273 78.7695 97.2066 79.3936C101.493 83.6655 105.762 87.9449 110.041 92.2206C110.639 92.8335 111.282 93.4128 111.828 94.0744C112.844 95.3115 113.405 96.8924 113.461 98.4883V99.0228C113.356 100.757 112.65 102.457 111.443 103.713C110.359 104.876 108.886 105.642 107.328 105.918C106.999 107.72 106.023 109.402 104.566 110.515C103.613 111.267 102.469 111.738 101.28 111.966C100.963 113.771 99.9723 115.449 98.5147 116.566C97.3075 117.508 95.7976 118.035 94.269 118.099H93.8578C91.9443 118.05 90.083 117.224 88.7525 115.853C79.4425 106.543 70.1324 97.2325 60.8224 87.9225C59.4919 86.6107 58.3333 85.1045 57.526 83.4114C56.7374 81.7632 56.3337 79.943 56.2665 78.1191C56.188 76.4709 56.4047 74.8302 56.4047 73.182C56.3935 72.4905 56.3225 71.7169 55.8142 71.1936C55.2798 70.6367 54.7191 70.1023 54.1772 69.5529C53.8782 69.7697 53.5643 70.0238 53.1756 70.0126C52.7719 70.0425 52.3982 69.822 52.1216 69.5454C50.8172 68.241 49.5166 66.9329 48.2122 65.6285C47.4012 64.8474 46.9228 63.771 46.792 62.661V62.0256C46.8518 60.867 47.3339 59.7383 48.1562 58.9161C50.1931 56.8754 52.2337 54.8348 54.2781 52.7978C55.048 52.0167 56.0983 51.5645 57.1747 51.4299Z\" fill=\"#90D5E4\"><\/path>\n<path d=\"M91.7234 74.8938C92.6615 74.6285 93.5921 75.6488 93.2595 76.557C93.0128 77.4689 91.7047 77.7792 91.0843 77.0616C90.3742 76.3963 90.7704 75.0695 91.7234 74.8938Z\" fill=\"#90D5E4\"><\/path>\n<path d=\"M83.6883 78.8405C84.3087 78.6087 85.0637 78.9451 85.3104 79.5543C85.5346 80.0551 85.3851 80.6643 84.9927 81.0306C82.1709 83.8561 79.3491 86.6779 76.5236 89.496C76.0788 89.9856 75.2603 90.0491 74.7558 89.6156C74.1503 89.1521 74.1167 88.1654 74.6848 87.6609C77.3944 84.9437 80.1115 82.2378 82.8175 79.5244C83.0791 79.2665 83.3295 78.9638 83.6883 78.8405Z\" fill=\"#90D5E4\"><\/path>\n<path d=\"M88.1203 83.2693C88.7818 83.0189 89.5891 83.43 89.7835 84.1102C89.9591 84.6185 89.7461 85.1792 89.3574 85.5305C86.5543 88.3261 83.7587 91.1329 80.9556 93.9248C80.4847 94.4406 79.6026 94.478 79.1055 93.9771C78.5711 93.4913 78.5748 92.5756 79.113 92.0935C81.8227 89.3801 84.5361 86.6704 87.2457 83.9533C87.5111 83.6991 87.7578 83.3927 88.1203 83.2693Z\" fill=\"#90D5E4\"><\/path>\n<path d=\"M40.6621 129.065L112.855 32.9185Z\" fill=\"#90D5E4\"><\/path>\n<path d=\"M111.042 31.543L114.668 34.29L42.4787 130.436L38.8496 127.693L111.042 31.543Z\" fill=\"#90D5E4\"><\/path>\n<\/g>\n<g opacity=\"0.2\">\n<path d=\"M140.325 126.573L131.876 121.224\" stroke=\"#F17F41\" stroke-width=\"3.81117\" stroke-miterlimit=\"1.5\"><\/path>\n<path d=\"M138.775 119.674L133.427 128.123\" stroke=\"#F17F41\" stroke-width=\"3.81117\" stroke-miterlimit=\"1.5\"><\/path>\n<path d=\"M29.9131 29.7173L20.8256 25.5438\" stroke=\"#F17F41\" stroke-width=\"3.81117\" stroke-miterlimit=\"1.5\"><\/path>\n<path d=\"M27.4561 23.0869L23.3107 32.1871\" stroke=\"#F17F41\" stroke-width=\"3.81117\" stroke-miterlimit=\"1.5\"><\/path>\n<path d=\"M62.9131 52.7173L53.8256 48.5438\" stroke=\"#F17F41\" stroke-width=\"3.81117\" stroke-miterlimit=\"1.5\"><\/path>\n<path d=\"M60.4561 46.0869L56.3107 55.1871\" stroke=\"#F17F41\" stroke-width=\"3.81117\" stroke-miterlimit=\"1.5\"><\/path>\n<path d=\"M131.408 25.1624L127.45 15.9789\" stroke=\"#F17F41\" stroke-width=\"3.81117\" stroke-miterlimit=\"1.5\"><\/path>\n<path d=\"M134.021 18.5916L124.85 22.5778\" stroke=\"#F17F41\" stroke-width=\"3.81117\" stroke-miterlimit=\"1.5\"><\/path>\n<path d=\"M86.4268 116.497L79.4317 123.644\" stroke=\"#F17F41\" stroke-width=\"3.81117\" stroke-miterlimit=\"1.5\"><\/path>\n<path d=\"M79.3564 116.573L86.5242 123.546\" stroke=\"#F17F41\" stroke-width=\"3.81117\" stroke-miterlimit=\"1.5\"><\/path>\n<path d=\"M52.0332 149.531L42.8394 145.597\" stroke=\"#F17F41\" stroke-width=\"3.81117\" stroke-miterlimit=\"1.5\"><\/path>\n<path d=\"M49.4033 142.967L45.4696 152.161\" stroke=\"#F17F41\" stroke-width=\"3.81117\" stroke-miterlimit=\"1.5\"><\/path>\n<path d=\"M99.3955 46.0012L102.201 36.4028\" stroke=\"#90D5E4\" stroke-width=\"3.81117\" stroke-miterlimit=\"1.5\"><\/path>\n<path d=\"M105.597 42.6047L95.9982 39.7994\" stroke=\"#90D5E4\" stroke-width=\"3.81117\" stroke-miterlimit=\"1.5\"><\/path>\n<path d=\"M7.91797 125.166L17.9166 125\" stroke=\"#90D5E4\" stroke-width=\"3.81117\" stroke-miterlimit=\"1.5\"><\/path>\n<path d=\"M13 130.082L12.8338 120.083\" stroke=\"#90D5E4\" stroke-width=\"3.81117\" stroke-miterlimit=\"1.5\"><\/path>\n<path d=\"M104.416 151.676C104.742 153.055 106.124 153.909 107.503 153.584C108.882 153.258 109.736 151.876 109.411 150.497C109.085 149.118 107.703 148.264 106.324 148.589C104.945 148.915 104.091 150.297 104.416 151.676Z\" stroke=\"#90D5E4\" stroke-width=\"3.81117\" stroke-miterlimit=\"1.5\"><\/path>\n<path d=\"M145.416 74.6761C145.742 76.0553 147.124 76.9094 148.503 76.5839C149.882 76.2584 150.736 74.8765 150.411 73.4973C150.085 72.1181 148.703 71.2639 147.324 71.5894C145.945 71.9149 145.091 73.2969 145.416 74.6761Z\" stroke=\"#90D5E4\" stroke-width=\"3.81117\" stroke-miterlimit=\"1.5\"><\/path>\n<path d=\"M59.4161 5.6761C59.7417 7.05528 61.1236 7.90942 62.5028 7.5839C63.882 7.25839 64.7362 5.87646 64.4107 4.49728C64.0852 3.1181 62.7032 2.2639 61.324 2.58941C59.9448 2.91493 59.0906 4.29693 59.4161 5.6761Z\" stroke=\"#90D5E4\" stroke-width=\"3.81117\" stroke-miterlimit=\"1.5\"><\/path>\n<path d=\"M41 106C41 104.345 39.6551 103 37.9999 103C36.3447 103 35 104.345 35 106C35 107.655 36.3447 109 37.9999 109C39.6551 109 41 107.655 41 106Z\" stroke=\"#90D5E4\" stroke-width=\"3.81117\" stroke-miterlimit=\"1.5\"><\/path>\n<\/g>\n<defs>\n<clippath id=\"clip0_2374_2699\">\n<rect width=\"124\" height=\"124\" fill=\"white\" transform=\"translate(14 19)\"><\/rect>\n<\/clippath>\n<\/defs>\n<\/svg>",
+            "title": "",
+            "cont": "<p>Geen vervoer van water<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "img_text_ahX7Dy",
+        "img_text_MAn8iU",
+        "img_text_V9rBeb",
+        "img_text_RLeHYW"
+      ],
+      "settings": {
+        "show_on": "both",
+        "title": "",
+        "description": "",
+        "mobile_view": "double-column"
+      }
+    },
+    "image_with_content_cGLgBD": {
+      "type": "image_with_content",
+      "blocks": {
+        "heading_JTGAHk": {
+          "type": "heading",
+          "settings": {
+            "heading": "Samen frissen wij de wereld op, één wasje per keer! <br> Doe je mee?"
+          }
+        },
+        "description_XxJiTp": {
+          "type": "description",
+          "disabled": true,
+          "settings": {
+            "description": "<p>Samen fleuren wij de wereld op, één wasje per keer! <br\/><br\/>Het is onze missie om de aarde een beetje frisser te maken.  Doe je mee?<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_JTGAHk",
+        "description_XxJiTp"
+      ],
+      "settings": {
+        "main_img": "shopify:\/\/shop_images\/Rectangle_85.png"
+      }
+    },
+    "custom_feature_collection_LptGjW": {
+      "type": "custom_feature_collection",
+      "settings": {
+        "heading": "Welke kies jij?",
+        "collection": "wasmiddel"
+      }
+    },
+    "feature_image_YtQ3eD": {
+      "type": "feature_image",
+      "disabled": true,
+      "settings": {
+        "desk_img": "shopify:\/\/shop_images\/Frame_237_1.png",
+        "mob_img": "shopify:\/\/shop_images\/Frame_237.png"
+      }
+    },
+    "comparison_section_fTyDez": {
+      "type": "comparison-section",
+      "blocks": {
+        "col_1_CJdWfp": {
+          "type": "col-1",
+          "settings": {
+            "hdingfirst": "Prijs of the product",
+            "hdingsecond": "plasticvrij",
+            "hdingthirr": "Vegan",
+            "hdingfrrr": "Makkelijk Te doseRen",
+            "hdingfvv": "Ook Voor op reis",
+            "hdingsxx": "",
+            "hdingsvnn": "",
+            "hdinettt": "",
+            "hdinnnnt": ""
+          }
+        },
+        "col_2_dHayM4": {
+          "type": "col-2",
+          "settings": {
+            "backgroundColor": "#f17f41",
+            "imgcol": "shopify:\/\/shop_images\/Ontwerp_zonder_titel_fb190d09-1e5d-4eb2-8af8-708d1b9d5f0f.png",
+            "imghding": "",
+            "heading": "€0,29*",
+            "htmlone": "<svg width=\"32\" height=\"32\" viewbox=\"0 0 32 32\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<rect width=\"32\" height=\"32\" rx=\"8\" fill=\"#F17F41\"><\/rect>\n<path d=\"M11.1994 16.6L14.3994 19.8L20.7994 13.4\" stroke=\"white\" stroke-width=\"2.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<\/svg>",
+            "htmltwo": "<svg width=\"32\" height=\"32\" viewbox=\"0 0 32 32\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<rect width=\"32\" height=\"32\" rx=\"8\" fill=\"#F17F41\"><\/rect>\n<path d=\"M11.1994 16.6L14.3994 19.8L20.7994 13.4\" stroke=\"white\" stroke-width=\"2.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<\/svg>",
+            "htmlthre": "<svg width=\"32\" height=\"32\" viewbox=\"0 0 32 32\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<rect width=\"32\" height=\"32\" rx=\"8\" fill=\"#F17F41\"><\/rect>\n<path d=\"M11.1994 16.6L14.3994 19.8L20.7994 13.4\" stroke=\"white\" stroke-width=\"2.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<\/svg>",
+            "htmlfour": "<svg width=\"32\" height=\"32\" viewbox=\"0 0 32 32\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<rect width=\"32\" height=\"32\" rx=\"8\" fill=\"#F17F41\"><\/rect>\n<path d=\"M11.1994 16.6L14.3994 19.8L20.7994 13.4\" stroke=\"white\" stroke-width=\"2.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<\/svg>",
+            "htmlfive": "",
+            "htmlsix": "",
+            "htmlseven": "",
+            "htmleight": ""
+          }
+        },
+        "col_3_FjJLp6": {
+          "type": "col-3",
+          "settings": {
+            "colimg2": "shopify:\/\/shop_images\/Rectangle_82.png",
+            "col2imghding": "",
+            "col2heading": "€0,52*",
+            "col3htmlone": "<svg width=\"33\" height=\"32\" viewbox=\"0 0 33 32\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<path d=\"M9.87863 22.7886L23.4551 9.21216\" stroke=\"#90D5E4\" stroke-width=\"2.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<path d=\"M9.87863 9.21237L23.4551 22.7888\" stroke=\"#90D5E4\" stroke-width=\"2.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<\/svg>",
+            "col3htmltwo": "<svg width=\"33\" height=\"32\" viewbox=\"0 0 33 32\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<path d=\"M9.87863 22.7886L23.4551 9.21216\" stroke=\"#90D5E4\" stroke-width=\"2.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<path d=\"M9.87863 9.21237L23.4551 22.7888\" stroke=\"#90D5E4\" stroke-width=\"2.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<\/svg>",
+            "col3htmlthre": "<svg width=\"32\" height=\"32\" viewbox=\"0 0 32 32\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<rect width=\"32\" height=\"32\" rx=\"8\" fill=\"#F17F41\"><\/rect>\n<path d=\"M11.1994 16.6L14.3994 19.8L20.7994 13.4\" stroke=\"white\" stroke-width=\"2.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<\/svg>",
+            "col3htmlhh": "<svg width=\"33\" height=\"32\" viewbox=\"0 0 33 32\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<path d=\"M9.87863 22.7886L23.4551 9.21216\" stroke=\"#90D5E4\" stroke-width=\"2.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<path d=\"M9.87863 9.21237L23.4551 22.7888\" stroke=\"#90D5E4\" stroke-width=\"2.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<\/svg>",
+            "col3htmlfive": "",
+            "col3htmlsix": "",
+            "htmlggcol3": "",
+            "htmldfcol3": ""
+          }
+        },
+        "col_4_nHReTy": {
+          "type": "col-4",
+          "settings": {
+            "thirdimg2": "shopify:\/\/shop_images\/Rectangle_84.png",
+            "thirdimghding": "",
+            "thirdheading": "€0,45*",
+            "thirdhtmlone": "<svg width=\"33\" height=\"32\" viewbox=\"0 0 33 32\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<path d=\"M9.87863 22.7886L23.4551 9.21216\" stroke=\"#90D5E4\" stroke-width=\"2.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<path d=\"M9.87863 9.21237L23.4551 22.7888\" stroke=\"#90D5E4\" stroke-width=\"2.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<\/svg>",
+            "thirdhtmltwo": "<svg width=\"33\" height=\"32\" viewbox=\"0 0 33 32\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<path d=\"M9.87863 22.7886L23.4551 9.21216\" stroke=\"#90D5E4\" stroke-width=\"2.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<path d=\"M9.87863 9.21237L23.4551 22.7888\" stroke=\"#90D5E4\" stroke-width=\"2.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<\/svg>",
+            "thirdhtmlthre": "<svg width=\"33\" height=\"32\" viewbox=\"0 0 33 32\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<path d=\"M9.87863 22.7886L23.4551 9.21216\" stroke=\"#90D5E4\" stroke-width=\"2.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<path d=\"M9.87863 9.21237L23.4551 22.7888\" stroke=\"#90D5E4\" stroke-width=\"2.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<\/svg>",
+            "thirdhtmlhh": "<svg width=\"33\" height=\"32\" viewbox=\"0 0 33 32\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<path d=\"M9.87863 22.7886L23.4551 9.21216\" stroke=\"#90D5E4\" stroke-width=\"2.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<path d=\"M9.87863 9.21237L23.4551 22.7888\" stroke=\"#90D5E4\" stroke-width=\"2.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<\/svg>",
+            "thirdhtmlfive": "",
+            "thirdhtmlsix": "",
+            "thirdgg": "",
+            "thirddfcol3": ""
+          }
+        },
+        "col_5_hQKkkU": {
+          "type": "col-5",
+          "settings": {
+            "fourimg2": "shopify:\/\/shop_images\/Rectangle_84_1.png",
+            "fourhding": "",
+            "fourheading": "€0,44*",
+            "fourhtmlone": "<svg width=\"32\" height=\"32\" viewbox=\"0 0 32 32\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<rect width=\"32\" height=\"32\" rx=\"8\" fill=\"#F17F41\"><\/rect>\n<path d=\"M11.1994 16.6L14.3994 19.8L20.7994 13.4\" stroke=\"white\" stroke-width=\"2.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<\/svg>",
+            "fourhtmltwo": "<svg width=\"33\" height=\"32\" viewbox=\"0 0 33 32\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<path d=\"M9.87863 22.7886L23.4551 9.21216\" stroke=\"#90D5E4\" stroke-width=\"2.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<path d=\"M9.87863 9.21237L23.4551 22.7888\" stroke=\"#90D5E4\" stroke-width=\"2.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<\/svg>",
+            "fourhtmlthre": "<svg width=\"33\" height=\"32\" viewbox=\"0 0 33 32\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<path d=\"M9.87863 22.7886L23.4551 9.21216\" stroke=\"#90D5E4\" stroke-width=\"2.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<path d=\"M9.87863 9.21237L23.4551 22.7888\" stroke=\"#90D5E4\" stroke-width=\"2.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<\/svg>",
+            "fourhtmlhh": "<svg width=\"33\" height=\"32\" viewbox=\"0 0 33 32\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<path d=\"M9.87863 22.7886L23.4551 9.21216\" stroke=\"#90D5E4\" stroke-width=\"2.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<path d=\"M9.87863 9.21237L23.4551 22.7888\" stroke=\"#90D5E4\" stroke-width=\"2.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<\/svg>",
+            "fourhtml": "",
+            "fourhtmlcol": "",
+            "fourdgg": "",
+            "fourdfcol3": ""
+          }
+        }
+      },
+      "block_order": [
+        "col_1_CJdWfp",
+        "col_2_dHayM4",
+        "col_3_FjJLp6",
+        "col_4_nHReTy",
+        "col_5_hQKkkU"
+      ],
+      "settings": {
+        "main_paragraph": "<p>* Prijzen zijn gebaseerd op test bontwasmiddelen van de consumentenbond september 2023. <a href=\"https:\/\/www.consumentenbond.nl\/wasmachine\/test-wasmiddelen#paywall\" title=\"https:\/\/www.consumentenbond.nl\/wasmachine\/test-wasmiddelen#paywall\">Bekijk hier.<\/a><\/p>"
+      }
+    },
+    "video_with_content_czLigD": {
+      "type": "video_with_content",
+      "blocks": {
+        "description_txGNbd": {
+          "type": "description",
+          "settings": {
+            "description": "<ol><li>Neem een hele of halve wasstrip  <\/li><li>Plaats de wasstrip in de wastrommel<\/li><li>Leg je wasgoed er bovenop<\/li><li>Kies het juiste wasprogramma<\/li><\/ol>"
+          }
+        }
+      },
+      "block_order": [
+        "description_txGNbd"
+      ],
+      "settings": {
+        "heading": "Hoe werkt het?",
+        "video": "shopify:\/\/files\/videos\/dummy.mp4"
+      }
+    },
+    "custom_reviews_74wF9T": {
+      "type": "custom_reviews",
+      "blocks": {
+        "main_reviews_NXNmaD": {
+          "type": "main_reviews",
+          "settings": {
+            "reviewer_image": "shopify:\/\/shop_images\/Photo_3.png",
+            "reviewer_start": "five",
+            "reviewer_name": "Sanne de Vries",
+            "reviewer_review": "<p>Dankzij deze milieuvriendelijke wasstrips geen gedoe meer met plastic flessen.<\/p>"
+          }
+        },
+        "main_reviews_yXEHe6": {
+          "type": "main_reviews",
+          "settings": {
+            "reviewer_image": "shopify:\/\/shop_images\/Photo_4.png",
+            "reviewer_start": "five",
+            "reviewer_name": "Lars",
+            "reviewer_review": "<p>Top wasstrips, lekker makkelijk.<\/p>"
+          }
+        },
+        "main_reviews_yEhaEi": {
+          "type": "main_reviews",
+          "settings": {
+            "reviewer_image": "shopify:\/\/shop_images\/Photo_5.png",
+            "reviewer_start": "five",
+            "reviewer_name": "Marieke Jansen",
+            "reviewer_review": "<p>Super blij met mijn wasstrips van Bliss. <\/p>"
+          }
+        },
+        "main_reviews_BbLk7g": {
+          "type": "main_reviews",
+          "settings": {
+            "reviewer_image": "shopify:\/\/shop_images\/Photo_6.png",
+            "reviewer_start": "five",
+            "reviewer_name": "Ingrid",
+            "reviewer_review": "<p>Ik heb de wasstrips meegenomen op vakantie, ideaal.<\/p>"
+          }
+        },
+        "main_reviews_g8mAbg": {
+          "type": "main_reviews",
+          "settings": {
+            "reviewer_image": "shopify:\/\/shop_images\/Photo_4.png",
+            "reviewer_start": "five",
+            "reviewer_name": "Lisa",
+            "reviewer_review": "<p>Super makkelijk te doseren voor kleine wasjes. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "main_reviews_NXNmaD",
+        "main_reviews_yXEHe6",
+        "main_reviews_yEhaEi",
+        "main_reviews_BbLk7g",
+        "main_reviews_g8mAbg"
+      ],
+      "settings": {
+        "heading": "Wat zeggen onze klanten"
+      }
+    },
+    "bliss_repeat_xz6UNm": {
+      "type": "Bliss_repeat",
+      "blocks": {
+        "icon_content_aqdizC": {
+          "type": "icon_content",
+          "settings": {
+            "Html": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"30\" height=\"29\" viewbox=\"0 0 30 29\" fill=\"none\">\n  <path d=\"M1.66699 6.22206V20.8887C1.66699 21.427 1.99064 21.9125 2.4875 22.1195L15.0003 27.3332M1.66699 6.22206L13.9747 1.09385C14.6311 0.82035 15.3696 0.82035 16.026 1.09385L21.667 3.44428M1.66699 6.22206L8.33366 8.99984M15.0003 11.7776V27.3332M15.0003 11.7776L28.3337 6.22206M15.0003 11.7776L8.33366 8.99984M15.0003 27.3332L27.5131 22.1195C28.01 21.9125 28.3337 21.427 28.3337 20.8887V6.22206M28.3337 6.22206L21.667 3.44428M8.33366 8.99984L21.667 3.44428\" stroke=\"#90D5E4\" stroke-width=\"1.5\" stroke-linejoin=\"round\"><\/path>\n<\/svg>",
+            "icon_heading": "Extra Korting",
+            "cont": "<p>Krijg extra korting met BlissRepeat<\/p>"
+          }
+        },
+        "icon_content_j8qTh4": {
+          "type": "icon_content",
+          "settings": {
+            "Html": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"25\" height=\"24\" viewbox=\"0 0 25 24\" fill=\"none\">\n  <path d=\"M8.25625 4.65063C9.61164 3.86809 11.157 3.47561 12.7216 3.51658C14.2861 3.55755 15.8089 4.03037 17.1214 4.88277C18.434 5.73517 19.4853 6.93395 20.1591 8.34656C20.8329 9.75918 21.1029 11.3306 20.9393 12.8871M7.88375 1.39213L6.87803 4.6816C6.70674 5.24186 7.02206 5.8349 7.58232 6.0062L10.8718 7.01192M16.7427 19.3494C15.3873 20.1319 13.8419 20.5244 12.2774 20.4834C10.7128 20.4424 9.1901 19.9696 7.87752 19.1172C6.56493 18.2648 5.51364 17.066 4.83986 15.6534C4.16607 14.2408 3.89605 12.6694 4.05965 11.1129M17.1152 22.6079L18.1209 19.3184C18.2922 18.7581 17.9769 18.1651 17.4166 17.9938L14.1272 16.9881\" stroke=\"#90D5E4\" stroke-width=\"1.5\" stroke-linecap=\"round\"><\/path>\n<\/svg>",
+            "icon_heading": "Pas makkelijk aan",
+            "cont": "<p>Stop, verander of sla een maand over<\/p>"
+          }
+        },
+        "icon_content_c38JWQ": {
+          "type": "icon_content",
+          "settings": {
+            "Html": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"27\" height=\"26\" viewbox=\"0 0 27 26\" fill=\"none\">\n  <path d=\"M1.78681 22.6351L2.49396 22.8849L2.49396 22.8849L1.78681 22.6351ZM3.6243 24.4726L3.37442 23.7654H3.37442L3.6243 24.4726ZM6.65142 23.4029L6.9013 24.1101L6.65142 23.4029ZM7.6898 23.5021L8.05347 22.8462L7.6898 23.5021ZM2.82124 18.4795L2.15423 18.8224L2.82124 18.4795ZM2.90075 19.4826L2.1936 19.2327L2.90075 19.4826ZM2.25 13C2.25 6.7868 7.2868 1.75 13.5 1.75V0.25C6.45837 0.25 0.75 5.95837 0.75 13H2.25ZM3.48824 18.1365C2.69696 16.5975 2.25 14.8521 2.25 13H0.75C0.75 15.0961 1.25642 17.0762 2.15423 18.8224L3.48824 18.1365ZM2.49396 22.8849L3.6079 19.7325L2.1936 19.2327L1.07966 22.3852L2.49396 22.8849ZM3.37442 23.7654C2.82752 23.9587 2.3007 23.4318 2.49396 22.8849L1.07966 22.3852C0.466292 24.121 2.13835 25.7931 3.87417 25.1797L3.37442 23.7654ZM6.40155 22.6958L3.37442 23.7654L3.87417 25.1797L6.9013 24.1101L6.40155 22.6958ZM13.5 24.25C11.5226 24.25 9.66652 23.7405 8.05347 22.8462L7.32614 24.158C9.15606 25.1726 11.2617 25.75 13.5 25.75V24.25ZM24.75 13C24.75 19.2132 19.7132 24.25 13.5 24.25V25.75C20.5416 25.75 26.25 20.0416 26.25 13H24.75ZM13.5 1.75C19.7132 1.75 24.75 6.7868 24.75 13H26.25C26.25 5.95837 20.5416 0.25 13.5 0.25V1.75ZM6.9013 24.1101C7.02393 24.0667 7.17872 24.0763 7.32614 24.158L8.05347 22.8462C7.56486 22.5753 6.9646 22.4968 6.40155 22.6958L6.9013 24.1101ZM2.15423 18.8224C2.22824 18.9664 2.23529 19.1147 2.1936 19.2327L3.6079 19.7325C3.79919 19.1911 3.73398 18.6145 3.48824 18.1365L2.15423 18.8224Z\" fill=\"#90D5E4\"><\/path>\n  <circle cx=\"7.56055\" cy=\"13.0596\" r=\"1.5\" fill=\"#90D5E4\"><\/circle>\n  <circle cx=\"13.5605\" cy=\"13.0596\" r=\"1.5\" fill=\"#90D5E4\"><\/circle>\n  <circle cx=\"19.5605\" cy=\"13.0596\" r=\"1.5\" fill=\"#90D5E4\"><\/circle>\n<\/svg>",
+            "icon_heading": "Gratis Thuisbezorgd",
+            "cont": "<p>Je Bliss Repeat verzending is altijd gratis<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "icon_content_aqdizC",
+        "icon_content_j8qTh4",
+        "icon_content_c38JWQ"
+      ],
+      "settings": {
+        "heading": "Bliss repeat",
+        "sub_heading": "Onze service die periodiek Bliss producten bij jou thuis bezorgt. Jij kiest wanneer en hoe vaak.",
+        "button_link": "#",
+        "button_label": "START NU"
+      }
+    },
+    "accordion_b7bP7j": {
+      "type": "accordion",
+      "blocks": {
+        "accordion_xgPzCQ": {
+          "type": "accordion",
+          "settings": {
+            "accordion_title": "Wat zijn wasmiddelstrips?",
+            "accordion_content": "<p>Wasmiddelstrips zijn dunne, oplosbare stroken geconcentreerd wasmiddel. Ze zijn licht van gewicht en compact, waardoor ze makkelijk op te bergen en mee te nemen zijn. Je legt simpelweg een strip in de wasmachine, waar deze oplost en je kleding schoonmaakt. Ze zijn vaak milieuvriendelijker dan traditionele vloeibare wasmiddelen, omdat ze minder verpakkingsmateriaal nodig hebben en geen zware flessen zijn om te vervoeren.<\/p>"
+          }
+        },
+        "accordion_9gWcd6": {
+          "type": "accordion",
+          "settings": {
+            "accordion_title": "Zijn Bliss wasstrips even effectief als traditioneel wasmiddel?",
+            "accordion_content": "<p>Wasmiddelstrips zijn net zo effectief als traditioneel wasmiddel, en Bliss gaat zelfs een stap verder. Onze Bliss wasmiddelstrips zijn krachtiger dan reguliere strips. Met een formaat van 12x17 cm en 30% meer gewicht leveren ze extra waskracht voor een brandschoon resultaat. Meer power per strip, voor een stralend schone was!<\/p>"
+          }
+        },
+        "accordion_F9hw6x": {
+          "type": "accordion",
+          "settings": {
+            "accordion_title": "Hoe lang duurt de verzending?",
+            "accordion_content": "<p>Bestelling vóór 15.00 uur: Verzending op dezelfde werkdag.<br\/><br\/>Bestelling na 15.00 uur: Verzending vindt plaats op de eerstvolgende werkdag.<\/p>"
+          }
+        },
+        "accordion_Xb9Mqq": {
+          "type": "accordion",
+          "settings": {
+            "accordion_title": "Voor welke textielsoorten kan ik Bliss gebruiken?",
+            "accordion_content": "<p>Onze wasstrips kan je gebruiken voor elke textielsoort, alleen raden wij af het voor wol en zijde te gebruiken<\/p>"
+          }
+        },
+        "accordion_thdBmM": {
+          "type": "accordion",
+          "settings": {
+            "accordion_title": "Hoe te doseren?",
+            "accordion_content": "<p>Gebruik een halve wasstrip voor een kleine was en gebruik een hele wasstrip bij een grote of sterk vervuilde was. <\/p>"
+          }
+        },
+        "accordion_GGtaaj": {
+          "type": "accordion",
+          "settings": {
+            "accordion_title": "Ruikt Bliss wasmiddel lekker?",
+            "accordion_content": "<p>Bliss wasstrips bevatten natuurlijke geurstoffen. <br\/><br\/>Gebruik de Bliss geurbooster voor een heerlijke geur langdurige geur. We raden dit vooral aan voor beddengoed, sportkleding en badtextiel. <\/p>"
+          }
+        },
+        "accordion_PLMeHg": {
+          "type": "accordion",
+          "settings": {
+            "accordion_title": "Wat is de missie van Bliss",
+            "accordion_content": "<p>Met Bliss Eco Clean willen we meer doen dan wassen; we willen een beweging creëren. Vanuit een gedeelde zorg voor onze prachtige planeet zijn we begonnen aan een missie om dagelijkse keuzes duurzamer te maken. Met oog voor het milieu en een passie voor kwaliteit hopen we mensen te inspireren om deel uit te maken van deze verandering.<br\/><br\/>Samen fleuren wij de wereld op, één wasje per keer! Het is onze missie om de aarde een beetje frisser te<br\/>maken.Doe je mee?<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "accordion_xgPzCQ",
+        "accordion_9gWcd6",
+        "accordion_F9hw6x",
+        "accordion_Xb9Mqq",
+        "accordion_thdBmM",
+        "accordion_GGtaaj",
+        "accordion_PLMeHg"
+      ],
+      "settings": {
+        "show_on": "both",
+        "heading": "Populaire vragen",
+        "sub_heading": ""
+      }
+    },
+    "custom_newsletter_xxMNjh": {
+      "type": "custom_newsletter",
+      "settings": {
+        "heading": "Ontvang 10% korting op je eerste bestelling",
+        "sub_heading": "We houden het graag netjes, ook in jouw mailbox!",
+        "button_label": "ik wil 10% korting"
+      }
+    },
+    "pagefly-home": {
+      "type": "pagefly-home",
+      "disabled": true,
+      "settings": {}
+    }
+  },
+  "order": [
+    "image_content_overlay_B3LeLH",
+    "image_with_text_blocks_H7neXt",
+    "image_with_content_cGLgBD",
+    "custom_feature_collection_LptGjW",
+    "feature_image_YtQ3eD",
+    "comparison_section_fTyDez",
+    "video_with_content_czLigD",
+    "custom_reviews_74wF9T",
+    "bliss_repeat_xz6UNm",
+    "accordion_b7bP7j",
+    "custom_newsletter_xxMNjh",
+    "pagefly-home"
+  ]
+}

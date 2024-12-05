@@ -1,0 +1,53 @@
+<style>
+  .feature_collection_products_mobile .custom_pro_card {
+    width: 100%;
+}
+</style>
+<div class="custom_feature_collection_wrp">
+  <div class="Container">
+    <div class="custom_feature_collection_inner">
+      <div class="feature_section_header">
+        <h2 class="heading-medium">{{ section.settings.heading }}</h2>
+      </div>
+      <div class="feature_sec_body">
+        <div class="feature_collection_products only_desktop">
+          {% for product in section.settings.collection.products %}
+            <div class="custom_pro_card">
+           {%- render 'product-item', product: product, show_product_info: true, show_vendor: false, show_color_swatch: false, show_labels: false -%}
+            </div>
+          {% endfor %}
+        </div>
+
+         <div class="feature_collection_products_mobile only_mobile" data-flickity='{ "autoPlay": true , "draggable": true}'>
+          {% for product in section.settings.collection.products %}
+            <div class="custom_pro_card">
+           {%- render 'product-item', product: product, show_product_info: true, show_vendor: false, show_color_swatch: false, show_labels: false -%}
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% schema %}
+  {
+    "name": "Custom Feature Collection",
+    "settings": [
+      {
+        "type": "text",
+        "id": "heading",
+        "label": "Heading"
+      },
+      {
+        "type": "collection",
+        "id": "collection",
+        "label": "Collection"
+      }
+    ],
+    "presets": [
+        {
+          "name": "Custom Feature Collection"
+        }
+    ]
+  }
+{% endschema %}

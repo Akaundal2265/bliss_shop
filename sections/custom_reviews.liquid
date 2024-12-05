@@ -1,0 +1,168 @@
+<div class="custom_reviews_wrp">
+  <div class="Container review-relative">
+    {% if section.settings.heading != blank %}
+      <div class="feature_section_header">
+        <h2 class="heading-medium">{{ section.settings.heading }}</h2>
+      </div>
+    {% endif %}
+    <div class="swiper mySwiper">
+    <div class="custom_reviews_inner swiper-wrapper">
+      {% for block in section.blocks %}
+        {% case block.type %}
+          {% when 'main_reviews' %}
+            <div class="ctm_review_card swiper-slide">
+              <div class="reviewer_image">
+                {% if block.settings.reviewer_image != blank -%}
+                  <img src="{{ block.settings.reviewer_image | img_url:'master' }}" height="" width="">
+                {%- endif %}
+              </div>
+              <div class="reviewer_start">
+                {% assign starts_get = block.settings.reviewer_start %}
+                {% if starts_get == 'one' %}
+                {% render 'icons_all', icon: 'review_star' %}
+                  
+                {% elsif starts_get == 'two' %}
+                {% render 'icons_all', icon: 'review_star' %}{% render 'icons_all', icon: 'review_star' %}
+                  
+                {% elsif starts_get == 'three' %}
+                  {% render 'icons_all', icon: 'review_star' %}{% render 'icons_all', icon: 'review_star' %}{% render 'icons_all', icon: 'review_star' %}
+
+                {% elsif starts_get == 'four' %}
+                  {% render 'icons_all', icon: 'review_star' %}{% render 'icons_all', icon: 'review_star' %}{% render 'icons_all', icon: 'review_star' %}{% render 'icons_all', icon: 'review_star' %}
+                  
+                {% elsif starts_get == 'five' %}
+                  {% render 'icons_all', icon: 'review_star' %}{% render 'icons_all', icon: 'review_star' %}{% render 'icons_all', icon: 'review_star' %}{% render 'icons_all', icon: 'review_star' %}{% render 'icons_all', icon: 'review_star' %}
+                  
+                {% endif %}
+              </div>
+              <div class="reviewer_name">
+                <h2>{{ block.settings.reviewer_name }}</h2>
+              </div>
+              <div class="reviewer_review">
+                {{ block.settings.reviewer_review }}
+              </div>
+            </div>
+        {% endcase %}
+      {% endfor %}
+    </div>
+    <div class="ctm_swiper-button-next"></div>
+    <div class="ctm_swiper-button-prev"></div>
+    </div>
+    <div class="swiper-button-next swiper-button-next-click"></div>
+    <div class="swiper-button-prev swiper-button-prev-click"></div>
+  </div>
+</div>
+<script>
+  const swiper = new Swiper('.swiper', {
+  loop: true,
+  // centeredSlides: true,
+  breakpoints: {
+    320: {
+      slidesPerView: 1.4,
+      spaceBetween: 10
+    },
+    749: {
+      slidesPerView: 2.4,
+      spaceBetween: 10
+    },
+    1025: {
+      slidesPerView: 4,
+      spaceBetween: 14,
+       navigation: {
+    nextEl: '.ctm_swiper-button-next',
+    prevEl: '.ctm_swiper-button-prev',
+  }
+    }
+  }
+});
+  $('.swiper-button-next.swiper-button-next-click').on('click',function(){
+   $('.ctm_swiper-button-next').click();
+});
+$('.swiper-button-prev.swiper-button-prev-click').on('click',function(){
+   $('.ctm_swiper-button-prev').click();
+});
+</script>
+{% schema %}
+{
+  "name": "Reviews",
+  "settings": [
+     {
+        "type": "text",
+        "id": "heading",
+        "label": "Heading"
+      }
+  ],
+  "blocks": [
+    {
+      "type": "main_reviews",
+      "name":"Add Reviews",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "reviewer_image",
+          "label": "Stars"
+        },
+        {
+          "type": "select",
+          "id": "reviewer_start",
+          "label": "Starts",
+          "options": [
+            {
+              "value": "one",
+              "label": "1 Star"
+            },
+             {
+              "value": "two",
+              "label": "2 Star"
+            },
+             {
+              "value": "three",
+              "label": "3 Star"
+            },
+             {
+              "value": "four",
+              "label": "4 Star"
+            },
+             {
+              "value": "five",
+              "label": "5 Star"
+            }
+          ],
+          "default": "five"
+        },
+        {
+          "type": "text",
+          "id": "reviewer_name",
+          "label": "Reviewer Name",
+          "default": "John Smith"
+        },
+        {
+          "type": "richtext",
+          "id": "reviewer_review",
+          "label": "Reviewer Review",
+          "default": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>"
+        }
+      ]
+    }
+  ],
+  "presets": [
+      {
+        "name": "Reviews",
+        "blocks": [
+          {
+             "type": "main_reviews"
+          },
+           {
+             "type": "main_reviews"
+          },
+           {
+             "type": "main_reviews"
+          },
+           {
+             "type": "main_reviews"
+          }
+        ]
+      }
+  ]
+}
+{% endschema %}
