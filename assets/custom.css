@@ -2216,6 +2216,7 @@ a#cart-icon-bubble .cart-count-bubble {
     display: flex;
     gap: 20px;
     text-align: center;
+    justify-content:center;
 }
   .recommend-bliss_icontxt {
     font-family: Mada, sans-serif !important;
