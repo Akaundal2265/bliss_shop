@@ -457,7 +457,10 @@ var pid=$(this).attr('pid');
      <div class="summary__title"><h2 class="h3 accordion__title"> {{ block.settings.coll-heading }}</h2></div>
     
   <div class="recommended-img-wrapper">
-   
+    {% assign pro11=product.handle %}
+    {% assign fldnem=block.settings.pro1 %}
+    
+   {% if pro11 == fldnem %}
     <div class="recommended-bliss-box">
       
           <img class="recomm-img" src="{{ block.settings.image | img_url : 'master'}}">
@@ -468,6 +471,11 @@ var pid=$(this).attr('pid');
         <Div class="addcrtecmnd">  <img  pid="{{ prodink.first_available_variant.id }}" src="{{ block.settings.imagecart | img_url : 'master'}}"></Div>
     
     </div>
+    {% endif %}
+    {% assign pro12=product.handle %}
+    {% assign fldnem=block.settings.pro2 %}
+    
+   {% if pro12 == fldnem %}
     <div class="recommended-bliss-box">
       
           <img class="recomm-img" src="{{ block.settings.image23 | img_url : 'master'}}">
@@ -479,7 +487,7 @@ var pid=$(this).attr('pid');
            <Div class="addcrtecmnd">     <img pid="{{ prodink2.first_available_variant.id }}" src="{{ block.settings.imagecart2 | img_url : 'master'}}"></Div>
     
     </div>
-
+{% endif %}
   </div>
 </div>
  
