@@ -477,15 +477,14 @@ var pid=$(this).attr('pid');
     
    {% if pro12 == fldnem2 %}
     <div class="recommended-bliss-box">
-      
-          <img class="recomm-img" src="{{ block.settings.image23 | img_url : 'master'}}">
-   {% assign  prodink2 = block.settings.title-link1 %}  
-      <a href="{{ prodink2.url }}" class="recommend-bliss_icontxt"> {{ block.settings.title1 }} </a>
+       {% assign  prodink2 = block.settings.title-link1 %}  
+            <img class="recomm-img" src="{{ prodink2.featured_image | img_url : 'master'}}">
+       <a  href="{{ prodink2.url }}" class="recommend-bliss_icontxt"> {{ prodink2.title }} </a>
          <div class="price__container">
-            <span class="price-item price-item--regular"> {{ block.settings.price1 }} </span>
-         </div>
-           <Div class="addcrtecmnd">     <img pid="{{ prodink2.first_available_variant.id }}" src="{{ block.settings.imagecart | img_url : 'master'}}"></Div>
-    
+            <span class="price-item price-item--regular"> {{ prodink2.price | money }} </span>
+         </div> 
+        <Div class="addcrtecmnd">  <img  pid="{{ prodink2.first_available_variant.id }}" src="{{ block.settings.imagecart | img_url : 'master'}}"></Div>
+
     </div>
 {% endif %}
   </div>
