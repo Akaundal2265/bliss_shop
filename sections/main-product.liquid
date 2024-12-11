@@ -147,7 +147,7 @@
               var hed=$('.product__title h1').text();
   var imgs=$('ul.product__media-list.contains-media li:first-child').find('.product__media img').attr('src')
  
-  var seclt='<div class="cart-notification-product__image global-media-settings"> <img src="'+imgs+'" alt="" width="70" height="47" loading="lazy"> </div><div><h3 class="cart-notification-product__name h4">'+hed+' </h3><dl>  </dl></div>'
+  var seclt='<div class="cart-notification-product__image global-media-settings"> <img src="'+img+'" alt="" width="70" height="47" loading="lazy"> </div><div><h3 class="cart-notification-product__name h4">'+title+' </h3><dl>  </dl></div>'
  
     $.ajax({
         type: 'POST',
