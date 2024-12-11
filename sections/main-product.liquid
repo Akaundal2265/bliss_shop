@@ -463,7 +463,7 @@ var pid=$(this).attr('pid');
     {% assign fldnem=block.settings.pro1 %}
     
    {% if pro11 == fldnem %}
-    <div class="recommended-bliss-box hii">
+    <div class="recommended-bliss-box">
        {% assign  prodink = block.settings.title-link %} 
           <img class="recomm-img" src="{{ prodink.featured_image | img_url : 'master'}}">
        <a  href="{{ prodink.url }}" class="recommend-bliss_icontxt"> {{ prodink.title }} </a>
