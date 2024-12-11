@@ -468,7 +468,7 @@ var pid=$(this).attr('pid');
          <div class="price__container">
             <span class="price-item price-item--regular"> {{ prodink.price | money }} </span>
          </div> 
-        <Div class="addcrtecmnd">  <img  pid="{{ prodink.first_available_variant.id }}" src="{{ block.settings.imagecart2 | img_url : 'master'}}"></Div>
+        <Div class="addcrtecmnd">  <img  pid="{{ prodink.first_available_variant.id }}" src="{{ block.settings.imagecart | img_url : 'master'}}"></Div>
     
     </div>
     {% endif %}
@@ -484,7 +484,7 @@ var pid=$(this).attr('pid');
          <div class="price__container">
             <span class="price-item price-item--regular"> {{ block.settings.price1 }} </span>
          </div>
-           <Div class="addcrtecmnd">     <img pid="{{ prodink2.first_available_variant.id }}" src="{{ block.settings.imagecart2 | img_url : 'master'}}"></Div>
+           <Div class="addcrtecmnd">     <img pid="{{ prodink2.first_available_variant.id }}" src="{{ block.settings.imagecart | img_url : 'master'}}"></Div>
     
     </div>
 {% endif %}
