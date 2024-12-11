@@ -28,11 +28,11 @@
           "type": "Benefit-box",
           "settings": {
             "plastic-text-img": "shopify://shop_images/icons.png",
-            "plastic-text": "Plastic Free",
+            "plastic-text": "Plasticvrij",
             "phosphates-text-img": "shopify://shop_images/image_7.png",
-            "phosphates-text": "No Bleach pr Phosphates",
+            "phosphates-text": "Zonder bleekmiddel of fosfaten",
             "formula-text-img": "shopify://shop_images/icons_1.png",
-            "formula-text": "Proven Formula",
+            "formula-text": "Bewezen formule",
             "biologisch-text-img": "shopify://shop_images/image_8.png",
             "biologisch-text": "Biologisch Aftbreekbaar"
           }
