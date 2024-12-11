@@ -463,11 +463,11 @@ var pid=$(this).attr('pid');
     {% assign fldnem=block.settings.pro1 %}
     
    {% if pro11 == fldnem %}
-    <div class="recommended-bliss-box">
+    <div class="recommended-bliss-box hii">
        {% assign  prodink = block.settings.title-link %} 
           <img class="recomm-img" src="{{ prodink.featured_image | img_url : 'master'}}">
        <a  href="{{ prodink.url }}" class="recommend-bliss_icontxt"> {{ prodink.title }} </a>
-         <div class="price__container j">
+         <div class="price__container">
             <span class="price-item price-item--regular"> {{ prodink.price | money }} </span>
          </div> 
         <Div class="addcrtecmnd">  <img  pid="{{ prodink.first_available_variant.id }}" feturedimg="{{ prodink.featured_image | img_url : 'master' }}"  title="{{prodink.title}}" src="{{ block.settings.imagecart | img_url : 'master'}}"></Div>
