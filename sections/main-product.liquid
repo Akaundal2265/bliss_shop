@@ -143,7 +143,7 @@
     });
 }
 
-              function addToCart2(variants) {
+              function addToCart2(variants,title,img) {
               var hed=$('.product__title h1').text();
   var imgs=$('ul.product__media-list.contains-media li:first-child').find('.product__media img').attr('src')
  
@@ -193,6 +193,8 @@ $('.add-to-cart-button').on('click', function() {
 
           $('.addcrtecmnd img').on('click', function() {
 var pid=$(this).attr('pid');
+            var img=$(this).attr('feturedimg')
+            var title=$(this).attr('title')
             $('.insert_val').text('')
             $('.insert_val').text(pid)
     var variantIdsString = $('.insert_val').text().trim().replace(/,$/, '');; // Get the input value
@@ -209,7 +211,7 @@ var pid=$(this).attr('pid');
     });
  
     // Call the addToCart function with the array of variants
-    addToCart2(variants);
+    addToCart2(variants,title,img);
 });
 
           
