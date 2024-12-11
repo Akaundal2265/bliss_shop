@@ -9,47 +9,6 @@
  */
 {
   "sections": {
-    "bliss_gekleurde_text_icon_JThiFb": {
-      "type": "bliss-gekleurde-text-icon",
-      "blocks": {
-        "image_box_tj9tez": {
-          "type": "Image-box",
-          "settings": {
-            "image": "shopify://shop_images/icons.png",
-            "title": "Plasticvrij"
-          }
-        },
-        "image_box_YqMUEK": {
-          "type": "Image-box",
-          "settings": {
-            "image": "shopify://shop_images/image_7.png",
-            "title": "Geen bleek of fosfaten"
-          }
-        },
-        "image_box_TjCHJW": {
-          "type": "Image-box",
-          "settings": {
-            "image": "shopify://shop_images/icons_1.png",
-            "title": "Bewezen formule"
-          }
-        },
-        "image_box_GWbVqz": {
-          "type": "Image-box",
-          "settings": {
-            "image": "shopify://shop_images/image_8.png",
-            "title": "Biologisch Aftbreekbaar"
-          }
-        }
-      },
-      "block_order": [
-        "image_box_tj9tez",
-        "image_box_YqMUEK",
-        "image_box_TjCHJW",
-        "image_box_GWbVqz"
-      ],
-      "disabled": true,
-      "settings": {}
-    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -554,7 +513,6 @@
     }
   },
   "order": [
-    "bliss_gekleurde_text_icon_JThiFb",
     "main",
     "image_with_text_blocks_RQQkzk",
     "related-products",
