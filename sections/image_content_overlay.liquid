@@ -1,7 +1,7 @@
 <div class="image_content_overlay_wrp">
   <div class="image_content_overlay_inner">
      <div class="main_imag_wrp">
-       {% if section.settings.image != blank %}<img class=" {% if section.settings.mobile_image != blank %}only_desktop{% endif %} desktop_image" src="{{ section.settings.image | img_url:'master' }}" height="{{ block.settings.mt }}" width="">{% endif %}
+       {% if section.settings.image != blank %}<img class=" {% if section.settings.mobile_image != blank %}only_desktop{% endif %} desktop_image" src="{{ section.settings.image | img_url:'master' }}" height="{{ section.settings.mt }}" width="">{% endif %}
         {% if section.settings.mobile_image != blank %}<img class="only_mobile mobile_image" src="{{ section.settings.mobile_image | img_url:'master' }}" height="{{ section.settings.fmt }}" width="">{% endif %}
      </div>
        <div class="overlay_content_wrp cont_pos_{{ section.settings.content_position }}">
