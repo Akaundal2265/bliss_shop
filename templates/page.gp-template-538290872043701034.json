@@ -1,1 +1,113 @@
-{"sections":{"gp_section_538290888619590803":{"type":"gp-section-538290888619590803","settings":{"section_preload":"true","checksum":"_1_1"}},"gp_section_538290888669922436":{"type":"gp-section-538290888669922436","settings":{"checksum":"_1_1"}},"gp_section_542506231147791268":{"type":"gp-section-542506231147791268","settings":{"checksum":"_1_1"}},"gp_section_538290889223570428":{"type":"gp-section-538290889223570428","settings":{"checksum":"_1_1"}},"gp_section_542506360147805092":{"type":"gp-section-542506360147805092","settings":{"checksum":"_1_1"}},"gp_section_538290888804140164":{"type":"gp-section-538290888804140164","settings":{"checksum":"_1_1"}},"gp_section_538290888770585386":{"type":"gp-section-538290888770585386","settings":{"checksum":"_1_1"}},"gp_section_538290889240347780":{"type":"gp-section-538290889240347780","settings":{"checksum":"_1_1"}}},"order":["gp_section_538290888619590803","gp_section_538290888669922436","gp_section_542506231147791268","gp_section_538290889223570428","gp_section_542506360147805092","gp_section_538290888804140164","gp_section_538290888770585386","gp_section_538290889240347780"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "gp_section_538290888619590803": {
+      "type": "gp-section-538290888619590803",
+      "settings": {
+        "section_preload": "true",
+        "checksum": "_1_1",
+        "ggSeJuhBczS_text": "Ons verhaal",
+        "ggKSw-Ovi1Y_text": "<p>Een schonere wereld begint bij kleine, bewuste keuzes. Bij Bliss Eco Clean delen we een droom: stralend schone was én een gezonde planeet voor toekomstige generaties. Vanuit onze passie voor duurzaamheid en verantwoordelijkheid hebben we Bliss Eco Clean opgericht, een beweging die streeft naar positieve verandering in alledaagse routines.</p>",
+        "ggaHJyQS7ZR_label": "<p>Lees meer</p>"
+      }
+    },
+    "gp_section_538290888669922436": {
+      "type": "gp-section-538290888669922436",
+      "settings": {
+        "section_preload": "false",
+        "checksum": "_1_1",
+        "ggKC1sVXD7z_text": "Ons verhaal",
+        "gglQ6ay79oW_text": "<p>Een schonere wereld begint bij kleine, bewuste keuzes. Bij Bliss Eco Clean delen we een droom: stralend schone was én een gezonde planeet voor toekomstige generaties. Vanuit onze passie voor duurzaamheid en ondernemen hebben we Bliss Eco Clean opgericht, een bedrijf dat streeft naar een schonere wereld door een kleine verandering in alledaagse routines.</p>",
+        "ggHJi_PswIE_text": "<p><span style=\"color:#B4B4B4;\">Nick &amp; Hidde</span></p>"
+      }
+    },
+    "gp_section_542506231147791268": {
+      "type": "gp-section-542506231147791268",
+      "settings": {
+        "section_preload": "false",
+        "checksum": "_1_1",
+        "ggK3TtJg5IJ_text": "Onze missie"
+      }
+    },
+    "gp_section_538290889223570428": {
+      "type": "gp-section-538290889223570428",
+      "settings": {
+        "section_preload": "false",
+        "checksum": "_1_1",
+        "gg6gpdxCEHY_text": "Onze visie",
+        "ggMBcbPnI6s_text": "<p>We zien onze wasstrips als een kleine stap in de richting van iets groters – een groenere toekomst die begint bij bewust wassen. Samen staan we voor een wereld waarin schone was en een schone planeet hand in hand gaan. Wij denken dat als we de duurzame keuze betaalbaar kunnen aanbieden iedereen mee kan helpen aan een schoner milieu!</p>",
+        "ggmbgzZF31l_text": "Onze visie",
+        "ggw2xiBbmdU_text": "Onze missie",
+        "ggwDjIt7-Dc_text": "<p>Met Bliss Eco Clean willen we meer doen dan wassen; we willen een beweging creëren. Vanuit een gedeelde zorg voor onze prachtige planeet zijn we begonnen aan een missie om dagelijkse keuzes duurzamer te maken. Met oog voor het milieu en een passie voor kwaliteit hopen we mensen te inspireren om deel uit te maken van deze verandering.</p>"
+      }
+    },
+    "gp_section_542506360147805092": {
+      "type": "gp-section-542506360147805092",
+      "settings": {
+        "section_preload": "false",
+        "checksum": "_1_1",
+        "ggqlrkU6jIw_text": "<p>Met Bliss Eco Clean willen we meer doen dan wassen; we willen een beweging creëren. Vanuit een gedeelde zorg voor onze prachtige planeet zijn we begonnen aan een missie om dagelijkse keuzes duurzamer te maken. Met oog voor het milieu en een passie voor kwaliteit hopen we mensen te inspireren om deel uit te maken van deze verandering.</p>"
+      }
+    },
+    "gp_section_538290888804140164": {
+      "type": "gp-section-538290888804140164",
+      "settings": {
+        "section_preload": "false",
+        "checksum": "_1_1",
+        "gg4OuL3HPJH_text": "Onze producten",
+        "gg-DYL-rex3_text": "<p> </p><p>Onze producten zijn ontworpen met oog voor zowel effectiviteit als het milieu. Bliss Eco Clean biedt milieuvriendelijke wasstrips en geurparels die de kracht van traditionele wasmiddelen combineren met een duurzame benadering.</p><p><strong>Onze wasstrips</strong> zijn eenvoudig in gebruik, sterk tegen vlekken, en volledig plasticvrij. Ze bevatten geen schadelijke stoffen, zodat elke wasbeurt even goed is voor je kleding als voor de planeet. De wasstrips lossen snel op en zijn perfect gedoseerd voor een schoon en fris resultaat, zonder verspilling of vervuilende verpakking.</p><p><strong>Onze geurparels</strong> voegen een extra dimensie toe aan je wasbeurt met een langdurige, frisse geur die ook milieuvriendelijk is. Net als de wasstrips zijn de geurparels plasticvrij en vrij van schadelijke stoffen, zodat ze je kleding heerlijk laten ruiken zonder het milieu te belasten.</p><p>Beide producten bieden een krachtige, milieubewuste manier om je was te verzorgen, zodat je met een gerust hart kunt bijdragen aan een schonere wereld.</p>",
+        "ggsVqcEdhoP_text": "<p>Krachtig &amp; Milieubewust</p>",
+        "ggzZEB1SfvP_text": "<p>Mileuvriendelijke wasstrips</p>",
+        "gglSth8IdJ0_text": "<p>Milieuvriendelijke geurbooster</p>",
+        "gghz8iaG4Wg_text": "<p>Combineer en bespaar</p><p> </p>"
+      }
+    },
+    "gp_section_538290888770585386": {
+      "type": "gp-section-538290888770585386",
+      "settings": {
+        "section_preload": "false",
+        "checksum": "_1_1",
+        "gg_HfqPWUVI_text": "Blij met een schone was, blijer met een schone planeet",
+        "ggFhHcW1gnM_text": "2000+",
+        "ggzN9_SavI3_text": "<p>Minder plastic flessen gebruikt</p>",
+        "ggJ33aFJJD0_text": "<p>3.2K+</p>",
+        "gg3GqG5MPip_text": "<p>Tevreden klanten</p>",
+        "ggiVKsNDj_4_text": "8+",
+        "ggtaZPwjcXk_text": "<p>Duurzaamheids certificaten </p>"
+      }
+    },
+    "gp_section_538290889240347780": {
+      "type": "gp-section-538290889240347780",
+      "custom_css": [
+        "section {margin-bottom: 50px;}"
+      ],
+      "settings": {
+        "section_preload": "false",
+        "checksum": "_1_1",
+        "gg95rhlF4wV_text": "<p>CONTACT</p>",
+        "ggjC-NmuW37_text": "Heb je een vraag?",
+        "ggGUOnYB1kO_text": "<p>Is er nog iets wat je graag van ons of onze producten wilt weten? Geef ons een belletje of stuur een mailtje dan leggen we je het uit!</p>",
+        "ggftbk1ukYo_label": "<p>Stuur ons een mail</p>",
+        "ggOGcREzb7Y_text": "<p>of bel naar 06 12232321</p>"
+      }
+    }
+  },
+  "order": [
+    "gp_section_538290888619590803",
+    "gp_section_538290888669922436",
+    "gp_section_542506231147791268",
+    "gp_section_538290889223570428",
+    "gp_section_542506360147805092",
+    "gp_section_538290888804140164",
+    "gp_section_538290888770585386",
+    "gp_section_538290889240347780"
+  ]
+}
