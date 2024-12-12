@@ -2288,6 +2288,16 @@ p.add-to-cart-button.noclikd {
 .shopify-policy__container {
     padding-bottom: 60px;
 }
+.shopify-policy__title h1 {
+    color: var(--Orange, #f17f41);
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 36px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    text-align: center;
+    margin-top: 40px;
+}
 /* MEDIA QUERY------------------- */
 @media screen and (min-width: 768px) {
   .custom_reviews_wrp .swiper-button-next {
