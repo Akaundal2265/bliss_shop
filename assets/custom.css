@@ -2286,7 +2286,7 @@ p.add-to-cart-button.noclikd {
     pointer-events: none;
 }
 .shopify-policy__container {
-    padding-bottom: 50px;
+    padding-bottom: 60px;
 }
 /* MEDIA QUERY------------------- */
 @media screen and (min-width: 768px) {
