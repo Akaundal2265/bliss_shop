@@ -438,7 +438,8 @@ img {
 .subscribe-title {
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
+    /* align-items: baseline; */
+      align-items: flex-start;
   cursor:pointer;
 
 }
