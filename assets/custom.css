@@ -2300,11 +2300,11 @@ p.add-to-cart-button.noclikd {
 }
 /* MEDIA QUERY------------------- */
 @media screen and (min-width: 768px) {
-  .image_content_overlay_wrp .main_imag_wrp img {
+  /* .image_content_overlay_wrp .main_imag_wrp img {
     width: 100%;
     object-position: center !important;
     height: 600px;
-}
+} */
   .custom_reviews_wrp .swiper-button-next {
     right: -10px;
 }
