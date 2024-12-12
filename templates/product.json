@@ -485,14 +485,6 @@
             "reviewer_name": "Lisa",
             "reviewer_review": "<p>Super makkelijk te doseren voor kleine wasjes.</p>"
           }
-        },
-        "main_reviews_qcLGyk": {
-          "type": "main_reviews",
-          "settings": {
-            "reviewer_start": "five",
-            "reviewer_name": "John Smith",
-            "reviewer_review": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>"
-          }
         }
       },
       "block_order": [
@@ -500,8 +492,7 @@
         "main_reviews_yXEHe6",
         "main_reviews_yEhaEi",
         "main_reviews_BbLk7g",
-        "main_reviews_g8mAbg",
-        "main_reviews_qcLGyk"
+        "main_reviews_g8mAbg"
       ],
       "custom_css": [
         ".custom_reviews_wrp {padding-top: 40px; padding-bottom: 80px;}",
