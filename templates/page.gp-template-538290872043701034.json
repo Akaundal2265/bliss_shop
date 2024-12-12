@@ -87,7 +87,7 @@
     "gp_section_538290889240347780": {
       "type": "gp-section-538290889240347780",
       "custom_css": [
-        "section {margin-bottom: 50px;}"
+        "section {margin-bottom: 60px;}"
       ],
       "settings": {
         "section_preload": "false",
