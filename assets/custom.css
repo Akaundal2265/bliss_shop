@@ -2619,6 +2619,12 @@ p.add-to-cart-button.noclikd {
 @media screen and (max-width: 849px) {
 }
 @media screen and (max-width: 767px) {
+  .main_imag_wrp .only_mobile.mobile_image {
+    height: 420px;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+}
    .bliss-box {
     display: flex;
         gap: 8px;
