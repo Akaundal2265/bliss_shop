@@ -308,7 +308,7 @@
 
   </head>
 
-  <body class="{% if product.handle contains 'bliss-wasstrips' %} hanlde--blissproduct {% endif %} {% if page.handle %} page-design {% endif %} {% if template == 'product' %} temp--default {% else %}temp--{{ template.suffix }} {% endif %} gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}">
+  <body class="bdy_tg {% if product.handle contains 'bliss-wasstrips' %} hanlde--blissproduct {% endif %} {% if page.handle %} page-design {% endif %} {% if template == 'product' %} temp--default {% else %}temp--{{ template.suffix }} {% endif %} gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}">
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
       {{ 'accessibility.skip_to_text' | t }}
     </a>
@@ -385,6 +385,18 @@
 
     <script>
 $(document).ready(function() {
+  $('.active_variant_nae').click(function(){
+    if($(this).hasClass('active')){
+        $('.active_variant_nae').removeClass('active');
+     $('ul.optios_all').slideUp();
+    }else{
+    $('.active_variant_nae').removeClass('active');
+     $('ul.optios_all').slideUp();
+    
+    $(this).toggleClass('active');
+     $(this).next('ul').slideToggle()
+    }
+  })
     $('.subscribe-title').click(function() {
         // Remove 'active' class from all subscribe-save elements
         $('.subscribe-save').removeClass('active');
@@ -401,8 +413,20 @@ $(document).ready(function() {
       $('.subscribe-save').removeClass('active')
        $('.subscribe-save input[type=radio]:checked').parent().parent().parent().addClass('active')
     },50)
+
+    
+  })
+  $('ul.optios_all li').click(function(){
+    $('ul.optios_all').slideUp();
+    var inds=$(this).index();
+   
+     var vl= $(this).attr('value')
+    $(this).parent().prev().text(vl);
+$(this).parent().next('select').prop('selectedIndex', inds+1).trigger('change');
+
   })
 });
+     
 </script>
 
     <script>
