@@ -2300,7 +2300,7 @@ p.add-to-cart-button.noclikd {
 }
 /* MEDIA QUERY------------------- */
 @media screen and (min-width: 768px) {
-  .main_imag_wrp img {
+  .image_content_overlay_wrp .main_imag_wrp img {
     width: 100%;
     object-position: center !important;
     height: 600px;
@@ -2619,7 +2619,7 @@ p.add-to-cart-button.noclikd {
 @media screen and (max-width: 849px) {
 }
 @media screen and (max-width: 767px) {
-  .main_imag_wrp .only_mobile.mobile_image {
+ .image_content_overlay_wrp .main_imag_wrp .only_mobile.mobile_image {
     height: 420px;
     background-repeat: no-repeat;
     background-position: center;
