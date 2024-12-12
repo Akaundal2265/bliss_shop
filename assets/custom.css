@@ -1521,7 +1521,7 @@ header.header.header--middle-left {
   background-repeat: no-repeat;
   padding-top: 60px;
   padding-bottom: 90px;
-      margin-top: 30px;
+      /* margin-top: 30px; */
 }
 .footer__content-bottom {
   color: #f17f41;
