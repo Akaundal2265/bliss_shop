@@ -360,7 +360,8 @@ img {
     display: flex;
     align-items: center;
     gap: px;
-    margin-top: 8px;
+    /* margin-top: 8px; */
+    margin-top: 0px;
 }
 .subscribe-right h4 span {
     font-size: 15px !important;
