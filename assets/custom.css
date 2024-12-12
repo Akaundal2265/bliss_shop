@@ -245,11 +245,18 @@ img {
     right: -9px;
     border-right: 8px solid transparent;
 }
-.subscribe-wrapper {
+/* .subscribe-wrapper {
     padding: 5px 0px 8px 0px;
     display: flex;
     gap: 15px;
     align-items: baseline;
+} */
+
+.subscribe-wrapper {
+    padding: 15px 0px 8px 0px;
+    display: flex;
+    gap: 15px;
+    align-items: flex-start;
 }
 .subscribe-left {
     width: 5%;
