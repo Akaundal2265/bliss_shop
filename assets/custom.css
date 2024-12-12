@@ -314,7 +314,7 @@ img {
 .subscribe-save .discount-price:after {
     content: "";
     width: 44px;
-    height: 2px;
+    height: 1px;
     position: absolute;
     background: #f17f41;
     left: 0px;
