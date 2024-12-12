@@ -10,10 +10,17 @@ width:100%;
       .section__{{ section.id }}{
 height:{{section.settings.mt}}px;
       }
+      @media screen and (min-width: 768px) {
+
+ .section__{{ section.id }}{
+height:{{section.settings.fmt}}px;
+      }
+
+      }
     </style>
      <div class="main_imag_wrp section__{{ section.id }}" >
        {% if section.settings.image != blank %}<img class=" {% if section.settings.mobile_image != blank %}only_desktop{% endif %} desktop_image" src="{{ section.settings.image | img_url:'master' }}"  width="">{% endif %}
-        {% if section.settings.mobile_image != blank %}<img class="only_mobile mobile_image" src="{{ section.settings.mobile_image | img_url:'master' }}" height="{{ section.settings.fmt }}" width="">{% endif %}
+        {% if section.settings.mobile_image != blank %}<img class="only_mobile mobile_image" src="{{ section.settings.mobile_image | img_url:'master' }}"  >{% endif %}
      </div>
        <div class="overlay_content_wrp cont_pos_{{ section.settings.content_position }}">
     <div class="Container">
