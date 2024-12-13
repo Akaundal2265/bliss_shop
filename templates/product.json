@@ -40,6 +40,25 @@
         "subscribe_price_box_9BKH47": {
           "type": "Subscribe_price_box",
           "settings": {
+            "product": "bliss-wasstrips",
+            "box-title-1": "50 WASBEURTEN",
+            "pricebox-1": "€14,95",
+            "mini-description-1": "€0,29 per wasje",
+            "box-title-2": "100 WASBEURTEN",
+            "pricebox-2": "€26,91",
+            "cross-price2": "€29,90",
+            "mini-description-2": "€0,27 per wasje",
+            "tag1": "-10% & GRATIS VERZENDEN",
+            "box-title-3": "150 WASBEURTEN",
+            "pricebox-3": "€35,88",
+            "cross-price3": "€44,85",
+            "mini-description-3": "€0,24 per wasje",
+            "tag2": "-20% & GRATIS VERZENDEN"
+          }
+        },
+        "subscribe_price_box_3LURy6": {
+          "type": "Subscribe_price_box",
+          "settings": {
             "product": "bliss-geurbooster",
             "box-title-1": "50 WASBEURTEN",
             "pricebox-1": "€14,95",
@@ -181,6 +200,7 @@
         "title",
         "benefit_box_tnwfKk",
         "subscribe_price_box_9BKH47",
+        "subscribe_price_box_3LURy6",
         "rating_qX3hWH",
         "price",
         "metaobject_icontext_RaTqXr",
