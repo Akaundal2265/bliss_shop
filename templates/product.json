@@ -37,6 +37,25 @@
             "biologisch-text": "Biologisch Aftbreekbaar"
           }
         },
+        "subscribe_price_box_9BKH47": {
+          "type": "Subscribe_price_box",
+          "settings": {
+            "product": "bliss-geurbooster",
+            "box-title-1": "50 WASBEURTEN",
+            "pricebox-1": "€14,95",
+            "mini-description-1": "€0,29 per wasje",
+            "box-title-2": "100 WASBEURTEN",
+            "pricebox-2": "€26,91",
+            "cross-price2": "€29,90",
+            "mini-description-2": "€0,27 per wasje",
+            "tag1": "-10% & GRATIS VERZENDEN",
+            "box-title-3": "150 WASBEURTEN",
+            "pricebox-3": "€35,88",
+            "cross-price3": "€44,85",
+            "mini-description-3": "€0,24 per wasje",
+            "tag2": "-20% & GRATIS VERZENDEN"
+          }
+        },
         "rating_qX3hWH": {
           "type": "rating",
           "settings": {}
@@ -161,6 +180,7 @@
         "vendor",
         "title",
         "benefit_box_tnwfKk",
+        "subscribe_price_box_9BKH47",
         "rating_qX3hWH",
         "price",
         "metaobject_icontext_RaTqXr",
@@ -181,19 +201,6 @@
         "color_scheme": "scheme-1",
         "box-heading": "MEER BESTELLEN = MINDER BETALEN",
         "default-text": "Kies Wasmiddel",
-        "box-title-1": "50 WASBEURTEN",
-        "pricebox-1": "€14,95",
-        "mini-description-1": "€0,29 per wasje",
-        "box-title-2": "100 WASBEURTEN",
-        "pricebox-2": "€26,91",
-        "cross-price2": "€29,90",
-        "mini-description-2": "€0,27 per wasje",
-        "tag1": "-10% & GRATIS VERZENDEN",
-        "box-title-3": "150 WASBEURTEN",
-        "pricebox-3": "€35,88",
-        "cross-price3": "€44,85",
-        "mini-description-3": "€0,24 per wasje",
-        "tag2": "-20% & GRATIS VERZENDEN",
         "media_size": "small",
         "constrain_to_viewport": false,
         "media_fit": "contain",
