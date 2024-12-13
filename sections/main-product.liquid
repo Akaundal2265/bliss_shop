@@ -782,6 +782,18 @@ var pid=$(this).attr('pid');
               {%- when 'variant_picker' -%}
                 {% render 'product-variant-picker', product: product, block: block, product_form_id: product_form_id %}
               {%- when 'buy_buttons' -%}
+                    <select id="hiddenSelect" style="display:none;">
+              {% for variant in product.variants %} 
+<option vid="{{ variant.id }}" title="{{ variant.title | remove: ' / '  }}" inventry="{% if variant.available %}avl{% else %}notavl{% endif %}"">{{variant.title  }}</option>
+                {% endfor %}
+              </select>
+              <!-- <p class="add-to-cart-button">  {{ 'products.product.add_to_cart' | t }} </p> -->
+               <p class="add-to-cart-button  {%- if product.has_only_default_variant -%} {% else %} noclikd{% endif %}" slctxt="{{ block.settings.btn-text }}" nslcted="{{ block.settings.nbtn-text }}" > {%- if product.has_only_default_variant -%}   {{ block.settings.btn-text }} {% else %}{{ block.settings.nbtn-text }} {% endif %}</p>
+           
+              {%- when 'Subscribe_price_box' -%}
+              {% assign newproduct=block.settings.product %}
+             
+              {% if product.handle ==  newproduct.handle %}
       <div class="subscribe-section">
                 <div class="ktc-title"><span>{{ section.settings.box-heading }}</span></div>
   <div class="subscribe-save active pt">
@@ -792,13 +804,12 @@ var pid=$(this).attr('pid');
       <div class="subscribe-right">
         <label for="subsc" class="subscribe-title">
           <!-- <h4>50 WASBEURTEN <span class="sub_price">Standard price</span></h4> -->
-           <h4> {{ section.settings.box-title-1 }} </h4>
+           <h4> {{ block.settings.box-title-1 }} </h4>
           <p class="subscribe-price"> 
-            <span class="per-bag-price">  {{ section.settings.mini-description-1 }}</span>
+            <span class="per-bag-price">  {{ block.settings.mini-description-1 }}</span>
             <span class="actual-price"> 
-            {{ section.settings.pricebox-1 }} </span> 
+            {{ block.settings.pricebox-1 }} </span> 
           
-  
           </p>
         </label>
         
@@ -834,7 +845,7 @@ var pid=$(this).attr('pid');
   </div>
 
   <div class="subscribe-save pt1">
-    <span class="bestsellar">{{ section.settings.tag1 }}</span>
+    <span class="bestsellar">{{ block.settings.tag1 }}</span>
     <div class="subscribe-wrapper">
       <div class="subscribe-left">
         <input type='radio' id="subsc1"  hite="pt1"  name='subscribe'   />
@@ -842,8 +853,8 @@ var pid=$(this).attr('pid');
       <div class="subscribe-right">
         <label for="subsc1" class="subscribe-title">
           <!-- <h4>100 WASBEURTEN <span class="sub_price">You save €4,48</span></h4> -->
-           <h4>{{ section.settings.box-title-2 }}</h4>
-        <p class="subscribe-price"><span class="per-bag-price">  {{ section.settings.mini-description-2 }} </span> <span class="bundal-price-box">  <span class="actual-price"> {{ section.settings.pricebox-2 }} </span> <span class="discount-price"> {{ section.settings.cross-price2 }}</span>
+           <h4>{{ block.settings.box-title-2 }}</h4>
+        <p class="subscribe-price"><span class="per-bag-price">  {{ block.settings.mini-description-2 }} </span> <span class="bundal-price-box">  <span class="actual-price"> {{ block.settings.pricebox-2 }} </span> <span class="discount-price"> {{ block.settings.cross-price2 }}</span>
           </span> </p>
         </label>
       
@@ -884,7 +895,7 @@ var pid=$(this).attr('pid');
 
 
   <div class="subscribe-save pt2">
-    <span class="bestsellar"> {{ section.settings.tag2 }}</span>
+    <span class="bestsellar"> {{ block.settings.tag2 }}</span>
     <div class="subscribe-wrapper">
       <div class="subscribe-left">
         <input type='radio' id="subsc2" hite="pt2" name='subscribe'   />
@@ -892,8 +903,8 @@ var pid=$(this).attr('pid');
       <div class="subscribe-right">
         <label for="subsc2" class="subscribe-title">
           <!-- <h4>150 WASBEURTEN<span class="sub_price">You save €11,21</span></h4> -->
-            <h4>{{ section.settings.box-title-3 }}</h4>
-          <p class="subscribe-price"><span class="per-bag-price"> {{ section.settings.mini-description-3 }} </span> <span class="bundal-price-box">  <span class="actual-price"> {{ section.settings.pricebox-3 }} </span> <span class="discount-price"> {{ section.settings.cross-price3 }} </span>
+            <h4>{{ block.settings.box-title-3 }}</h4>
+          <p class="subscribe-price"><span class="per-bag-price"> {{ block.settings.mini-description-3 }} </span> <span class="bundal-price-box">  <span class="actual-price"> {{ block.settings.pricebox-3 }} </span> <span class="discount-price"> {{ block.settings.cross-price3 }} </span>
           </span> </p>
         </label>
       
@@ -929,14 +940,8 @@ var pid=$(this).attr('pid');
   </div>
 
 </div>
-              <select id="hiddenSelect" style="display:none;">
-              {% for variant in product.variants %} 
-<option vid="{{ variant.id }}" title="{{ variant.title | remove: ' / '  }}" inventry="{% if variant.available %}avl{% else %}notavl{% endif %}"">{{variant.title  }}</option>
-                {% endfor %}
-              </select>
-              <!-- <p class="add-to-cart-button">  {{ 'products.product.add_to_cart' | t }} </p> -->
-               <p class="add-to-cart-button  {%- if product.has_only_default_variant -%} {% else %} noclikd{% endif %}" slctxt="{{ block.settings.btn-text }}" nslcted="{{ block.settings.nbtn-text }}" > {%- if product.has_only_default_variant -%}   {{ block.settings.btn-text }} {% else %}{{ block.settings.nbtn-text }} {% endif %}</p>
-             {% comment %}   {%- render 'buy-buttons',
+                {% endif %}
+          {% comment %}   {%- render 'buy-buttons',
                   block: block,
                   product: product,
                   product_form_id: product_form_id,
@@ -1789,6 +1794,101 @@ var pid=$(this).attr('pid');
       "label": "Fourth Benefit"
     },
 
+]
+},
+         {
+    "type": "Subscribe_price_box",
+    "name": "Bundle Box",
+      
+    "settings": [
+  {
+      "type":"product",
+      "id":"product",
+      "label":"Select a product for which you want to show it",
+    },
+      
+      {
+          "type": "header",
+          "content": "Box 1",
+        }, 
+     {
+      "type":"text",
+      "id":"box-title-1",
+      "label":"Title",
+    },
+    {
+      "type":"text",
+      "id":"pricebox-1",
+      "label":"Price",
+    },
+    
+    {
+      "type":"text",
+      "id":"mini-description-1",
+      "label":"Mini Description",
+    },
+       {
+          "type": "header",
+          "content": "Box 2",
+        },
+  
+    
+        {
+      "type":"text",
+      "id":"box-title-2",
+      "label":"Title",
+    },
+    
+    {
+      "type":"text",
+      "id":"pricebox-2",
+      "label":"Price",
+    },
+    {
+      "type":"text",
+      "id":"cross-price2",
+      "label":"Cross price",
+    },
+    {
+      "type":"text",
+      "id":"mini-description-2",
+      "label":"Mini Description",
+    },
+    {
+      "type":"text",
+      "id":"tag1",
+      "label":"Tag",
+    },
+      {
+          "type": "header",
+          "content": "Box 3",
+        },
+          {
+      "type":"text",
+      "id":"box-title-3",
+      "label":"Title",
+    },
+    
+    {
+      "type":"text",
+      "id":"pricebox-3",
+      "label":"Price",
+    },
+    {
+      "type":"text",
+      "id":"cross-price3",
+      "label":"Cross price",
+    },
+    {
+      "type":"text",
+      "id":"mini-description-3",
+      "label":"Mini Description",
+    },
+    {
+      "type":"text",
+      "id":"tag2",
+      "label":"Tag",
+    },
 ]
 },
     {
@@ -2710,87 +2810,8 @@ var pid=$(this).attr('pid');
       "id":"default-text",
       "label":"Default Option",
     },
-      {
-          "type": "header",
-          "content": "Box 1",
-        },
-    {
-      "type":"text",
-      "id":"box-title-1",
-      "label":"Title",
-    },
-    {
-      "type":"text",
-      "id":"pricebox-1",
-      "label":"Price",
-    },
-    
-    {
-      "type":"text",
-      "id":"mini-description-1",
-      "label":"Mini Description",
-    },
-    
-     {
-          "type": "header",
-          "content": "Box 2",
-        },
-    {
-      "type":"text",
-      "id":"box-title-2",
-      "label":"Title",
-    },
-    
-    {
-      "type":"text",
-      "id":"pricebox-2",
-      "label":"Price",
-    },
-    {
-      "type":"text",
-      "id":"cross-price2",
-      "label":"Cross price",
-    },
-    {
-      "type":"text",
-      "id":"mini-description-2",
-      "label":"Mini Description",
-    },
-    {
-      "type":"text",
-      "id":"tag1",
-      "label":"Tag",
-    },
-    {
-          "type": "header",
-          "content": "Box 3",
-        },
-    {
-      "type":"text",
-      "id":"box-title-3",
-      "label":"Title",
-    },
-    
-    {
-      "type":"text",
-      "id":"pricebox-3",
-      "label":"Price",
-    },
-    {
-      "type":"text",
-      "id":"cross-price3",
-      "label":"Cross price",
-    },
-    {
-      "type":"text",
-      "id":"mini-description-3",
-      "label":"Mini Description",
-    },
-    {
-      "type":"text",
-      "id":"tag2",
-      "label":"Tag",
-    },
+      
+
     {
       "type": "header",
       "content": "t:sections.main-product.settings.header.content",
