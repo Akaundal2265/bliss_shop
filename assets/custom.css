@@ -2655,7 +2655,7 @@ p.add-to-cart-button.noclikd {
   .subscribe-save input[type=radio] {
     width: 21px;
     height: 21px;
-    top: 3px;
+    top: 2px;
 }
   .product .product__media-list .product__media-wrapper .product-media-container .media img, .product__media-wrapper .product-media-container .media {
     border-radius: 15px;
