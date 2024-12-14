@@ -2307,6 +2307,13 @@ p.add-to-cart-button.noclikd {
 }
 /* MEDIA QUERY------------------- */
 @media screen and (min-width: 768px) {
+  .Bliss_img_text_wrp {
+    width: 100%;
+}
+  .Bliss_image_with_text_inner {
+    
+    flex-wrap: nowrap;
+}
   .image_content_overlay_wrp .main_imag_wrp img {
     width: 100%;
     /* object-position: center !important;
