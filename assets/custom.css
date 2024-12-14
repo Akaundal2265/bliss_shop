@@ -2302,7 +2302,7 @@ p.add-to-cart-button.noclikd {
     margin-top: 40px;
 }
 
-.tablesection .col2:nth-child(odd),.footer__content-bottom-wrapper.Container p, .footer__content-bottom-wrapper.Container li a,.footer__blocks-wrapper.grid p, .footer__blocks-wrapper.grid a,.custom_newsletter_wrp .sub_heading-medium,.accordion_content p,.Bliss_img_text_cont_wrp p,.custom_pro_card h2.ProductItem__Title a,.custom-button,.lower_paragraph p,.description_wrp ol li,.reviewer_review p,.Bliss_repeat_wrp h2.sub_heading-medium{
+.menu-drawer__menu-item,.tablesection .col2:nth-child(odd),.footer__content-bottom-wrapper.Container p, .footer__content-bottom-wrapper.Container li a,.footer__blocks-wrapper.grid p, .footer__blocks-wrapper.grid a,.custom_newsletter_wrp .sub_heading-medium,.accordion_content p,.Bliss_img_text_cont_wrp p,.custom_pro_card h2.ProductItem__Title a,.custom-button,.lower_paragraph p,.description_wrp ol li,.reviewer_review p,.Bliss_repeat_wrp h2.sub_heading-medium{
    font-family: "Poppins", sans-serif !important;
 }
 /* MEDIA QUERY------------------- */
