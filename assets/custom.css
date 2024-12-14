@@ -855,6 +855,7 @@ a {
   font-weight: 500;
   line-height: 28px;
   margin-top: 0;
+  font-family: "Poppins", sans-serif !important;
 }
 .Button {
   font-size: 18px;
