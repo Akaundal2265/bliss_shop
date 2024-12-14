@@ -878,6 +878,7 @@ a {
   min-width: 210px;
   text-align: center;
   border: none;
+  font-family: "Poppins", sans-serif !important;
 }
 .button_wrp {
   margin-top: 25px;
