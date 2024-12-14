@@ -1032,7 +1032,7 @@ p.Form__Alert.Alert.Alert--success {
 }
 .Bliss_img_text_cont_wrp p {
   color: var(--Blue, #90d5e4);
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
   line-height: 26px;
 }
