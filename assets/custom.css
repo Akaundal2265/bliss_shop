@@ -2306,7 +2306,7 @@ p.add-to-cart-button.noclikd {
    font-family: "Poppins", sans-serif !important;
 }
 .recommended-img-wrapper span.price-item.price-item--regular,.custom_pro_card .ProductItem__Price,.tablesection .col2:nth-child(odd){
-     font-weight: 400; 
+     font-weight: 500; 
 }
 /* MEDIA QUERY------------------- */
 @media screen and (min-width: 768px) {
