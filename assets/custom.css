@@ -2310,6 +2310,9 @@ p.add-to-cart-button.noclikd {
 }
 /* MEDIA QUERY------------------- */
 @media screen and (min-width: 768px) {
+  .mobile_how_work {
+    display: none;
+}
   .main_imag_wrp video {
     width: 100%;
     height: 360px;
