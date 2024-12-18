@@ -1,12 +1,14 @@
-<div class="product_video_content video_with_content_wrp">
+     {% assign productvideo=section.settings.product %}
+        {% if product.handle ==  productvideo.handle %}
+          
+          <div class="product_video_content video_with_content_wrp">
   <div class="Container Container--narrow">
      <div class="feature_section_header">
         <h2 class="heading-medium">{{ section.settings.heading }}</h2>
       </div>
     <div class="video_with_content_inner">
       <div class="main_left">
-        {% assign productvideo=section.settings.product %}
-        {% if product.handle ==  productvideo.handle %}
+   
         {% if section.settings.video != blank %}
           <div class="main_imag_wrp">
             {{ section.settings.video | video_tag: autoplay: true, loop: true, controls: false, muted: true }}
@@ -18,7 +20,7 @@
             {{ section.settings.mvideo | video_tag: autoplay: true, loop: true, controls: false, muted: true }}
                 </div>
          {% endif %}
-        {% endif %}
+    
       </div>
       <div class="main_right">
         <div class="right_content_inner">
@@ -53,6 +55,8 @@
     </div>
   </div>
 </div>
+
+{% endif %}
 {% schema %}
 {
   "name": "Product Video Content",
