@@ -8,9 +8,14 @@
         {% if section.settings.video != blank %}
           <div class="main_imag_wrp">
             {{ section.settings.video | video_tag: autoplay: true, loop: true, controls: false, muted: true }}
-             {{ section.settings.mvideo | video_tag: autoplay: true, loop: true, controls: false, muted: true }}
+         
           </div>
         {% endif %}
+          {% if section.settings.mvideo != blank %}
+            <div class="main_imag_wrp">
+            {{ section.settings.mvideo | video_tag: autoplay: true, loop: true, controls: false, muted: true }}
+                </div>
+         {% endif %}
       </div>
       <div class="main_right">
         <div class="right_content_inner">
