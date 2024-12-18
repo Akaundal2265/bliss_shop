@@ -2310,6 +2310,12 @@ p.add-to-cart-button.noclikd {
 }
 /* MEDIA QUERY------------------- */
 @media screen and (min-width: 768px) {
+  .main_imag_wrp video {
+    width: 100%;
+    height: 360px;
+    background-size: cover;
+    object-fit: cover;
+}
   .Bliss_img_text_wrp {
     width: 100%;
 }
