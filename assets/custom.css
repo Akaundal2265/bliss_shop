@@ -2308,6 +2308,9 @@ p.add-to-cart-button.noclikd {
 .recommended-img-wrapper span.price-item.price-item--regular,.custom_pro_card .ProductItem__Price,.tablesection .col2:nth-child(odd){
      font-weight: 500; 
 }
+.product_video_content {
+    padding-bottom: 50px;
+}
 /* MEDIA QUERY------------------- */
 @media screen and (min-width: 768px) {
   .mobile_how_work {
