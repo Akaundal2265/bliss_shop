@@ -12,7 +12,7 @@
           </div>
         {% endif %}
           {% if section.settings.mvideo != blank %}
-            <div class="main_imag_wrp mobile_how_work">
+            <div class="mobile_how_work">
             {{ section.settings.mvideo | video_tag: autoplay: true, loop: true, controls: false, muted: true }}
                 </div>
          {% endif %}
@@ -62,7 +62,8 @@
         {
           "type": "video",
           "id": "video",
-          "label": "Video"
+          "label": "Video",
+          "info": "Recommended ratio"
         },
      {
           "type": "video",
