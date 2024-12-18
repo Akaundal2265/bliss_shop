@@ -5,6 +5,8 @@
       </div>
     <div class="video_with_content_inner">
       <div class="main_left">
+        {% assign productvideo=section.settings.product %}
+        {% if product.handle ==  productvideo.handle %}
         {% if section.settings.video != blank %}
           <div class="main_imag_wrp">
             {{ section.settings.video | video_tag: autoplay: true, loop: true, controls: false, muted: true }}
@@ -16,6 +18,7 @@
             {{ section.settings.mvideo | video_tag: autoplay: true, loop: true, controls: false, muted: true }}
                 </div>
          {% endif %}
+        {% endif %}
       </div>
       <div class="main_right">
         <div class="right_content_inner">
@@ -54,6 +57,11 @@
 {
   "name": "Product Video Content",
   "settings": [
+    {
+      "type":"product",
+      "id":"product",
+      "label":"Select a product for which you want to show it",
+    },
         {
           "type": "text",
           "id": "heading",
