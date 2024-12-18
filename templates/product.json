@@ -314,6 +314,33 @@
         "description_RWdyBX"
       ],
       "settings": {
+        "product": "bliss-geurbooster",
+        "heading": "Hoe werkt het?",
+        "video": "shopify://files/videos/dummy.mp4",
+        "mvideo": "shopify://files/videos/dummy.mp4"
+      }
+    },
+    "product_video_with_content_adDz8T": {
+      "type": "product_video_with_content",
+      "blocks": {
+        "heading_9yrKgH": {
+          "type": "heading",
+          "settings": {
+            "heading": ""
+          }
+        },
+        "description_jNqrhP": {
+          "type": "description",
+          "settings": {
+            "description": "<ol><li>Neem een hele of halve wasstrip  </li><li>Plaats de wasstrip in de wastrommel</li><li>Leg je wasgoed er bovenop</li><li>Kies het juiste wasprogramma</li></ol>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_9yrKgH",
+        "description_jNqrhP"
+      ],
+      "settings": {
         "product": "bliss-wasstrips",
         "heading": "Hoe werkt het?",
         "video": "shopify://files/videos/dummy.mp4",
@@ -563,6 +590,7 @@
     "image_with_text_blocks_RQQkzk",
     "related-products",
     "product_video_with_content_bMgxAt",
+    "product_video_with_content_adDz8T",
     "multicolumn_JQUycF",
     "multirow_LAgwB7",
     "accordion_b7bP7j",
