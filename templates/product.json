@@ -293,6 +293,32 @@
         "padding_bottom": 28
       }
     },
+    "video_with_content_rdbAjf": {
+      "type": "video_with_content",
+      "blocks": {
+        "heading_hH3UyH": {
+          "type": "heading",
+          "settings": {
+            "heading": ""
+          }
+        },
+        "description_peTGBM": {
+          "type": "description",
+          "settings": {
+            "description": "<ol><li>Neem een hele of halve wasstrip  </li><li>Plaats de wasstrip in de wastrommel</li><li>Leg je wasgoed er bovenop</li><li>Kies het juiste wasprogramma</li></ol>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_hH3UyH",
+        "description_peTGBM"
+      ],
+      "settings": {
+        "heading": "Hoe werkt het?",
+        "video": "shopify://files/videos/WhatsApp Video 2024-12-16 at 12.03.55.mp4",
+        "mvideo": "shopify://files/videos/dummy.mp4"
+      }
+    },
     "multicolumn_JQUycF": {
       "type": "multicolumn",
       "blocks": {
@@ -332,6 +358,7 @@
         "column_PRPDCL",
         "column_6CzCW7"
       ],
+      "disabled": true,
       "settings": {
         "title": "Hoe te gebruiken",
         "heading_size": "h1",
@@ -534,6 +561,7 @@
     "main",
     "image_with_text_blocks_RQQkzk",
     "related-products",
+    "video_with_content_rdbAjf",
     "multicolumn_JQUycF",
     "multirow_LAgwB7",
     "accordion_b7bP7j",
