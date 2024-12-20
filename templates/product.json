@@ -60,19 +60,19 @@
           "type": "Subscribe_price_box",
           "settings": {
             "product": "bliss-geurbooster",
-            "box-title-1": "25 WASBEURTEN",
+            "box-title-1": "1 GEURBOOSTER",
             "pricebox-1": "€12,95",
             "mini-description-1": "€0,52 per wasje",
-            "box-title-2": "50 WASBEURTEN",
+            "box-title-2": "2 + 1 GRATIS",
             "pricebox-2": "€25,90",
-            "cross-price2": "€23,31",
-            "mini-description-2": "€0,47 per wasje",
-            "tag1": "-10% & GRATIS VERZENDEN",
-            "box-title-3": "75 WASBEURTEN",
+            "cross-price2": "€38,85",
+            "mini-description-2": "€0,34 per wasje",
+            "tag1": "+ GRATIS VERZENDING",
+            "box-title-3": "3 + 2 GRATIS",
             "pricebox-3": "€38,85",
-            "cross-price3": "€31,08",
-            "mini-description-3": "€0,41 per wasje",
-            "tag2": "-20% & GRATIS VERZENDEN"
+            "cross-price3": "€64,75",
+            "mini-description-3": "€0,31 per wasje",
+            "tag2": "+ GRATIS VERZENDING"
           }
         },
         "rating_qX3hWH": {
