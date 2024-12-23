@@ -40,7 +40,7 @@
       "settings": {
         "image": "shopify://shop_images/Untitled_design.png",
         "mobile_image": "shopify://shop_images/image_2024_12_14T13_29_43_294Z.png",
-        "content_position": "middleLeft"
+        "content_position": "middleCenter"
       }
     },
     "image_with_text_blocks_H7neXt": {
@@ -102,7 +102,7 @@
         "heading_JTGAHk": {
           "type": "heading",
           "settings": {
-            "heading": "Samen frissen wij de wereld op, één wasje per keer! <br> Doe je mee?"
+            "heading": "Samen frissen wij de wereld op, één wasje per keer!  Doe je mee?"
           }
         },
         "description_XxJiTp": {
@@ -342,6 +342,7 @@
         "icon_content_j8qTh4",
         "icon_content_c38JWQ"
       ],
+      "disabled": true,
       "settings": {
         "heading": "Bliss repeat",
         "sub_heading": "Onze service die periodiek Bliss producten bij jou thuis bezorgt. Jij kiest wanneer en hoe vaak.",
