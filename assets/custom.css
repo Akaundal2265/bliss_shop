@@ -2929,12 +2929,17 @@ display: block;
   .container {
     padding: 0 14px;
   }
-  .overlay_content_wrp {
-    top: 60px;
+ .overlay_content_wrp {
+    top: auto;
     transform: unset;
     left: 9px;
     width: calc(100% - 9px);
-  }
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
   .Container,
   .Container--narrow {
     padding: 0 15px;
