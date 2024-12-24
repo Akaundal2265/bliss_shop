@@ -43,6 +43,9 @@
         "text_LrMYJ7",
         "buttons_fQKjKT"
       ],
+      "custom_css": [
+        "h2.banner__heading.inline-richtext.h1,p{display:none;}"
+      ],
       "settings": {
         "image": "shopify://shop_images/Untitled_design.png",
         "image_overlay_opacity": 0,
