@@ -44,7 +44,7 @@
         "buttons_fQKjKT"
       ],
       "custom_css": [
-        "h2.banner__heading.inline-richtext.h1,p{display:none;}"
+        "h2.banner__heading.inline-richtext.h1,p {color:#fff;}"
       ],
       "settings": {
         "image": "shopify://shop_images/Untitled_design.png",
