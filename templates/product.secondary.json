@@ -37,92 +37,15 @@
             "biologisch-text": "Biologisch afbreekbaar"
           }
         },
-        "subscribe_price_box_9BKH47": {
-          "type": "Subscribe_price_box",
-          "disabled": true,
-          "settings": {
-            "product": "bliss-wasstrips",
-            "box-title-1": "50 WASBEURTEN",
-            "pricebox-1": "€14,95",
-            "mini-description-1": "€0,29 per wasje",
-            "box-title-2": "100 WASBEURTEN",
-            "pricebox-2": "€26,91",
-            "cross-price2": "€29,90",
-            "mini-description-2": "€0,27 per wasje",
-            "tag1": "-10% & GRATIS VERZENDEN",
-            "box-title-3": "150 WASBEURTEN",
-            "pricebox-3": "€35,88",
-            "cross-price3": "€44,85",
-            "mini-description-3": "€0,24 per wasje",
-            "tag2": "-20% & GRATIS VERZENDEN"
-          }
-        },
-        "subscribe_price_box_3LURy6": {
-          "type": "Subscribe_price_box",
-          "disabled": true,
-          "settings": {
-            "product": "bliss-geurbooster",
-            "box-title-1": "1 GEURBOOSTER",
-            "pricebox-1": "€12,95",
-            "mini-description-1": "€0,52 per wasje",
-            "box-title-2": "2 + 1 GRATIS",
-            "pricebox-2": "€25,90",
-            "cross-price2": "€38,85",
-            "mini-description-2": "€0,34 per wasje",
-            "tag1": "+ GRATIS VERZENDING",
-            "box-title-3": "3 + 2 GRATIS",
-            "pricebox-3": "€38,85",
-            "cross-price3": "€64,75",
-            "mini-description-3": "€0,31 per wasje",
-            "tag2": "+ GRATIS VERZENDING"
-          }
-        },
         "rating_qX3hWH": {
           "type": "rating",
-          "settings": {}
-        },
-        "price": {
-          "type": "price",
-          "disabled": true,
-          "settings": {}
-        },
-        "metaobject_icontext_RaTqXr": {
-          "type": "metaobject_icontext",
-          "disabled": true,
-          "settings": {}
-        },
-        "variant_picker": {
-          "type": "variant_picker",
-          "disabled": true,
-          "settings": {
-            "picker_type": "button",
-            "swatch_shape": "circle"
-          }
-        },
-        "quantity_selector": {
-          "type": "quantity_selector",
-          "disabled": true,
           "settings": {}
         },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
             "show_dynamic_checkout": false,
-            "show_gift_card_recipient": false,
-            "btn-text": "Koop nu",
-            "nbtn-text": "Selecteer een keuze"
-          }
-        },
-        "description": {
-          "type": "description",
-          "disabled": true,
-          "settings": {}
-        },
-        "share": {
-          "type": "share",
-          "disabled": true,
-          "settings": {
-            "share_label": "Share"
+            "show_gift_card_recipient": false
           }
         },
         "icon_with_text_xyJH7W": {
@@ -201,16 +124,8 @@
         "vendor",
         "title",
         "benefit_box_tnwfKk",
-        "subscribe_price_box_9BKH47",
-        "subscribe_price_box_3LURy6",
         "rating_qX3hWH",
-        "price",
-        "metaobject_icontext_RaTqXr",
-        "variant_picker",
-        "quantity_selector",
         "buy_buttons",
-        "description",
-        "share",
         "icon_with_text_xyJH7W",
         "collapsible_tab_XmnDhx",
         "collapsible_tab_UBjpcW",
