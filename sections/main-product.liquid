@@ -787,9 +787,9 @@ var pid=$(this).attr('pid');
 <option vid="{{ variant.id }}" title="{{ variant.title | remove: ' / '  }}" inventry="{% if variant.available %}avl{% else %}notavl{% endif %}"">{{variant.title  }}</option>
                 {% endfor %}
               </select>
-              <!-- <p class="add-to-cart-button">  {{ 'products.product.add_to_cart' | t }} </p> -->
-               <p class="add-to-cart-button  {%- if product.has_only_default_variant -%} {% else %} noclikd{% endif %}" slctxt="{{ block.settings.btn-text }}" nslcted="{{ block.settings.nbtn-text }}" > {%- if product.has_only_default_variant -%}   {{ block.settings.btn-text }} {% else %}{{ block.settings.nbtn-text }} {% endif %}</p>
-           
+              <p class="add-to-cart-button">  {{ 'products.product.add_to_cart' | t }} </p>  
+               <!-- <p class="add-to-cart-button  {%- if product.has_only_default_variant -%} {% else %} noclikd{% endif %}" slctxt="{{ block.settings.btn-text }}" nslcted="{{ block.settings.nbtn-text }}" > {%- if product.has_only_default_variant -%}   {{ block.settings.btn-text }} {% else %}{{ block.settings.nbtn-text }} {% endif %}</p> -->
+         
               {%- when 'Subscribe_price_box' -%}
               {% assign newproduct=block.settings.product %}
              
