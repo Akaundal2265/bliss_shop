@@ -102,13 +102,21 @@
           "disabled": true,
           "settings": {}
         },
+        "buy_buttons2_MwwUAd": {
+          "type": "buy_buttons2",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true,
+            "btn-text": "",
+            "nbtn-text": ""
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
+          "disabled": true,
           "settings": {
             "show_dynamic_checkout": false,
-            "show_gift_card_recipient": false,
-            "btn-text": "Koop nu",
-            "nbtn-text": "Selecteer een keuze"
+            "show_gift_card_recipient": false
           }
         },
         "description": {
@@ -206,6 +214,7 @@
         "metaobject_icontext_RaTqXr",
         "variant_picker",
         "quantity_selector",
+        "buy_buttons2_MwwUAd",
         "buy_buttons",
         "description",
         "share",
