@@ -107,8 +107,8 @@
           "settings": {
             "show_dynamic_checkout": true,
             "show_gift_card_recipient": true,
-            "btn-text": "",
-            "nbtn-text": ""
+            "btn-text": "Koop nu",
+            "nbtn-text": "Selecteer een keuze"
           }
         },
         "buy_buttons": {
