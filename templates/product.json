@@ -39,7 +39,6 @@
         },
         "subscribe_price_box_9BKH47": {
           "type": "Subscribe_price_box",
-          "disabled": true,
           "settings": {
             "product": "bliss-wasstrips",
             "box-title-1": "50 WASBEURTEN",
@@ -59,7 +58,6 @@
         },
         "subscribe_price_box_3LURy6": {
           "type": "Subscribe_price_box",
-          "disabled": true,
           "settings": {
             "product": "bliss-geurbooster",
             "box-title-1": "1 GEURBOOSTER",
