@@ -39,6 +39,7 @@
         },
         "subscribe_price_box_9BKH47": {
           "type": "Subscribe_price_box",
+          "disabled": true,
           "settings": {
             "product": "bliss-wasstrips",
             "box-title-1": "50 WASBEURTEN",
@@ -58,6 +59,7 @@
         },
         "subscribe_price_box_3LURy6": {
           "type": "Subscribe_price_box",
+          "disabled": true,
           "settings": {
             "product": "bliss-geurbooster",
             "box-title-1": "1 GEURBOOSTER",
@@ -104,6 +106,7 @@
         },
         "buy_buttons2_MwwUAd": {
           "type": "buy_buttons2",
+          "disabled": true,
           "settings": {
             "show_dynamic_checkout": true,
             "show_gift_card_recipient": true,
@@ -111,15 +114,8 @@
             "nbtn-text": "Selecteer een keuze"
           }
         },
-        "kaching_bundles_app_block_ApCGBE": {
-          "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
-          "settings": {
-            "product": "{{product}}"
-          }
-        },
         "buy_buttons": {
           "type": "buy_buttons",
-          "disabled": true,
           "settings": {
             "show_dynamic_checkout": false,
             "show_gift_card_recipient": false
@@ -221,7 +217,6 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons2_MwwUAd",
-        "kaching_bundles_app_block_ApCGBE",
         "buy_buttons",
         "description",
         "share",
