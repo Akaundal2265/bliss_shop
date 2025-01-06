@@ -2075,9 +2075,9 @@ a#cart-icon-bubble .cart-count-bubble {
     position: relative;
     margin-bottom: 20px;
 }
-.product__info-wrapper.grid__item kaching-bundle[product-id] {
+/* .product__info-wrapper.grid__item kaching-bundle[product-id] {
     display: none;
-}
+} */
 .table-content .columns {
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
