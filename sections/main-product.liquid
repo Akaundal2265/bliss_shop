@@ -782,7 +782,7 @@ var pid=$(this).attr('pid');
               {%- when 'variant_picker' -%}
                 {% render 'product-variant-picker', product: product, block: block, product_form_id: product_form_id %}
           {%- when 'buy_buttons' -%}
-     <p>hey</p>
+<kaching-bundle product-id={{ product.id }}></kaching-bundle>
                {%- render 'buy-buttons',
                   block: block,
                   product: product,
