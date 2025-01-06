@@ -70,6 +70,8 @@
               assign quantity_rule_soldout = true
             endif
           -%}
+
+          <kaching-bundle product-id={{ product.id }}></kaching-bundle>
           <button
             id="ProductSubmitButton-{{ section_id }}"
             type="submit"
