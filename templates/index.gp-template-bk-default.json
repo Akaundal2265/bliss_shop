@@ -9,6 +9,60 @@
  */
 {
   "sections": {
+    "image_banner_F6wXg3": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_78bXnq": {
+          "type": "heading",
+          "settings": {
+            "heading": "Samen wassen we naar een schonere wereld",
+            "heading_size": "h1"
+          }
+        },
+        "text_LrMYJ7": {
+          "type": "text",
+          "settings": {
+            "text": "Bliss is de nieuwe generatie milieuvriendelijk wasmiddel rechtstreeks aan huis geleverd",
+            "text_style": "subtitle"
+          }
+        },
+        "buttons_fQKjKT": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "BEKIJK HIER",
+            "button_link_1": "shopify:\/\/products\/bliss-wasstrips",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_78bXnq",
+        "text_LrMYJ7",
+        "buttons_fQKjKT"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "h2.banner__heading.inline-richtext.h1 {color: #fff; font-size: 44px; font-weight: 900; line-height: 48px; margin: 0 0 14px; color: #fff; text-transform: uppercase;}",
+        "p {color: var(--White, #fff); font-size: 20px; line-height: 28px; margin-top: 0; font-family: \"Poppins\", sans-serif !important;}",
+        "@media screen and (max-width: 767px) {.image_content_overlay_inner .heading_wrp h2 {font-size: 32px; font-weight: 700; line-height: 46px; } .image_content_overlay_inner .description_wrp p {font-size: 20px; line-height: 30px; max-width: 355px; }}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Untitled_design.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
     "image_content_overlay_B3LeLH": {
       "type": "image_content_overlay",
       "blocks": {
@@ -38,9 +92,9 @@
         "button_jV3htY"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Photo.png",
-        "mobile_image": "shopify:\/\/shop_images\/Photo_2.png",
-        "content_position": "middleLeft"
+        "image": "shopify:\/\/shop_images\/Untitled_design.png",
+        "mobile_image": "shopify:\/\/shop_images\/image_2024_12_14T13_29_43_294Z.png",
+        "content_position": "middleCenter"
       }
     },
     "image_with_text_blocks_H7neXt": {
@@ -102,7 +156,7 @@
         "heading_JTGAHk": {
           "type": "heading",
           "settings": {
-            "heading": "Samen frissen wij de wereld op, één wasje per keer! <br> Doe je mee?"
+            "heading": "Samen frissen wij de wereld op, één wasje per keer!  Doe je mee?"
           }
         },
         "description_XxJiTp": {
@@ -245,7 +299,8 @@
       ],
       "settings": {
         "heading": "Hoe werkt het?",
-        "video": "shopify:\/\/files\/videos\/dummy.mp4"
+        "video": "shopify:\/\/files\/videos\/WhatsApp Video 2024-12-23 at 12.50.53.mp4",
+        "mvideo": "shopify:\/\/files\/videos\/WhatsApp Video 2024-12-23 at 12.50.53.mp4"
       }
     },
     "custom_reviews_74wF9T": {
@@ -254,7 +309,7 @@
         "main_reviews_NXNmaD": {
           "type": "main_reviews",
           "settings": {
-            "reviewer_image": "shopify:\/\/shop_images\/model-with-leather-jacket-over-shoulders.jpg",
+            "reviewer_image": "shopify:\/\/shop_images\/WhatsApp_Image_2024-12-12_at_11.39.23.jpg",
             "reviewer_start": "five",
             "reviewer_name": "Sanne de Vries",
             "reviewer_review": "<p>Dankzij deze milieuvriendelijke wasstrips geen gedoe meer met plastic flessen.<\/p>"
@@ -264,7 +319,7 @@
           "type": "main_reviews",
           "settings": {
             "reviewer_image": "shopify:\/\/shop_images\/WhatsApp_Image_2024-11-09_at_14.51.10.jpg",
-            "reviewer_start": "five",
+            "reviewer_start": "four",
             "reviewer_name": "Lars",
             "reviewer_review": "<p>Top wasstrips, lekker makkelijk.<\/p>"
           }
@@ -281,7 +336,7 @@
         "main_reviews_BbLk7g": {
           "type": "main_reviews",
           "settings": {
-            "reviewer_image": "shopify:\/\/shop_images\/Photo_6.png",
+            "reviewer_image": "shopify:\/\/shop_images\/WhatsApp_Image_2024-12-12_at_11.40.24.jpg",
             "reviewer_start": "five",
             "reviewer_name": "Ingrid",
             "reviewer_review": "<p>Ik heb de wasstrips meegenomen op vakantie, ideaal.<\/p>"
@@ -290,7 +345,7 @@
         "main_reviews_g8mAbg": {
           "type": "main_reviews",
           "settings": {
-            "reviewer_image": "shopify:\/\/shop_images\/Photo_4.png",
+            "reviewer_image": "shopify:\/\/shop_images\/WhatsApp_Image_2024-12-12_at_11.38.41_1.jpg",
             "reviewer_start": "five",
             "reviewer_name": "Lisa",
             "reviewer_review": "<p>Super makkelijk te doseren voor kleine wasjes. <\/p>"
@@ -341,6 +396,7 @@
         "icon_content_j8qTh4",
         "icon_content_c38JWQ"
       ],
+      "disabled": true,
       "settings": {
         "heading": "Bliss repeat",
         "sub_heading": "Onze service die periodiek Bliss producten bij jou thuis bezorgt. Jij kiest wanneer en hoe vaak.",
@@ -431,6 +487,7 @@
     }
   },
   "order": [
+    "image_banner_F6wXg3",
     "image_content_overlay_B3LeLH",
     "image_with_text_blocks_H7neXt",
     "image_with_content_cGLgBD",
