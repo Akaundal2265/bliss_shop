@@ -39,7 +39,6 @@
         },
         "subscribe_price_box_9BKH47": {
           "type": "Subscribe_price_box",
-          "disabled": true,
           "settings": {
             "product": "bliss-wasstrips",
             "box-title-1": "50 WASBEURTEN",
@@ -59,7 +58,6 @@
         },
         "subscribe_price_box_3LURy6": {
           "type": "Subscribe_price_box",
-          "disabled": true,
           "settings": {
             "product": "bliss-geurbooster",
             "box-title-1": "1 GEURBOOSTER",
@@ -106,7 +104,6 @@
         },
         "buy_buttons2_MwwUAd": {
           "type": "buy_buttons2",
-          "disabled": true,
           "settings": {
             "show_dynamic_checkout": true,
             "show_gift_card_recipient": true,
@@ -116,6 +113,7 @@
         },
         "buy_buttons": {
           "type": "buy_buttons",
+          "disabled": true,
           "settings": {
             "show_dynamic_checkout": false,
             "show_gift_card_recipient": false
