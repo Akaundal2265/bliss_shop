@@ -12,6 +12,12 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "kaching_bundles_app_block_TXRw83": {
+          "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
+          "settings": {
+            "product": "{{product}}"
+          }
+        },
         "vendor": {
           "type": "text",
           "disabled": true,
@@ -93,21 +99,6 @@
             "page": ""
           }
         },
-        "complementary_7PadRx": {
-          "type": "complementary",
-          "disabled": true,
-          "settings": {
-            "block_heading": "Vind de jouwe BLISS",
-            "make_collapsible_row": false,
-            "icon": "price_tag",
-            "product_list_limit": 2,
-            "products_per_page": 2,
-            "pagination_style": "counter",
-            "image_ratio": "square",
-            "enable_quick_add": true,
-            "quick_add_icon_only": true
-          }
-        },
         "image_box_3fHMw3": {
           "type": "Image-box",
           "settings": {
@@ -121,6 +112,7 @@
         }
       },
       "block_order": [
+        "kaching_bundles_app_block_TXRw83",
         "vendor",
         "title",
         "benefit_box_tnwfKk",
@@ -130,7 +122,6 @@
         "collapsible_tab_XmnDhx",
         "collapsible_tab_UBjpcW",
         "collapsible_tab_zpbBQN",
-        "complementary_7PadRx",
         "image_box_3fHMw3"
       ],
       "settings": {
