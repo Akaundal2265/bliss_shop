@@ -276,6 +276,7 @@
         "img_text_qrtWVr",
         "img_text_hXPFTD"
       ],
+      "disabled": true,
       "settings": {
         "show_on": "medium-hide  large-up-hide",
         "title": "Bliss repeat",
