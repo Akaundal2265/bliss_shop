@@ -161,7 +161,7 @@
           "settings": {
             "heading": "Verzending",
             "icon": "none",
-            "content": "<p><strong>Verzending</strong> <br/><br/>Bestelling vóór 15:00 uur morgen in huis. <br/><br/>Bestelling na 15:00 uur verzonden op de eerstvolgende werkdag.<br/><br/>Weekend- en feestdagen: Bestellingen geplaatst op weekend- en feestdagen worden verwerkt op de eerstvolgende werkdag.</p><p><strong>Verzendkosten</strong><br/><br/>Bestellingen boven de €20 worden gratis verzonden. Voor bestellingen onder de €20 rekenen we €2,95 verzendkosten.</p>",
+            "content": "<p><strong>Verzending</strong> <br/><br/>Bestelling vóór 15:00 uur morgen in huis. <br/><br/>Bestelling na 15:00 uur verzonden op de eerstvolgende werkdag.<br/><br/>Weekend- en feestdagen: Bestellingen geplaatst op weekend- en feestdagen worden verwerkt op de eerstvolgende werkdag.</p><p><strong>Verzendkosten</strong><br/><br/>Bestellingen boven de €20 worden gratis verzonden. Voor bestellingen onder de €20 rekenen we €1,95 verzendkosten.</p>",
             "liquid_content": "",
             "page": ""
           }
