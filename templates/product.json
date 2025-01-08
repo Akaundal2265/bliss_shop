@@ -525,7 +525,7 @@
         "accordion_FAGePj"
       ],
       "settings": {
-        "show_on": "small-hide",
+        "show_on": "both",
         "heading": "Populaire vragen",
         "sub_heading": ""
       }
