@@ -2473,6 +2473,9 @@ p.add-to-cart-button.noclikd {
   }
 }
 @media screen and (max-width: 1024px) {
+  .kaching-bundles .kaching-bundles__block-title {
+    font-size: 18px !important;
+}
   .footer__content-bottom-wrapper.Container.footer__content-bottom-wrapper--center {
     flex-direction: column;
     grid-gap: 10px;
