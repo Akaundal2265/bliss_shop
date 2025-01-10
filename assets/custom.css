@@ -2473,14 +2473,14 @@ p.add-to-cart-button.noclikd {
   }
 }
 @media screen and (max-width: 1024px) {
-  .image_content_overlay_inner{
+.main_bnr  .image_content_overlay_inner{
         padding: 23px 0;
   }
-.overlay_content_wrp {
+.main_bnr   .overlay_content_wrp {
     top: 0;
     position: relative;
 }
- .main_imag_wrp {
+.main_bnr   .main_imag_wrp {
     position: absolute !important;
     top: 0;
     height: 100% !important;
