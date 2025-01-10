@@ -2477,7 +2477,12 @@ p.add-to-cart-button.noclikd {
         padding: 23px 0;
   }
 
-  
+  .main_imag_wrp {
+   
+    position: absolute;
+    top: 0;
+    height: 100%;
+}
   .kaching-bundles .kaching-bundles__block-title {
     font-size: 18px !important;
 }
