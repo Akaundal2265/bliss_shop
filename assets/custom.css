@@ -2476,7 +2476,10 @@ p.add-to-cart-button.noclikd {
   .image_content_overlay_inner{
         padding: 23px 0;
   }
-
+.overlay_content_wrp {
+    top: 0;
+    position: relative;
+}
   .main_imag_wrp {
    
     position: absolute;
