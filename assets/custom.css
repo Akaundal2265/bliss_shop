@@ -2313,6 +2313,9 @@ p.add-to-cart-button.noclikd {
 }
 /* MEDIA QUERY------------------- */
 @media screen and (min-width: 768px) {
+  .main_bnr .main_imag_wrp {
+    height: calc(100vh - 120px);
+}
   .mobile_how_work {
     display: none;
 }
