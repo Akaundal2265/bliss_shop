@@ -81,7 +81,7 @@
         "button_jV3htY": {
           "type": "button",
           "settings": {
-            "button_text": "bekijk hier",
+            "button_text": "Probeer nu",
             "button_link": "shopify://products/bliss-wasstrips"
           }
         }
@@ -92,7 +92,7 @@
         "button_jV3htY"
       ],
       "custom_css": [
-        "@media screen and (max-width: 768px) {.description_wrp{display:none; }}"
+        "@media screen and (max-width: 768px) {.description_wrp {display: none; }}"
       ],
       "settings": {
         "image": "shopify://shop_images/Untitled_design_75f5ec84-da63-4787-be60-0371322b4ab1.png",
