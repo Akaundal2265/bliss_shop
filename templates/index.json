@@ -91,6 +91,9 @@
         "description_znki7y",
         "button_jV3htY"
       ],
+      "custom_css": [
+        "@media screen and (max-width: 768px) {.description_wrp{display:none; }}"
+      ],
       "settings": {
         "image": "shopify://shop_images/Untitled_design_75f5ec84-da63-4787-be60-0371322b4ab1.png",
         "mobile_image": "shopify://shop_images/Untitled_design_75f5ec84-da63-4787-be60-0371322b4ab1.png",
