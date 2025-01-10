@@ -9,47 +9,6 @@
  */
 {
   "sections": {
-    "bliss_gekleurde_text_icon_JThiFb": {
-      "type": "bliss-gekleurde-text-icon",
-      "blocks": {
-        "image_box_tj9tez": {
-          "type": "Image-box",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/icons.png",
-            "title": "Plasticvrij"
-          }
-        },
-        "image_box_YqMUEK": {
-          "type": "Image-box",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/image_7.png",
-            "title": "No Bleach pr Phosphates"
-          }
-        },
-        "image_box_TjCHJW": {
-          "type": "Image-box",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/icons_1.png",
-            "title": "Proven Formula"
-          }
-        },
-        "image_box_GWbVqz": {
-          "type": "Image-box",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/image_8.png",
-            "title": "Biologisch Aftbreekbaar"
-          }
-        }
-      },
-      "block_order": [
-        "image_box_tj9tez",
-        "image_box_YqMUEK",
-        "image_box_TjCHJW",
-        "image_box_GWbVqz"
-      ],
-      "disabled": true,
-      "settings": {}
-    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -69,13 +28,51 @@
           "type": "Benefit-box",
           "settings": {
             "plastic-text-img": "shopify:\/\/shop_images\/icons.png",
-            "plastic-text": "Plastic Free",
+            "plastic-text": "Plasticvrij",
             "phosphates-text-img": "shopify:\/\/shop_images\/image_7.png",
-            "phosphates-text": "No Bleach pr Phosphates",
+            "phosphates-text": "Zonder bleekmiddel of fosfaten",
             "formula-text-img": "shopify:\/\/shop_images\/icons_1.png",
-            "formula-text": "Proven Formula",
+            "formula-text": "Bewezen formule",
             "biologisch-text-img": "shopify:\/\/shop_images\/image_8.png",
-            "biologisch-text": "Biologisch Aftbreekbaar"
+            "biologisch-text": "Biologisch afbreekbaar"
+          }
+        },
+        "subscribe_price_box_9BKH47": {
+          "type": "Subscribe_price_box",
+          "settings": {
+            "product": "bliss-wasstrips",
+            "box-title-1": "50 WASBEURTEN",
+            "pricebox-1": "€14,95",
+            "mini-description-1": "€0,29 per wasje",
+            "box-title-2": "100 WASBEURTEN",
+            "pricebox-2": "€26,91",
+            "cross-price2": "€29,90",
+            "mini-description-2": "€0,27 per wasje",
+            "tag1": "-10% & GRATIS VERZENDEN",
+            "box-title-3": "150 WASBEURTEN",
+            "pricebox-3": "€35,88",
+            "cross-price3": "€44,85",
+            "mini-description-3": "€0,24 per wasje",
+            "tag2": "-20% & GRATIS VERZENDEN"
+          }
+        },
+        "subscribe_price_box_3LURy6": {
+          "type": "Subscribe_price_box",
+          "settings": {
+            "product": "bliss-geurbooster",
+            "box-title-1": "1 GEURBOOSTER",
+            "pricebox-1": "€12,95",
+            "mini-description-1": "€0,52 per wasje",
+            "box-title-2": "2 + 1 GRATIS",
+            "pricebox-2": "€25,90",
+            "cross-price2": "€38,85",
+            "mini-description-2": "€0,34 per wasje",
+            "tag1": "+ GRATIS VERZENDING",
+            "box-title-3": "3 + 2 GRATIS",
+            "pricebox-3": "€38,85",
+            "cross-price3": "€64,75",
+            "mini-description-3": "€0,31 per wasje",
+            "tag2": "+ GRATIS VERZENDING"
           }
         },
         "rating_qX3hWH": {
@@ -105,13 +102,21 @@
           "disabled": true,
           "settings": {}
         },
+        "buy_buttons2_MwwUAd": {
+          "type": "buy_buttons2",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true,
+            "btn-text": "Bestel nu",
+            "nbtn-text": "Selecteer een keuze"
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
+          "disabled": true,
           "settings": {
             "show_dynamic_checkout": false,
-            "show_gift_card_recipient": false,
-            "btn-text": "Koop nu",
-            "nbtn-text": "Select options"
+            "show_gift_card_recipient": false
           }
         },
         "description": {
@@ -156,7 +161,7 @@
           "settings": {
             "heading": "Verzending",
             "icon": "none",
-            "content": "<p><strong>Verzending<\/strong> <br\/><br\/>Bestelling vóór 15:00 uur morgen in huis. <br\/><br\/>Bestelling na 15:00 uur verzonden op de eerstvolgende werkdag.<br\/><br\/>Weekend- en feestdagen: Bestellingen geplaatst op weekend- en feestdagen worden verwerkt op de eerstvolgende werkdag.<\/p><p><strong>Verzendkosten<\/strong><br\/><br\/>Bestellingen boven de €20 worden gratis verzonden. Voor bestellingen onder de €20 rekenen we €2,95 verzendkosten.<\/p>",
+            "content": "<p><strong>Verzending<\/strong> <br\/><br\/>Bestelling vóór 15:00 uur morgen in huis. <br\/><br\/>Bestelling na 15:00 uur verzonden op de eerstvolgende werkdag.<br\/><br\/>Weekend- en feestdagen: Bestellingen geplaatst op weekend- en feestdagen worden verwerkt op de eerstvolgende werkdag.<\/p><p><strong>Verzendkosten<\/strong><br\/><br\/>Bestellingen boven de €20 worden gratis verzonden. Voor bestellingen onder de €20 rekenen we €1,95 verzendkosten.<\/p>",
             "liquid_content": "",
             "page": ""
           }
@@ -166,7 +171,7 @@
           "settings": {
             "heading": "30 Dagen Proef Wassen",
             "icon": "none",
-            "content": "<p>We zijn overtuigd dat je het wassen met Mother's Earth wasstrips geweldig gaat vinden, maar we begrijpen dat je het nu nog niet zeker weet.\u2028<\/p><p>\u2028Daarom bieden we een proefperiode aan van <strong>30 dagen<\/strong>. Als je om wat voor reden dan ook niet tevreden bent over je Mother's Earth wasstrips dan kan je het retour sturen voor een volledige terugbetaling.\u2028<\/p><p>Er zit dus <strong>0 risico<\/strong> in het uitproberen van Mother's Earth wasstrips. Je gaat deze nieuwe manier van wassen geweldig vinden<\/p>",
+            "content": "<p>Bij Bliss Eco Clean willen we duurzaam wassen voor iedereen toegankelijk maken. Daarom bieden we 30 dagen proefwassen aan bij je eerste bestelling, zodat je risicoloos kunt ervaren hoe effectief onze wasstrips zijn. <\/p><p>Ben je niet tevreden met het resultaat? Stuur je geopende verpakking binnen 30 dagen retour – een unieke uitzondering op onze standaard retourvoorwaarden. We accepteren tot drie gebruikte wasstrips, omdat we begrijpen dat het meer dan één wasbeurt kan kosten om overtuigd te zijn.<\/p>",
             "liquid_content": "",
             "page": ""
           }
@@ -189,19 +194,12 @@
         "image_box_3fHMw3": {
           "type": "Image-box",
           "settings": {
-            "coll-heading": "Vind de jouwe BLISS",
-            "image": "shopify:\/\/shop_images\/gempages_490315532138971916-07896185-d245-453e-8150-f4fff0fa2a4b.jpg",
+            "coll-heading": "DE PERFECTE MATCH",
+            "pro1": "bliss-wasstrips",
             "title-link": "bliss-geurbooster",
-            "title": "Bliss Geurbooster",
-            "price": "€12,95 EUR",
-            "imagecart": "shopify:\/\/shop_images\/cart.png",
-            "cart-link": "",
-            "image23": "shopify:\/\/shop_images\/gempages_490315532138971916-9f754e03-2cd4-42fa-8c9c-bf4724b3b63e.jpg",
-            "title-link1": "bliss-wasstrip-zwart",
-            "title1": "Bliss Black Velvet",
-            "price1": "€14,95 EUR",
-            "imagecart2": "shopify:\/\/shop_images\/cart.png",
-            "cart-link1": "shopify:\/\/collections"
+            "pro2": "bliss-geurbooster",
+            "title-link1": "bliss-wasstrips",
+            "imagecart": "shopify:\/\/shop_images\/cart.png"
           }
         }
       },
@@ -209,11 +207,14 @@
         "vendor",
         "title",
         "benefit_box_tnwfKk",
+        "subscribe_price_box_9BKH47",
+        "subscribe_price_box_3LURy6",
         "rating_qX3hWH",
         "price",
         "metaobject_icontext_RaTqXr",
         "variant_picker",
         "quantity_selector",
+        "buy_buttons2_MwwUAd",
         "buy_buttons",
         "description",
         "share",
@@ -229,19 +230,6 @@
         "color_scheme": "scheme-1",
         "box-heading": "MEER BESTELLEN = MINDER BETALEN",
         "default-text": "Kies Wasmiddel",
-        "box-title-1": "50 WASBEURTEN",
-        "pricebox-1": "€14,95",
-        "mini-description-1": "€0,29 per wasje",
-        "box-title-2": "100 WASBEURTEN",
-        "pricebox-2": "€26,91",
-        "cross-price2": "€29,90",
-        "mini-description-2": "€0,27 per wasje",
-        "tag1": "-10% & GRATIS VERZENDEN",
-        "box-title-3": "150 WASBEURTEN",
-        "pricebox-3": "€35,88",
-        "cross-price3": "€44,85",
-        "mini-description-3": "€0,24 per wasje",
-        "tag2": "-20% & GRATIS VERZENDEN",
         "media_size": "small",
         "constrain_to_viewport": false,
         "media_fit": "contain",
@@ -288,6 +276,7 @@
         "img_text_qrtWVr",
         "img_text_hXPFTD"
       ],
+      "disabled": true,
       "settings": {
         "show_on": "medium-hide  large-up-hide",
         "title": "Bliss repeat",
@@ -314,14 +303,68 @@
         "padding_bottom": 28
       }
     },
+    "product_video_with_content_bMgxAt": {
+      "type": "product_video_with_content",
+      "blocks": {
+        "heading_TjiGqj": {
+          "type": "heading",
+          "settings": {
+            "heading": ""
+          }
+        },
+        "description_RWdyBX": {
+          "type": "description",
+          "settings": {
+            "description": "<ol><li>Neem een hele of halve wasstrip  <\/li><li>Plaats de wasstrip in de wastrommel<\/li><li>Leg je wasgoed er bovenop<\/li><li>Kies het juiste wasprogramma<\/li><\/ol>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_TjiGqj",
+        "description_RWdyBX"
+      ],
+      "settings": {
+        "product": "bliss-geurbooster",
+        "heading": "Hoe werkt het?",
+        "video": "shopify:\/\/files\/videos\/WhatsApp Video 2024-12-23 at 12.50.53.mp4",
+        "mvideo": "shopify:\/\/files\/videos\/WhatsApp Video 2024-12-23 at 12.50.53.mp4"
+      }
+    },
+    "product_video_with_content_adDz8T": {
+      "type": "product_video_with_content",
+      "blocks": {
+        "heading_9yrKgH": {
+          "type": "heading",
+          "settings": {
+            "heading": ""
+          }
+        },
+        "description_jNqrhP": {
+          "type": "description",
+          "settings": {
+            "description": "<ol><li>Neem een hele of halve wasstrip  <\/li><li>Plaats de wasstrip in de wastrommel<\/li><li>Leg je wasgoed er bovenop<\/li><li>Kies het juiste wasprogramma<\/li><\/ol>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_9yrKgH",
+        "description_jNqrhP"
+      ],
+      "settings": {
+        "product": "bliss-wasstrips",
+        "heading": "Hoe werkt het?",
+        "video": "shopify:\/\/files\/videos\/WhatsApp Video 2024-12-23 at 12.50.53.mp4",
+        "mvideo": "shopify:\/\/files\/videos\/WhatsApp Video 2024-12-23 at 12.50.53.mp4"
+      }
+    },
     "multicolumn_JQUycF": {
       "type": "multicolumn",
       "blocks": {
         "column_qKdMtJ": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Photo_d86246d7-74fd-418e-9fce-4c5b66f35420.png",
-            "title": "<strong>Plaasts je wasstrip in de wastrommel<\/strong>",
+            "image": "shopify:\/\/shop_images\/WhatsApp_Image_2024-12-16_at_11.30.03.jpg",
+            "title": "<strong>Neem een hele of halve wasstrip<\/strong>",
             "text": "",
             "link_label": "",
             "link": ""
@@ -330,8 +373,8 @@
         "column_PRPDCL": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Photo_d86246d7-74fd-418e-9fce-4c5b66f35420.png",
-            "title": "<strong>Leg je wasgoed er bovenop<\/strong>",
+            "image": "shopify:\/\/shop_images\/WhatsApp_Image_2024-12-16_at_11.30.03_1.jpg",
+            "title": "<strong>Plaats de wasstrip in de wastrommel<\/strong>",
             "text": "",
             "link_label": "",
             "link": ""
@@ -340,8 +383,8 @@
         "column_6CzCW7": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Photo_d86246d7-74fd-418e-9fce-4c5b66f35420.png",
-            "title": "<strong>Kies het juiste wasprogramma<\/strong>",
+            "image": "shopify:\/\/shop_images\/WhatsApp_Image_2024-12-16_at_11.30.03_2.jpg",
+            "title": "<strong>Leg je wasgoed er bovenop<\/strong>",
             "text": "",
             "link_label": "",
             "link": ""
@@ -353,6 +396,7 @@
         "column_PRPDCL",
         "column_6CzCW7"
       ],
+      "disabled": true,
       "settings": {
         "title": "Hoe te gebruiken",
         "heading_size": "h1",
@@ -481,7 +525,7 @@
         "accordion_FAGePj"
       ],
       "settings": {
-        "show_on": "small-hide",
+        "show_on": "both",
         "heading": "Populaire vragen",
         "sub_heading": ""
       }
@@ -492,7 +536,7 @@
         "main_reviews_NXNmaD": {
           "type": "main_reviews",
           "settings": {
-            "reviewer_image": "shopify:\/\/shop_images\/Photo_3.png",
+            "reviewer_image": "shopify:\/\/shop_images\/WhatsApp_Image_2024-12-12_at_11.39.23.jpg",
             "reviewer_start": "five",
             "reviewer_name": "Sanne de vries",
             "reviewer_review": "<p>Dankzij deze milieuvriendelijke wasstrips geen gedoe meer met plastic flessen.<\/p>"
@@ -501,8 +545,8 @@
         "main_reviews_yXEHe6": {
           "type": "main_reviews",
           "settings": {
-            "reviewer_image": "shopify:\/\/shop_images\/Photo_4.png",
-            "reviewer_start": "five",
+            "reviewer_image": "shopify:\/\/shop_images\/WhatsApp_Image_2024-11-09_at_14.51.10.jpg",
+            "reviewer_start": "four",
             "reviewer_name": "Lars",
             "reviewer_review": "<p>Top wasstrips, lekker makkelijk. <\/p>"
           }
@@ -510,7 +554,7 @@
         "main_reviews_yEhaEi": {
           "type": "main_reviews",
           "settings": {
-            "reviewer_image": "shopify:\/\/shop_images\/Photo_5.png",
+            "reviewer_image": "shopify:\/\/shop_images\/WhatsApp_Image_2024-11-09_at_14.51.23.jpg",
             "reviewer_start": "five",
             "reviewer_name": "Marieke Jansen",
             "reviewer_review": "<p>Goedkoper dan pods en beter voor het milieu.<\/p>"
@@ -519,7 +563,7 @@
         "main_reviews_BbLk7g": {
           "type": "main_reviews",
           "settings": {
-            "reviewer_image": "shopify:\/\/shop_images\/Photo_6.png",
+            "reviewer_image": "shopify:\/\/shop_images\/WhatsApp_Image_2024-12-12_at_11.40.24.jpg",
             "reviewer_start": "five",
             "reviewer_name": "Ingrid",
             "reviewer_review": "<p>Ik heb de wasstrips meegenomen op vakantie, ideaal.<\/p>"
@@ -528,7 +572,7 @@
         "main_reviews_g8mAbg": {
           "type": "main_reviews",
           "settings": {
-            "reviewer_image": "shopify:\/\/shop_images\/Photo_4.png",
+            "reviewer_image": "shopify:\/\/shop_images\/WhatsApp_Image_2024-12-12_at_11.38.41_1.jpg",
             "reviewer_start": "five",
             "reviewer_name": "Lisa",
             "reviewer_review": "<p>Super makkelijk te doseren voor kleine wasjes.<\/p>"
@@ -552,10 +596,11 @@
     }
   },
   "order": [
-    "bliss_gekleurde_text_icon_JThiFb",
     "main",
     "image_with_text_blocks_RQQkzk",
     "related-products",
+    "product_video_with_content_bMgxAt",
+    "product_video_with_content_adDz8T",
     "multicolumn_JQUycF",
     "multirow_LAgwB7",
     "accordion_b7bP7j",
