@@ -2473,6 +2473,11 @@ p.add-to-cart-button.noclikd {
   }
 }
 @media screen and (max-width: 1024px) {
+  .image_content_overlay_inner{
+        padding: 23px 0;
+  }
+
+  
   .kaching-bundles .kaching-bundles__block-title {
     font-size: 18px !important;
 }
