@@ -1,4 +1,4 @@
-<div class="image_content_overlay_wrp">
+<div class="image_content_overlay_wrp {{ section.settings.topclass }}">
   <div class="image_content_overlay_inner">
     <style>
       .section__{{ section.id }} img{
@@ -109,7 +109,14 @@ height:auto;
             }
           ],
           "default": "bottomLeft"
+        },
+{
+          "type": "text",
+          "id": "topclass",
+          "label": "Additional class",
+         "info": "Only for dev use"
         }
+      
     ],
     "blocks": [
     {
